@@ -59,6 +59,12 @@
 #include <qvaluelist.h>
 #endif
 
+// http://freeglut.sourceforge.net/docs/api.php#Freeglut.h_Header
+#ifdef FREEGLUT
+#include <GL/freeglut.h>
+#else
+#include <GL/glut.h>
+#endif
 
 #include <qgl.h>
 #include "glscenenodes.h"
