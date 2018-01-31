@@ -1,0 +1,358 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>GEHelpWindow</class>
+<widget class="QMainWindow">
+    <property name="name">
+        <cstring>GEHelpWindow</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>719</width>
+            <height>771</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>Group Explorer Help</string>
+    </property>
+    <property name="icon">
+        <pixmap>helpdocs.png</pixmap>
+    </property>
+</widget>
+<menubar>
+    <property name="name">
+        <cstring>HelpMenu</cstring>
+    </property>
+    <item text="&amp;File" name="File">
+        <action name="SaveAsHTMLAction"/>
+        <action name="PrintAction"/>
+        <separator/>
+        <action name="FileCloseAction"/>
+    </item>
+    <item text="&amp;Go" name="Go">
+        <action name="HomeAction"/>
+        <separator/>
+        <action name="BackAction"/>
+        <action name="ForwardAction"/>
+    </item>
+    <item text="&amp;Edit" name="Edit">
+        <action name="FontIncreaseAction"/>
+        <action name="FontDecreaseAction"/>
+        <separator/>
+        <action name="CopyAction"/>
+        <separator/>
+        <action name="FindAction"/>
+        <action name="helpSearchAction"/>
+    </item>
+</menubar>
+<toolbars>
+    <toolbar dock="2">
+        <property name="name">
+            <cstring>Toolbar</cstring>
+        </property>
+        <property name="label">
+            <string>Toolbar</string>
+        </property>
+        <action name="HomeAction"/>
+        <separator/>
+        <action name="BackAction"/>
+        <action name="ForwardAction"/>
+        <separator/>
+        <action name="FontIncreaseAction"/>
+        <action name="FontDecreaseAction"/>
+        <separator/>
+        <action name="CopyAction"/>
+        <separator/>
+        <action name="SaveAsHTMLAction"/>
+        <action name="PrintAction"/>
+        <separator/>
+        <widget class="QLineEdit">
+            <property name="name">
+                <cstring>FindEdit</cstring>
+            </property>
+        </widget>
+        <widget class="QPushButton">
+            <property name="name">
+                <cstring>FindButton</cstring>
+            </property>
+            <property name="text">
+                <string>Find</string>
+            </property>
+        </widget>
+        <action name="helpSearchAction"/>
+    </toolbar>
+</toolbars>
+<actions>
+    <action>
+        <property name="name">
+            <cstring>HomeAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset>home.png</iconset>
+        </property>
+        <property name="text">
+            <string>Home</string>
+        </property>
+        <property name="menuText">
+            <string>&amp;Home</string>
+        </property>
+        <property name="accel">
+            <string>Ctrl+Home</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>BackAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset>previous.png</iconset>
+        </property>
+        <property name="text">
+            <string>Back</string>
+        </property>
+        <property name="menuText">
+            <string>&amp;Back</string>
+        </property>
+        <property name="accel">
+            <string>Ctrl+Left</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>ForwardAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset>next.png</iconset>
+        </property>
+        <property name="text">
+            <string>Forward</string>
+        </property>
+        <property name="menuText">
+            <string>&amp;Forward</string>
+        </property>
+        <property name="accel">
+            <string>Ctrl+Right</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>FontIncreaseAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset>increase_font.png</iconset>
+        </property>
+        <property name="text">
+            <string>Increase font size</string>
+        </property>
+        <property name="menuText">
+            <string>&amp;Increase font size</string>
+        </property>
+        <property name="accel">
+            <string>Ctrl+Up</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>FontDecreaseAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset>decrease_font.png</iconset>
+        </property>
+        <property name="text">
+            <string>Decrease font size</string>
+        </property>
+        <property name="menuText">
+            <string>&amp;Decrease font size</string>
+        </property>
+        <property name="accel">
+            <string>Ctrl+Down</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>CopyAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset>editcopy.png</iconset>
+        </property>
+        <property name="text">
+            <string>Copy</string>
+        </property>
+        <property name="menuText">
+            <string>&amp;Copy</string>
+        </property>
+        <property name="accel">
+            <string>Ctrl+C</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>PrintAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset>print.png</iconset>
+        </property>
+        <property name="text">
+            <string>Print</string>
+        </property>
+        <property name="menuText">
+            <string>&amp;Print...</string>
+        </property>
+        <property name="accel">
+            <string>Ctrl+P</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>SaveAsHTMLAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset>filesave.png</iconset>
+        </property>
+        <property name="text">
+            <string>Save as HTML</string>
+        </property>
+        <property name="menuText">
+            <string>&amp;Save as HTML...</string>
+        </property>
+        <property name="accel">
+            <string>Ctrl+S</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>FileCloseAction</cstring>
+        </property>
+        <property name="text">
+            <string>Close</string>
+        </property>
+        <property name="menuText">
+            <string>&amp;Close</string>
+        </property>
+        <property name="accel">
+            <string>Ctrl+W</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>FindAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset>searchfind.png</iconset>
+        </property>
+        <property name="text">
+            <string>Find...</string>
+        </property>
+        <property name="menuText">
+            <string>&amp;Find...</string>
+        </property>
+        <property name="accel">
+            <string>Ctrl+F</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>helpSearchAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset>searchdocs.png</iconset>
+        </property>
+        <property name="text">
+            <string>Search help...</string>
+        </property>
+        <property name="menuText">
+            <string>&amp;Search help...</string>
+        </property>
+    </action>
+</actions>
+<connections>
+    <connection>
+        <sender>FindEdit</sender>
+        <signal>returnPressed()</signal>
+        <receiver>FindButton</receiver>
+        <slot>animateClick()</slot>
+    </connection>
+    <connection>
+        <sender>FindAction</sender>
+        <signal>activated()</signal>
+        <receiver>GEHelpWindow</receiver>
+        <slot>FindAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>FileCloseAction</sender>
+        <signal>activated()</signal>
+        <receiver>GEHelpWindow</receiver>
+        <slot>FileCloseAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>PrintAction</sender>
+        <signal>activated()</signal>
+        <receiver>GEHelpWindow</receiver>
+        <slot>PrintAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>SaveAsHTMLAction</sender>
+        <signal>activated()</signal>
+        <receiver>GEHelpWindow</receiver>
+        <slot>SaveAsHTMLAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>FindButton</sender>
+        <signal>clicked()</signal>
+        <receiver>GEHelpWindow</receiver>
+        <slot>FindButton_clicked()</slot>
+    </connection>
+</connections>
+<includes>
+    <include location="global" impldecl="in declaration">qstringlist.h</include>
+    <include location="local" impldecl="in declaration">gehelpbrowser.h</include>
+    <include location="global" impldecl="in declaration">myutils.h</include>
+    <include location="global" impldecl="in declaration">QUndoStack</include>
+    <include location="global" impldecl="in declaration">QUndoCommand</include>
+    <include location="global" impldecl="in implementation">qstatusbar.h</include>
+    <include location="local" impldecl="in implementation">gewhatsthis.h</include>
+    <include location="global" impldecl="in implementation">printing.h</include>
+    <include location="global" impldecl="in implementation">qmessagebox.h</include>
+    <include location="global" impldecl="in implementation">qfile.h</include>
+    <include location="global" impldecl="in implementation">qfiledialog.h</include>
+    <include location="local" impldecl="in implementation">mainwindow.h</include>
+    <include location="local" impldecl="in implementation">gehelpwindow.ui.h</include>
+    <include location="local" impldecl="in implementation">actionforwarder.h</include>
+</includes>
+<variables>
+    <variable access="private">static GEHelpWindow* mainHelpWindow;</variable>
+    <variable access="private">GEHelpBrowser* browser;</variable>
+    <variable access="private">QUndoStack* undoStack;</variable>
+</variables>
+<signals>
+    <signal>actionRequested( QStringList parameters, QWidget* originator )</signal>
+    <signal>newHelpWindowCreated( GEHelpWindow* newwin );</signal>
+    <signal>gotResized()</signal>
+    <signal>gotMoved()</signal>
+</signals>
+<slots>
+    <slot specifier="static">showHelp( QString doc )</slot>
+    <slot>goTo( QString ref )</slot>
+    <slot>showTo( QString ref )</slot>
+    <slot>showAndFocus()</slot>
+    <slot>browserRequestedAction( QStringList parameters )</slot>
+    <slot>setText( QString doc )</slot>
+    <slot>scrollToAnchor( QString anchor )</slot>
+    <slot>SaveAsHTMLAction_activated()</slot>
+    <slot>PrintAction_activated()</slot>
+    <slot>FileCloseAction_activated()</slot>
+    <slot>FindAction_activated()</slot>
+    <slot>FindButton_clicked()</slot>
+</slots>
+<functions>
+    <function access="private" specifier="non virtual">init()</function>
+    <function specifier="static" returnType="GEHelpWindow *">getMainHelpWindow()</function>
+    <function access="private">notifyAboutNewWindow( GEHelpWindow * newwin )</function>
+    <function>pushCommand( QUndoCommand * cmd )</function>
+    <function access="private">resizeEvent( QResizeEvent * e )</function>
+    <function access="private">moveEvent( QMoveEvent * e )</function>
+    <function returnType="QString">title()</function>
+</functions>
+<pixmapinproject/>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>

@@ -1,0 +1,731 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>GESheetWindow</class>
+<widget class="QMainWindow">
+    <property name="name">
+        <cstring>GESheetWindow</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>569</width>
+            <height>574</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>Group Explorer Sheet</string>
+    </property>
+    <vbox>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <property name="margin">
+            <number>0</number>
+        </property>
+    </vbox>
+</widget>
+<menubar>
+    <property name="name">
+        <cstring>MenuBar</cstring>
+    </property>
+    <item text="&amp;File" name="fileMenu">
+        <action name="fileSaveAction"/>
+        <action name="fileSaveAsAction"/>
+        <separator/>
+        <action name="filePrintAction"/>
+        <action name="fileSaveImageAction"/>
+        <separator/>
+        <action name="fileCloseAction"/>
+    </item>
+    <item text="&amp;Edit" name="editMenu">
+        <action name="DeleteAction"/>
+        <action name="editCutAction"/>
+        <action name="editCopyAction"/>
+        <action name="editPasteAction"/>
+        <separator/>
+        <action name="zoomInAction"/>
+        <action name="zoomOutAction"/>
+    </item>
+    <item text="&amp;Sheet" name="sheetMenu">
+        <action name="resizeSheetAction"/>
+        <separator/>
+        <action name="insertTextAction"/>
+        <action name="increaseTextSizeAction"/>
+        <action name="decreaseTextSizeAction"/>
+        <action name="insertRectAction"/>
+        <action name="insertLineAction"/>
+        <action name="insertVisualizerAction"/>
+        <action name="insertMorphismAction"/>
+        <separator/>
+        <action name="bringForwardAction"/>
+        <action name="pushBackwardAction"/>
+    </item>
+    <item text="&amp;Help" name="helpMenu">
+        <action name="helpManualAction"/>
+        <action name="helpTutorialsAction"/>
+        <action name="helpSheetsAction"/>
+    </item>
+</menubar>
+<toolbars>
+    <toolbar dock="2">
+        <property name="name">
+            <cstring>toolBar</cstring>
+        </property>
+        <property name="label">
+            <string>Tools</string>
+        </property>
+        <action name="fileSaveAction"/>
+        <action name="filePrintAction"/>
+        <action name="fileSaveImageAction"/>
+        <separator/>
+        <action name="DeleteAction"/>
+        <action name="editCutAction"/>
+        <action name="editCopyAction"/>
+        <action name="editPasteAction"/>
+        <separator/>
+        <action name="zoomInAction"/>
+        <action name="zoomOutAction"/>
+        <separator/>
+        <action name="helpManualAction"/>
+        <action name="helpTutorialsAction"/>
+        <action name="helpSheetsAction"/>
+    </toolbar>
+</toolbars>
+<actions>
+    <action>
+        <property name="name">
+            <cstring>bringForwardAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset>bringforward.png</iconset>
+        </property>
+        <property name="text">
+            <string>Bring forward</string>
+        </property>
+        <property name="menuText">
+            <string>Bring &amp;forward</string>
+        </property>
+        <property name="accel">
+            <string>Ctrl+F</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>pushBackwardAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset>pushbackward.png</iconset>
+        </property>
+        <property name="text">
+            <string>Push backward</string>
+        </property>
+        <property name="menuText">
+            <string>Push &amp;backward</string>
+        </property>
+        <property name="accel">
+            <string>Ctrl+B</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>zoomInAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset>zoomin.png</iconset>
+        </property>
+        <property name="text">
+            <string>Zoom in</string>
+        </property>
+        <property name="menuText">
+            <string>Zoom in</string>
+        </property>
+        <property name="accel">
+            <string>Ctrl++</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>zoomOutAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset>zoomout.png</iconset>
+        </property>
+        <property name="text">
+            <string>Zoom out</string>
+        </property>
+        <property name="menuText">
+            <string>Zoom out</string>
+        </property>
+        <property name="accel">
+            <string>Ctrl+-</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>newSheetAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset>filenew.png</iconset>
+        </property>
+        <property name="text">
+            <string>New sheet...</string>
+        </property>
+        <property name="menuText">
+            <string>&amp;New sheet...</string>
+        </property>
+        <property name="accel">
+            <string>Ctrl+N</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>increaseTextSizeAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset>increase_font.png</iconset>
+        </property>
+        <property name="text">
+            <string>Increase font size</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>decreaseTextSizeAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset>decrease_font.png</iconset>
+        </property>
+        <property name="text">
+            <string>Decrease font size</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>insertVisualizerAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset>insert_visualizer.png</iconset>
+        </property>
+        <property name="text">
+            <string>Insert visualizer</string>
+        </property>
+        <property name="accel">
+            <string>Ctrl+Shift+V</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>insertTextAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset>insert_text.png</iconset>
+        </property>
+        <property name="text">
+            <string>Insert text box</string>
+        </property>
+        <property name="accel">
+            <string>Ctrl+T</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>insertRectAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset>insert_rectangle.png</iconset>
+        </property>
+        <property name="text">
+            <string>Insert rectangle</string>
+        </property>
+        <property name="accel">
+            <string>Ctrl+R</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>insertLineAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset>insert_line.png</iconset>
+        </property>
+        <property name="text">
+            <string>Insert connecting line</string>
+        </property>
+        <property name="accel">
+            <string>Ctrl+L</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>insertMorphismAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset>insert_morphism.png</iconset>
+        </property>
+        <property name="text">
+            <string>Insert homomorphism</string>
+        </property>
+        <property name="accel">
+            <string>Ctrl+Shift+M</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>fileOpenAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset>fileopen.png</iconset>
+        </property>
+        <property name="text">
+            <string>Open</string>
+        </property>
+        <property name="menuText">
+            <string>&amp;Open...</string>
+        </property>
+        <property name="accel">
+            <string>Ctrl+O</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>fileSaveAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset>filesave.png</iconset>
+        </property>
+        <property name="text">
+            <string>Save</string>
+        </property>
+        <property name="menuText">
+            <string>&amp;Save</string>
+        </property>
+        <property name="accel">
+            <string>Ctrl+S</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>fileSaveImageAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset>filesaveimage.png</iconset>
+        </property>
+        <property name="text">
+            <string>Save as image</string>
+        </property>
+        <property name="menuText">
+            <string>Save as &amp;image...</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>filePrintAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset>print.png</iconset>
+        </property>
+        <property name="text">
+            <string>Print</string>
+        </property>
+        <property name="menuText">
+            <string>&amp;Print...</string>
+        </property>
+        <property name="accel">
+            <string>Ctrl+P</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>fileSaveAsAction</cstring>
+        </property>
+        <property name="text">
+            <string>Save as</string>
+        </property>
+        <property name="menuText">
+            <string>Save &amp;as...</string>
+        </property>
+        <property name="accel">
+            <string></string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>fileCloseAction</cstring>
+        </property>
+        <property name="text">
+            <string>Close</string>
+        </property>
+        <property name="menuText">
+            <string>Close</string>
+        </property>
+        <property name="accel">
+            <string>Ctrl+W</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>editCutAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset>editcut.png</iconset>
+        </property>
+        <property name="text">
+            <string>Cut</string>
+        </property>
+        <property name="menuText">
+            <string>Cu&amp;t</string>
+        </property>
+        <property name="accel">
+            <string>Ctrl+X</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>editCopyAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset>editcopy.png</iconset>
+        </property>
+        <property name="text">
+            <string>Copy</string>
+        </property>
+        <property name="menuText">
+            <string>&amp;Copy</string>
+        </property>
+        <property name="accel">
+            <string>Ctrl+C</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>editPasteAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset>editpaste.png</iconset>
+        </property>
+        <property name="text">
+            <string>Paste</string>
+        </property>
+        <property name="menuText">
+            <string>&amp;Paste</string>
+        </property>
+        <property name="accel">
+            <string>Ctrl+V</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>helpManualAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset>helpdocs.png</iconset>
+        </property>
+        <property name="text">
+            <string>User Manual</string>
+        </property>
+        <property name="menuText">
+            <string>&amp;User Manual</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>helpTutorialsAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset>tutorials.png</iconset>
+        </property>
+        <property name="text">
+            <string>Tutorials</string>
+        </property>
+        <property name="menuText">
+            <string>&amp;Tutorials</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>resizeSheetAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset>adjustsize.png</iconset>
+        </property>
+        <property name="text">
+            <string>Resize sheet</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>DeleteAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset>delete.png</iconset>
+        </property>
+        <property name="text">
+            <string>Delete</string>
+        </property>
+        <property name="accel">
+            <string>Del</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>helpSheetsAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset>helpsheets.png</iconset>
+        </property>
+        <property name="text">
+            <string>Help on sheets</string>
+        </property>
+        <property name="menuText">
+            <string>Help on &amp;sheets</string>
+        </property>
+    </action>
+</actions>
+<connections>
+    <connection>
+        <sender>editCopyAction</sender>
+        <signal>activated()</signal>
+        <receiver>GESheetWindow</receiver>
+        <slot>editCopy()</slot>
+    </connection>
+    <connection>
+        <sender>editCutAction</sender>
+        <signal>activated()</signal>
+        <receiver>GESheetWindow</receiver>
+        <slot>editCut()</slot>
+    </connection>
+    <connection>
+        <sender>bringForwardAction</sender>
+        <signal>activated()</signal>
+        <receiver>GESheetWindow</receiver>
+        <slot>bringForward_activated()</slot>
+    </connection>
+    <connection>
+        <sender>pushBackwardAction</sender>
+        <signal>activated()</signal>
+        <receiver>GESheetWindow</receiver>
+        <slot>pushBackward_activated()</slot>
+    </connection>
+    <connection>
+        <sender>zoomInAction</sender>
+        <signal>activated()</signal>
+        <receiver>GESheetWindow</receiver>
+        <slot>zoomIn_activated()</slot>
+    </connection>
+    <connection>
+        <sender>zoomOutAction</sender>
+        <signal>activated()</signal>
+        <receiver>GESheetWindow</receiver>
+        <slot>zoomOut_activated()</slot>
+    </connection>
+    <connection>
+        <sender>increaseTextSizeAction</sender>
+        <signal>activated()</signal>
+        <receiver>GESheetWindow</receiver>
+        <slot>increaseText()</slot>
+    </connection>
+    <connection>
+        <sender>decreaseTextSizeAction</sender>
+        <signal>activated()</signal>
+        <receiver>GESheetWindow</receiver>
+        <slot>decreaseText()</slot>
+    </connection>
+    <connection>
+        <sender>insertVisualizerAction</sender>
+        <signal>activated()</signal>
+        <receiver>GESheetWindow</receiver>
+        <slot>insertVisualizer()</slot>
+    </connection>
+    <connection>
+        <sender>insertTextAction</sender>
+        <signal>activated()</signal>
+        <receiver>GESheetWindow</receiver>
+        <slot>insertText()</slot>
+    </connection>
+    <connection>
+        <sender>insertRectAction</sender>
+        <signal>activated()</signal>
+        <receiver>GESheetWindow</receiver>
+        <slot>insertRect()</slot>
+    </connection>
+    <connection>
+        <sender>insertLineAction</sender>
+        <signal>activated()</signal>
+        <receiver>GESheetWindow</receiver>
+        <slot>insertLine()</slot>
+    </connection>
+    <connection>
+        <sender>insertMorphismAction</sender>
+        <signal>activated()</signal>
+        <receiver>GESheetWindow</receiver>
+        <slot>insertMorphism()</slot>
+    </connection>
+    <connection>
+        <sender>newSheetAction</sender>
+        <signal>activated()</signal>
+        <receiver>GESheetWindow</receiver>
+        <slot>fileNew()</slot>
+    </connection>
+    <connection>
+        <sender>fileOpenAction</sender>
+        <signal>activated()</signal>
+        <receiver>GESheetWindow</receiver>
+        <slot>fileOpen()</slot>
+    </connection>
+    <connection>
+        <sender>filePrintAction</sender>
+        <signal>activated()</signal>
+        <receiver>GESheetWindow</receiver>
+        <slot>filePrint()</slot>
+    </connection>
+    <connection>
+        <sender>fileSaveAction</sender>
+        <signal>activated()</signal>
+        <receiver>GESheetWindow</receiver>
+        <slot>fileSave()</slot>
+    </connection>
+    <connection>
+        <sender>fileSaveImageAction</sender>
+        <signal>activated()</signal>
+        <receiver>GESheetWindow</receiver>
+        <slot>fileSaveImage()</slot>
+    </connection>
+    <connection>
+        <sender>fileSaveAsAction</sender>
+        <signal>activated()</signal>
+        <receiver>GESheetWindow</receiver>
+        <slot>fileSaveAs()</slot>
+    </connection>
+    <connection>
+        <sender>fileCloseAction</sender>
+        <signal>activated()</signal>
+        <receiver>GESheetWindow</receiver>
+        <slot>fileClose()</slot>
+    </connection>
+    <connection>
+        <sender>editPasteAction</sender>
+        <signal>activated()</signal>
+        <receiver>GESheetWindow</receiver>
+        <slot>editPaste()</slot>
+    </connection>
+    <connection>
+        <sender>helpManualAction</sender>
+        <signal>activated()</signal>
+        <receiver>GESheetWindow</receiver>
+        <slot>helpManualAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>helpTutorialsAction</sender>
+        <signal>activated()</signal>
+        <receiver>GESheetWindow</receiver>
+        <slot>helpTutorialsAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>resizeSheetAction</sender>
+        <signal>activated()</signal>
+        <receiver>GESheetWindow</receiver>
+        <slot>resizeSheetAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>DeleteAction</sender>
+        <signal>activated()</signal>
+        <receiver>GESheetWindow</receiver>
+        <slot>DeleteAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>helpSheetsAction</sender>
+        <signal>activated()</signal>
+        <receiver>GESheetWindow</receiver>
+        <slot>helpSheetsAction_activated()</slot>
+    </connection>
+</connections>
+<includes>
+    <include location="local" impldecl="in declaration">gesheet.h</include>
+    <include location="local" impldecl="in declaration">groupfile.h</include>
+    <include location="global" impldecl="in declaration">QUndoStack</include>
+    <include location="global" impldecl="in implementation">qstatusbar.h</include>
+    <include location="global" impldecl="in implementation">qmessagebox.h</include>
+    <include location="local" impldecl="in implementation">gesheetwindowcmds.h</include>
+    <include location="local" impldecl="in implementation">sheetsizedialog.h</include>
+    <include location="local" impldecl="in implementation">gehelpwindow.h</include>
+    <include location="global" impldecl="in implementation">qfiledialog.h</include>
+    <include location="global" impldecl="in implementation">myutils.h</include>
+    <include location="local" impldecl="in implementation">insvisdialog.h</include>
+    <include location="global" impldecl="in implementation">qinputdialog.h</include>
+    <include location="local" impldecl="in implementation">morphismedit.h</include>
+    <include location="local" impldecl="in implementation">saveimagesettings.h</include>
+    <include location="local" impldecl="in implementation">printimagesettings.h</include>
+    <include location="local" impldecl="in implementation">gesheetwindow.ui.h</include>
+    <include location="local" impldecl="in implementation">gewhatsthis.h</include>
+    <include location="local" impldecl="in implementation">actionforwarder.h</include>
+</includes>
+<variables>
+    <variable access="private">GESheetView* sheetview;</variable>
+    <variable access="private">QUndoStack* undoStack;</variable>
+    <variable access="private">QString saveFileName;</variable>
+    <variable access="private">bool contentsDirty;</variable>
+    <variable access="private">static QPtrList&lt;GESheetWindow&gt; allInstances;</variable>
+</variables>
+<slots>
+    <slot>fileNew()</slot>
+    <slot>fileOpen()</slot>
+    <slot>fileSave()</slot>
+    <slot>fileSaveImage()</slot>
+    <slot>fileSaveAs()</slot>
+    <slot>filePrint()</slot>
+    <slot>fileClose()</slot>
+    <slot>editCut()</slot>
+    <slot>DeleteAction_activated()</slot>
+    <slot>editCopy()</slot>
+    <slot>editPaste()</slot>
+    <slot>editFind()</slot>
+    <slot>helpManualAction_activated()</slot>
+    <slot>helpTutorialsAction_activated()</slot>
+    <slot>insertText()</slot>
+    <slot>insertRect()</slot>
+    <slot>insertLine()</slot>
+    <slot>insertMorphism()</slot>
+    <slot>insertVisualizer()</slot>
+    <slot>zoomIn_activated()</slot>
+    <slot>zoomOut_activated()</slot>
+    <slot>zoomIn()</slot>
+    <slot>zoomOut()</slot>
+    <slot>movedSelection( int fromX, int fromY, int toX, int toY )</slot>
+    <slot>resizeSheetAction_activated()</slot>
+    <slot>selectionChanged( QCanvasItemList items )</slot>
+    <slot>selectThese( QCanvasItemList items )</slot>
+    <slot>changeTextItem( QCanvasText * textItem, QString newtext )</slot>
+    <slot>maybeChangedVisualizer()</slot>
+    <slot>increaseText()</slot>
+    <slot>decreaseText()</slot>
+    <slot>sheetContextMenu( QPoint here, QPtrList&lt;QAction&gt; extraActions )</slot>
+    <slot>resizedItem( QCanvasItem * item, int * origDims )</slot>
+    <slot>bringForward_activated()</slot>
+    <slot>pushBackward_activated()</slot>
+    <slot>addedParameter( QCanvasItem *, int num, int outOf )</slot>
+    <slot>cancelledParameters()</slot>
+    <slot>editMorphism( GECanvasMorphism * m )</slot>
+    <slot>pushSmallCommand( QUndoCommand * cmd )</slot>
+    <slot>registerNewSmall( GEVSmall * vsmall )</slot>
+    <slot>helpSheetsAction_activated()</slot>
+</slots>
+<functions>
+    <function returnType="bool">saveToFile( QString filename )</function>
+    <function returnType="bool">trySave()</function>
+    <function returnType="QString">filename()</function>
+    <function returnType="bool">trySaveAs()</function>
+    <function access="private" returnType="bool">saveOnClosing()</function>
+    <function>closeEvent( QCloseEvent * ce )</function>
+    <function specifier="static" returnType="bool">tryToQuitApplication()</function>
+    <function access="private">init()</function>
+    <function access="private">destroy()</function>
+    <function>setSheet( GESheet * s )</function>
+    <function returnType="GESheet *">sheet()</function>
+    <function>update()</function>
+    <function>placeNewItem( QCanvasItem * item )</function>
+    <function returnType="bool">loadSheet( QString filename )</function>
+    <function specifier="static" returnType="GESheetWindow *">createNewWindow( int sheetWidth = 500, int sheetHeight = 500 )</function>
+</functions>
+<pixmapinproject/>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>

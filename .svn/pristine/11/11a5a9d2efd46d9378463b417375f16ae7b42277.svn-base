@@ -1,0 +1,493 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>PrintImageSettingsDialog</class>
+<widget class="QDialog">
+    <property name="name">
+        <cstring>PrintImageSettingsDialog</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>669</width>
+            <height>355</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>Print Image - Settings</string>
+    </property>
+    <property name="icon">
+        <pixmap>image0</pixmap>
+    </property>
+    <hbox>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <widget class="QLayoutWidget">
+            <property name="name">
+                <cstring>layout5</cstring>
+            </property>
+            <vbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QLabel">
+                    <property name="name">
+                        <cstring>PreviewCaptionLabel</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Preview:</string>
+                    </property>
+                </widget>
+                <widget class="QLabel">
+                    <property name="name">
+                        <cstring>PreviewLabel</cstring>
+                    </property>
+                    <property name="sizePolicy">
+                        <sizepolicy>
+                            <hsizetype>7</hsizetype>
+                            <vsizetype>7</vsizetype>
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                        </sizepolicy>
+                    </property>
+                    <property name="text">
+                        <string>No Preview</string>
+                    </property>
+                    <property name="alignment">
+                        <set>AlignCenter</set>
+                    </property>
+                </widget>
+            </vbox>
+        </widget>
+        <widget class="QLayoutWidget">
+            <property name="name">
+                <cstring>layout18</cstring>
+            </property>
+            <vbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QButtonGroup">
+                    <property name="name">
+                        <cstring>SizeGroup</cstring>
+                    </property>
+                    <property name="title">
+                        <string>Image Size</string>
+                    </property>
+                    <vbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QRadioButton">
+                            <property name="name">
+                                <cstring>PixelsRadioButton</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Use pixels:</string>
+                            </property>
+                            <property name="checked">
+                                <bool>true</bool>
+                            </property>
+                        </widget>
+                        <widget class="QLayoutWidget">
+                            <property name="name">
+                                <cstring>layout1</cstring>
+                            </property>
+                            <hbox>
+                                <property name="name">
+                                    <cstring>unnamed</cstring>
+                                </property>
+                                <spacer>
+                                    <property name="name">
+                                        <cstring>spacer1</cstring>
+                                    </property>
+                                    <property name="orientation">
+                                        <enum>Horizontal</enum>
+                                    </property>
+                                    <property name="sizeType">
+                                        <enum>Expanding</enum>
+                                    </property>
+                                    <property name="sizeHint">
+                                        <size>
+                                            <width>41</width>
+                                            <height>21</height>
+                                        </size>
+                                    </property>
+                                </spacer>
+                                <widget class="QSpinBox">
+                                    <property name="name">
+                                        <cstring>PixelsWideSpinBox</cstring>
+                                    </property>
+                                    <property name="maxValue">
+                                        <number>100000</number>
+                                    </property>
+                                </widget>
+                                <widget class="QLabel">
+                                    <property name="name">
+                                        <cstring>PixelsWideLabel</cstring>
+                                    </property>
+                                    <property name="text">
+                                        <string>width</string>
+                                    </property>
+                                </widget>
+                                <widget class="QSpinBox">
+                                    <property name="name">
+                                        <cstring>PixelsHighSpinBox</cstring>
+                                    </property>
+                                    <property name="maxValue">
+                                        <number>100000</number>
+                                    </property>
+                                </widget>
+                                <widget class="QLabel">
+                                    <property name="name">
+                                        <cstring>PixelsHighLabel</cstring>
+                                    </property>
+                                    <property name="text">
+                                        <string>height</string>
+                                    </property>
+                                </widget>
+                            </hbox>
+                        </widget>
+                        <widget class="QRadioButton">
+                            <property name="name">
+                                <cstring>InchesRadioButton</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Use inches:</string>
+                            </property>
+                        </widget>
+                        <widget class="QLayoutWidget">
+                            <property name="name">
+                                <cstring>layout7</cstring>
+                            </property>
+                            <hbox>
+                                <property name="name">
+                                    <cstring>unnamed</cstring>
+                                </property>
+                                <spacer>
+                                    <property name="name">
+                                        <cstring>spacer2</cstring>
+                                    </property>
+                                    <property name="orientation">
+                                        <enum>Horizontal</enum>
+                                    </property>
+                                    <property name="sizeType">
+                                        <enum>Expanding</enum>
+                                    </property>
+                                    <property name="sizeHint">
+                                        <size>
+                                            <width>51</width>
+                                            <height>31</height>
+                                        </size>
+                                    </property>
+                                </spacer>
+                                <widget class="QLineEdit">
+                                    <property name="name">
+                                        <cstring>InchesWideEdit</cstring>
+                                    </property>
+                                    <property name="enabled">
+                                        <bool>false</bool>
+                                    </property>
+                                    <property name="text">
+                                        <string>.</string>
+                                    </property>
+                                    <property name="alignment">
+                                        <set>AlignRight</set>
+                                    </property>
+                                    <property name="inputMask">
+                                        <string>00.00;0</string>
+                                    </property>
+                                </widget>
+                                <widget class="QLabel">
+                                    <property name="name">
+                                        <cstring>InchesWideLabel</cstring>
+                                    </property>
+                                    <property name="enabled">
+                                        <bool>false</bool>
+                                    </property>
+                                    <property name="text">
+                                        <string>width</string>
+                                    </property>
+                                </widget>
+                                <widget class="QLineEdit">
+                                    <property name="name">
+                                        <cstring>InchesHighEdit</cstring>
+                                    </property>
+                                    <property name="enabled">
+                                        <bool>false</bool>
+                                    </property>
+                                    <property name="text">
+                                        <string>.</string>
+                                    </property>
+                                    <property name="alignment">
+                                        <set>AlignRight</set>
+                                    </property>
+                                    <property name="inputMask">
+                                        <string>00.00;0</string>
+                                    </property>
+                                </widget>
+                                <widget class="QLabel">
+                                    <property name="name">
+                                        <cstring>InchesHighLabel</cstring>
+                                    </property>
+                                    <property name="enabled">
+                                        <bool>false</bool>
+                                    </property>
+                                    <property name="text">
+                                        <string>height</string>
+                                    </property>
+                                </widget>
+                            </hbox>
+                        </widget>
+                        <widget class="QCheckBox">
+                            <property name="name">
+                                <cstring>AspectRatioCheckBox</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Keep aspect ratio (width/height)</string>
+                            </property>
+                            <property name="checked">
+                                <bool>true</bool>
+                            </property>
+                        </widget>
+                    </vbox>
+                </widget>
+                <widget class="QGroupBox">
+                    <property name="name">
+                        <cstring>MarginsGroup</cstring>
+                    </property>
+                    <property name="title">
+                        <string>Margins</string>
+                    </property>
+                    <grid>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QLabel" row="1" column="0">
+                            <property name="name">
+                                <cstring>TopMarginLabel</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Top margin (in inches):</string>
+                            </property>
+                        </widget>
+                        <widget class="QLineEdit" row="0" column="1">
+                            <property name="name">
+                                <cstring>LeftMarginEdit</cstring>
+                            </property>
+                            <property name="text">
+                                <string>.</string>
+                            </property>
+                            <property name="alignment">
+                                <set>AlignRight</set>
+                            </property>
+                            <property name="inputMask">
+                                <string>0.00;0</string>
+                            </property>
+                        </widget>
+                        <widget class="QLineEdit" row="1" column="1">
+                            <property name="name">
+                                <cstring>TopMarginEdit</cstring>
+                            </property>
+                            <property name="text">
+                                <string>.</string>
+                            </property>
+                            <property name="alignment">
+                                <set>AlignRight</set>
+                            </property>
+                            <property name="inputMask">
+                                <string>0.00;0</string>
+                            </property>
+                        </widget>
+                        <widget class="QLabel" row="0" column="0">
+                            <property name="name">
+                                <cstring>LeftMarginLabel</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Left margin (in inches):</string>
+                            </property>
+                        </widget>
+                    </grid>
+                </widget>
+                <widget class="QLayoutWidget">
+                    <property name="name">
+                        <cstring>layout16</cstring>
+                    </property>
+                    <hbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QPushButton">
+                            <property name="name">
+                                <cstring>PrinterSetupButton</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Page Setup</string>
+                            </property>
+                        </widget>
+                        <spacer>
+                            <property name="name">
+                                <cstring>spacer6</cstring>
+                            </property>
+                            <property name="orientation">
+                                <enum>Horizontal</enum>
+                            </property>
+                            <property name="sizeType">
+                                <enum>Expanding</enum>
+                            </property>
+                            <property name="sizeHint">
+                                <size>
+                                    <width>41</width>
+                                    <height>21</height>
+                                </size>
+                            </property>
+                        </spacer>
+                        <widget class="QPushButton">
+                            <property name="name">
+                                <cstring>CancelButton</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Cancel</string>
+                            </property>
+                        </widget>
+                        <widget class="QPushButton">
+                            <property name="name">
+                                <cstring>OkButton</cstring>
+                            </property>
+                            <property name="text">
+                                <string>OK</string>
+                            </property>
+                            <property name="default">
+                                <bool>true</bool>
+                            </property>
+                            <property name="flat">
+                                <bool>false</bool>
+                            </property>
+                        </widget>
+                    </hbox>
+                </widget>
+            </vbox>
+        </widget>
+    </hbox>
+</widget>
+<images>
+    <image name="image0">
+        <data format="PNG" length="1175">89504e470d0a1a0a0000000d4948445200000016000000160806000000c4b46c3b0000045e49444154789ca5d44b6c54551cc7f1ef39f7cc9d476f3b7dd1561a40d480088a6022a10d1a41134537c4852686859a6824ee5c746362dc69e2c6a589891b5d48dcb42e4449282284a289b540673aa5cf69a7761e1d87b99ddb99fb38d7056d8d5a4cd47ff2df7eceeffcff274700726060e065adf59952a9d46fdb36ffb6aad52aa954eadae2e2e267c059c05180a1b53e93b8ff89fe96dd496201f4f4eea4307189a5af3f66e0ede31c7ce145a46911862e4881579da57a23cdc5b3637c3b5d66e9f62a95e2ca11c0048681a2028c52a9d4df7df05e263239125692969acd4f839fa26f8dd1a8eee5f6ca04ca300855948657c35d59a09cb98e69e768cde759cbdb4861001c023a819a020cdbb6e9d412339660474f07d59b43cc8e5ee6993d3d746e6b47040e818c82d720114f1289c7d00ff4b2afa999f6de0e820b53cc8e2f6c4ca619882a400074242df69b7192319f6be39729ba9a9eee66ac640b7ec526b6cdc48845589d9ea1989e22de6ea1c308b540b2ea7a681d6ec00a3036e186e75377a156fe95e5f9492c09133987739f5f65b554e1c8a93ddcd3ddc587ef0cd2dd1225d2dec2487a89d55a8364538c9821a8de812520e4c63111031cbb446a2a4bd1f630a5a450ae31bf50627ad121379a63666a05cfa973f2f4516a9e4b778bc1eb6f1ce3f863f7a1d84cbc191b80d14b835c193ec7ce87fa0835547ccdaba71ee1e913fb984f2db2fd7037a545cd53c776d0f9a0c54baff561b625e9ea68e6cbcc39bc80ade142e62a767e8e15278ba897d148f01b6c3fb4879ebea304ae8d519f26deb78bf6fd87e93aba0f7725cddcd9ef48654a34a4d81a766bb7095d9b72de261e80427333bd8c67d7a9d72b4463162ad149e02c512b5631dd29dce92ce33f2e3353b541dc6514a1d6f8ee1abae18206534a46c74b64866fd2beb78d8293e0fb0b3314a76ff1d6c97e9c8539d2e7af33365da0e2fa18e2cf8937976728859406524a5c094849b6d66074689cb0b88a8a1a0c0f5ec2f704d9f3a3e44752d8cb36e20f626b58871aad4384524824965454b4c65606b3d7f3d472054e9f78145df2f9e5720ad91c4798519c20a0118608ee92582251b12622661c53497ca00e0cddc892e86aa16b571b3aa6d9bb3bc9cede4e7e9bb3c94ce499af38ac698110ea2e70c4c46c6a276a75009a406bda94e24aa1c8079f5c0065f2ecfbaff0f8f30f532b380c5f9ce487a91c65cf63cdf7d1a1bff5f290062ad18ac04797b244a526406329936fe68abcfbde573cf7e401e6c7971819cb92b31d5c098e30c000e1f13738ac56ab44ac5d585d49d02ef58534bebb8a87c447632a932f4626191a99c4c224889928055218583149ab325004949d3beb02420584a954ea5ad0218e204242df43c72dbc5a8588a10808d11ac060c7f6560e74b7915eaa60afb93447151d4d1112a66265ad0690017c200088016f023f03e1ffe809e023a00fe8154004b0806ddcf9a49bd747b4f503ddbaf47a521b280145b10e4480c47a470103fef230ffb9c2f5eb370007704418860821e43ab6d1e23fc01b780004bf031e770dd95f62246b0000000049454e44ae426082</data>
+    </image>
+</images>
+<connections>
+    <connection>
+        <sender>CancelButton</sender>
+        <signal>clicked()</signal>
+        <receiver>PrintImageSettingsDialog</receiver>
+        <slot>reject()</slot>
+    </connection>
+    <connection>
+        <sender>AspectRatioCheckBox</sender>
+        <signal>toggled(bool)</signal>
+        <receiver>PrintImageSettingsDialog</receiver>
+        <slot>AspectRatioCheckBox_toggled(bool)</slot>
+    </connection>
+    <connection>
+        <sender>PixelsRadioButton</sender>
+        <signal>toggled(bool)</signal>
+        <receiver>PrintImageSettingsDialog</receiver>
+        <slot>PixelsRadioButton_toggled(bool)</slot>
+    </connection>
+    <connection>
+        <sender>InchesRadioButton</sender>
+        <signal>toggled(bool)</signal>
+        <receiver>PrintImageSettingsDialog</receiver>
+        <slot>InchesRadioButton_toggled(bool)</slot>
+    </connection>
+    <connection>
+        <sender>PixelsWideSpinBox</sender>
+        <signal>valueChanged(int)</signal>
+        <receiver>PrintImageSettingsDialog</receiver>
+        <slot>PixelsWideSpinBox_valueChanged(int)</slot>
+    </connection>
+    <connection>
+        <sender>PixelsHighSpinBox</sender>
+        <signal>valueChanged(int)</signal>
+        <receiver>PrintImageSettingsDialog</receiver>
+        <slot>PixelsHighSpinBox_valueChanged(int)</slot>
+    </connection>
+    <connection>
+        <sender>PrinterSetupButton</sender>
+        <signal>clicked()</signal>
+        <receiver>PrintImageSettingsDialog</receiver>
+        <slot>PrinterSetupButton_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>LeftMarginEdit</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>PrintImageSettingsDialog</receiver>
+        <slot>updatePreview()</slot>
+    </connection>
+    <connection>
+        <sender>TopMarginEdit</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>PrintImageSettingsDialog</receiver>
+        <slot>updatePreview()</slot>
+    </connection>
+    <connection>
+        <sender>InchesWideEdit</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>PrintImageSettingsDialog</receiver>
+        <slot>InchesWideEdit_textChanged(const QString&amp;)</slot>
+    </connection>
+    <connection>
+        <sender>InchesHighEdit</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>PrintImageSettingsDialog</receiver>
+        <slot>InchesHighEdit_textChanged(const QString&amp;)</slot>
+    </connection>
+    <connection>
+        <sender>OkButton</sender>
+        <signal>clicked()</signal>
+        <receiver>PrintImageSettingsDialog</receiver>
+        <slot>OkButton_clicked()</slot>
+    </connection>
+</connections>
+<includes>
+    <include location="global" impldecl="in implementation">qwmatrix.h</include>
+    <include location="global" impldecl="in implementation">qmessagebox.h</include>
+    <include location="global" impldecl="in implementation">qpaintdevicemetrics.h</include>
+    <include location="global" impldecl="in implementation">qpainter.h</include>
+    <include location="global" impldecl="in declaration">qprinter.h</include>
+    <include location="local" impldecl="in implementation">printimagesettings.ui.h</include>
+</includes>
+<variables>
+    <variable access="private">int dpiY;</variable>
+    <variable access="private">int dpiX;</variable>
+    <variable access="private">int originalWidth;</variable>
+    <variable access="private">int originalHeight;</variable>
+    <variable access="private">bool signalsLive;</variable>
+    <variable access="private">int pageWidth;</variable>
+    <variable access="private">int pageHeight;</variable>
+    <variable access="private">QPrinter printer;</variable>
+    <variable access="private">bool previewLive;</variable>
+    <variable access="private">QPixmap littleCopy;</variable>
+</variables>
+<slots>
+    <slot>AspectRatioCheckBox_toggled( bool )</slot>
+    <slot>PixelsRadioButton_toggled( bool on )</slot>
+    <slot>InchesRadioButton_toggled( bool on )</slot>
+    <slot>correctAspectRatio( bool baseOnX )</slot>
+    <slot>PixelsWideSpinBox_valueChanged( int )</slot>
+    <slot>PixelsHighSpinBox_valueChanged( int )</slot>
+    <slot>PrinterSetupButton_clicked()</slot>
+    <slot access="private">updatePreview()</slot>
+    <slot>InchesWideEdit_textChanged( const QString &amp; )</slot>
+    <slot>InchesHighEdit_textChanged( const QString &amp; )</slot>
+    <slot>OkButton_clicked()</slot>
+</slots>
+<functions>
+    <function access="private" specifier="non virtual">init()</function>
+    <function returnType="int">exec( QPixmap p )</function>
+    <function access="private">updateOtherNumbers()</function>
+    <function access="private">getPrinterData()</function>
+    <function access="private" returnType="QString">inchesText( double inches )</function>
+</functions>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>

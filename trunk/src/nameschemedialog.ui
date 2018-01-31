@@ -1,0 +1,121 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>NameSchemeForm</class>
+<widget class="QDialog">
+    <property name="name">
+        <cstring>NameSchemeForm</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>719</width>
+            <height>771</height>
+        </rect>
+    </property>
+    <property name="minimumSize">
+        <size>
+            <width>0</width>
+            <height>300</height>
+        </size>
+    </property>
+    <property name="caption">
+        <string>Edit naming scheme for group</string>
+    </property>
+    <vbox>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <widget class="QLabel">
+            <property name="name">
+                <cstring>TopLabel</cstring>
+            </property>
+            <property name="text">
+                <string>Programmatically filled</string>
+            </property>
+        </widget>
+        <widget class="QTable">
+            <property name="name">
+                <cstring>Table</cstring>
+            </property>
+            <property name="numRows">
+                <number>3</number>
+            </property>
+            <property name="numCols">
+                <number>3</number>
+            </property>
+        </widget>
+        <widget class="QLayoutWidget">
+            <property name="name">
+                <cstring>layout7</cstring>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <spacer>
+                    <property name="name">
+                        <cstring>spacer5</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>141</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>OKButton</cstring>
+                    </property>
+                    <property name="text">
+                        <string>OK</string>
+                    </property>
+                    <property name="default">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>CancelButton</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Cancel</string>
+                    </property>
+                </widget>
+            </hbox>
+        </widget>
+    </vbox>
+</widget>
+<connections>
+    <connection>
+        <sender>OKButton</sender>
+        <signal>clicked()</signal>
+        <receiver>NameSchemeForm</receiver>
+        <slot>accept()</slot>
+    </connection>
+    <connection>
+        <sender>CancelButton</sender>
+        <signal>clicked()</signal>
+        <receiver>NameSchemeForm</receiver>
+        <slot>reject()</slot>
+    </connection>
+</connections>
+<includes>
+    <include location="local" impldecl="in declaration">groupfile.h</include>
+    <include location="local" impldecl="in declaration">gepreferences.h</include>
+    <include location="local" impldecl="in implementation">nameschemedialog.ui.h</include>
+</includes>
+<functions>
+    <function returnType="int">exec( MathText name, MathTextList origrep, MathTextList newrep )</function>
+    <function returnType="int">exec( MathText name, MathTextList origrep, QStringList newrep )</function>
+    <function returnType="MathTextList">getRepresentation()</function>
+</functions>
+<pixmapinproject/>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>

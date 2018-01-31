@@ -1,0 +1,445 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>MainWindow</class>
+<widget class="QMainWindow">
+    <property name="name">
+        <cstring>MainWindow</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>719</width>
+            <height>771</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>Group Explorer Library</string>
+    </property>
+    <vbox>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <property name="margin">
+            <number>0</number>
+        </property>
+    </vbox>
+</widget>
+<menubar>
+    <property name="name">
+        <cstring>MenuBar</cstring>
+    </property>
+    <item text="&amp;File" name="fileMenu">
+        <action name="newSheetAction"/>
+        <action name="fileOpenAction"/>
+        <action name="saveSettingsAction"/>
+        <separator/>
+        <action name="fileExitAction"/>
+    </item>
+    <item text="&amp;Edit" name="editMenu">
+        <action name="editCopyAction"/>
+        <separator/>
+        <action name="editSearchAction"/>
+        <action name="optionsAction"/>
+    </item>
+    <item text="&amp;Help" name="helpMenu">
+        <action name="helpAboutAction"/>
+        <action name="helpManualAction"/>
+        <action name="helpTutorialsAction"/>
+        <action name="helpSearchAction"/>
+    </item>
+</menubar>
+<toolbars>
+    <toolbar dock="2">
+        <property name="name">
+            <cstring>toolBar</cstring>
+        </property>
+        <property name="label">
+            <string>Tools</string>
+        </property>
+        <action name="newSheetAction"/>
+        <action name="fileOpenAction"/>
+        <action name="saveSettingsAction"/>
+        <separator/>
+        <action name="editCopyAction"/>
+        <action name="editSearchAction"/>
+        <separator/>
+        <action name="helpManualAction"/>
+        <action name="helpTutorialsAction"/>
+        <action name="helpSearchAction"/>
+        <separator/>
+        <action name="optionsAction"/>
+    </toolbar>
+</toolbars>
+<actions>
+    <action>
+        <property name="name">
+            <cstring>newSheetAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset>filenew.png</iconset>
+        </property>
+        <property name="text">
+            <string>New sheet...</string>
+        </property>
+        <property name="menuText">
+            <string>&amp;New sheet...</string>
+        </property>
+        <property name="accel">
+            <string>Ctrl+N</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>fileOpenAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset>fileopen.png</iconset>
+        </property>
+        <property name="text">
+            <string>Open</string>
+        </property>
+        <property name="menuText">
+            <string>&amp;Open...</string>
+        </property>
+        <property name="accel">
+            <string>Ctrl+O</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>saveSettingsAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset>filesave.png</iconset>
+        </property>
+        <property name="text">
+            <string>Save settings</string>
+        </property>
+        <property name="menuText">
+            <string>&amp;Save settings</string>
+        </property>
+        <property name="accel">
+            <string>Ctrl+S</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>fileSaveAsAction</cstring>
+        </property>
+        <property name="text">
+            <string>Save As</string>
+        </property>
+        <property name="menuText">
+            <string>Save &amp;As...</string>
+        </property>
+        <property name="accel">
+            <string></string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>fileExitAction</cstring>
+        </property>
+        <property name="text">
+            <string>Exit</string>
+        </property>
+        <property name="menuText">
+            <string>E&amp;xit</string>
+        </property>
+        <property name="accel">
+            <string></string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>editCopyAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset>editcopy.png</iconset>
+        </property>
+        <property name="text">
+            <string>Copy table selection</string>
+        </property>
+        <property name="menuText">
+            <string>&amp;Copy table selection</string>
+        </property>
+        <property name="toolTip">
+            <string>Copy table selection</string>
+        </property>
+        <property name="accel">
+            <string>Ctrl+C</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>editSearchAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset>searchfind.png</iconset>
+        </property>
+        <property name="text">
+            <string>Search/find</string>
+        </property>
+        <property name="menuText">
+            <string>&amp;Search/find...</string>
+        </property>
+        <property name="accel">
+            <string>Ctrl+F</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>helpAboutAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset>ge2circle.png</iconset>
+        </property>
+        <property name="text">
+            <string>About GE 2</string>
+        </property>
+        <property name="menuText">
+            <string>&amp;About GE 2</string>
+        </property>
+        <property name="accel">
+            <string></string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>optionsAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset>options.png</iconset>
+        </property>
+        <property name="text">
+            <string>Options...</string>
+        </property>
+        <property name="menuText">
+            <string>&amp;Options...</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>helpManualAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset>helpdocs.png</iconset>
+        </property>
+        <property name="text">
+            <string>User Manual</string>
+        </property>
+        <property name="menuText">
+            <string>&amp;User Manual</string>
+        </property>
+        <property name="accel">
+            <string>F1</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>helpTutorialsAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset>tutorials.png</iconset>
+        </property>
+        <property name="text">
+            <string>Tutorials</string>
+        </property>
+        <property name="menuText">
+            <string>&amp;Tutorials</string>
+        </property>
+        <property name="accel">
+            <string>Ctrl+F1</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>helpSearchAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset>searchdocs.png</iconset>
+        </property>
+        <property name="text">
+            <string>Search help...</string>
+        </property>
+        <property name="menuText">
+            <string>&amp;Search help...</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>new_menunew_itemAction</cstring>
+        </property>
+        <property name="text">
+            <string>new item</string>
+        </property>
+        <property name="menuText">
+            <string>new item</string>
+        </property>
+    </action>
+</actions>
+<connections>
+    <connection>
+        <sender>newSheetAction</sender>
+        <signal>activated()</signal>
+        <receiver>MainWindow</receiver>
+        <slot>fileNew()</slot>
+    </connection>
+    <connection>
+        <sender>fileOpenAction</sender>
+        <signal>activated()</signal>
+        <receiver>MainWindow</receiver>
+        <slot>fileOpen()</slot>
+    </connection>
+    <connection>
+        <sender>saveSettingsAction</sender>
+        <signal>activated()</signal>
+        <receiver>MainWindow</receiver>
+        <slot>fileSave()</slot>
+    </connection>
+    <connection>
+        <sender>fileSaveAsAction</sender>
+        <signal>activated()</signal>
+        <receiver>MainWindow</receiver>
+        <slot>fileSaveAs()</slot>
+    </connection>
+    <connection>
+        <sender>fileExitAction</sender>
+        <signal>activated()</signal>
+        <receiver>MainWindow</receiver>
+        <slot>close()</slot>
+    </connection>
+    <connection>
+        <sender>editSearchAction</sender>
+        <signal>activated()</signal>
+        <receiver>MainWindow</receiver>
+        <slot>editFind()</slot>
+    </connection>
+    <connection>
+        <sender>helpAboutAction</sender>
+        <signal>activated()</signal>
+        <receiver>MainWindow</receiver>
+        <slot>helpAbout()</slot>
+    </connection>
+    <connection>
+        <sender>optionsAction</sender>
+        <signal>activated()</signal>
+        <receiver>MainWindow</receiver>
+        <slot>optionsAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>helpManualAction</sender>
+        <signal>activated()</signal>
+        <receiver>MainWindow</receiver>
+        <slot>helpManualAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>helpTutorialsAction</sender>
+        <signal>activated()</signal>
+        <receiver>MainWindow</receiver>
+        <slot>helpTutorialsAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>helpSearchAction</sender>
+        <signal>activated()</signal>
+        <receiver>MainWindow</receiver>
+        <slot>helpSearchAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>editCopyAction</sender>
+        <signal>activated()</signal>
+        <receiver>MainWindow</receiver>
+        <slot>editCopyAction_activated()</slot>
+    </connection>
+</connections>
+<includes>
+    <include location="global" impldecl="in declaration">qstringlist.h</include>
+    <include location="global" impldecl="in declaration">qpoint.h</include>
+    <include location="local" impldecl="in declaration">preferencesdialog.h</include>
+    <include location="local" impldecl="in declaration">grouptable.h</include>
+    <include location="local" impldecl="in declaration">gepreferences.h</include>
+    <include location="local" impldecl="in declaration">gehelpwindow.h</include>
+    <include location="local" impldecl="in declaration">searchdialog.h</include>
+    <include location="local" impldecl="in declaration">gevisualizerlist.h</include>
+    <include location="global" impldecl="in implementation">qapplication.h</include>
+    <include location="global" impldecl="in implementation">qdesktopwidget.h</include>
+    <include location="local" impldecl="in implementation">gesheet.h</include>
+    <include location="local" impldecl="in implementation">gesheetwindow.h</include>
+    <include location="global" impldecl="in implementation">qmessagebox.h</include>
+    <include location="local" impldecl="in implementation">ge.h</include>
+    <include location="global" impldecl="in implementation">progresssplashscreen.h</include>
+    <include location="global" impldecl="in implementation">myutils.h</include>
+    <include location="local" impldecl="in implementation">idealist.h</include>
+    <include location="global" impldecl="in implementation">QUndoStack</include>
+    <include location="local" impldecl="in implementation">linkcommandlist.h</include>
+    <include location="global" impldecl="in implementation">qmap.h</include>
+    <include location="local" impldecl="in implementation">mainwindowcmds.h</include>
+    <include location="local" impldecl="in implementation">gewhatsthis.h</include>
+    <include location="global" impldecl="in implementation">textreference.h</include>
+    <include location="global" impldecl="in implementation">qfiledialog.h</include>
+    <include location="global" impldecl="in implementation">qclipboard.h</include>
+    <include location="global" impldecl="in implementation">qdragobject.h</include>
+    <include location="global" impldecl="in implementation">qstatusbar.h</include>
+    <include location="local" impldecl="in implementation">mainwindow.ui.h</include>
+    <include location="local" impldecl="in implementation">actionforwarder.h</include>
+</includes>
+<variables>
+    <variable access="private">static MainWindow* firstInstance;</variable>
+    <variable access="private">QMap&lt;QString,GEHelpWindow*&gt; groupInfoWindows;</variable>
+    <variable access="private">bool optionsFirstTime;</variable>
+    <variable access="private">SearchDialog searchDialog;</variable>
+    <variable access="private">QString configFilename;</variable>
+    <variable access="private">PreferencesDialog prefsDialog;</variable>
+    <variable access="public">GEPreferences* preferences;</variable>
+    <variable access="private">GroupTable *mainTable;</variable>
+    <variable access="private">QUndoStack* undoStack;</variable>
+</variables>
+<signals>
+    <signal>progressChanged(uint)</signal>
+    <signal>messageChanged(QString)</signal>
+    <signal>enterNewPhase(uint, uint)</signal>
+    <signal>finishPhase()</signal>
+</signals>
+<slots>
+    <slot>fileNew()</slot>
+    <slot>fileOpen()</slot>
+    <slot>fileSave()</slot>
+    <slot>fileSaveAs()</slot>
+    <slot>editPaste()</slot>
+    <slot>editFind()</slot>
+    <slot>helpAbout()</slot>
+    <slot>optionsAction_activated()</slot>
+    <slot>resizeEvent( QResizeEvent * e )</slot>
+    <slot>moveEvent( QMoveEvent * e )</slot>
+    <slot>help_resizeEvent()</slot>
+    <slot>help_moveEvent()</slot>
+    <slot>preferencesChanged( QValueList&lt;uint&gt; categories )</slot>
+    <slot>openGroupInfoWindow( QString code, QString anchor )</slot>
+    <slot>openGroupInfoWindow( QString code )</slot>
+    <slot>helpManualAction_activated()</slot>
+    <slot>helpTutorialsAction_activated()</slot>
+    <slot>doLinkCommand( QStringList parameters, QWidget * originator )</slot>
+    <slot>listenToHelpWindow( GEHelpWindow * hw )</slot>
+    <slot>provideNumGroups( uint &amp; n )</slot>
+    <slot>provideGroupInfo( uint i, QString &amp; html, QString &amp; code )</slot>
+    <slot>provideSheetPaths( QStringList &amp; paths )</slot>
+    <slot>helpSearchAction_activated()</slot>
+    <slot>editCopyAction_activated()</slot>
+</slots>
+<functions>
+    <function>openSheet( QString filename )</function>
+    <function access="protected">closeEvent( QCloseEvent * ce )</function>
+    <function access="private">createGlobalObjects()</function>
+    <function>setConfigFilename( QString filename )</function>
+    <function access="private">processConfigFile()</function>
+    <function access="private">loadSheets( QStringList, uint, uint )</function>
+    <function access="private">checkFirstTime()</function>
+    <function>setup()</function>
+    <function access="private">init()</function>
+    <function access="private" specifier="non virtual">destroy()</function>
+    <function>applyPreferenceCategory( uint cat )</function>
+    <function specifier="static" returnType="MainWindow *">original()</function>
+</functions>
+<pixmapinproject/>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>

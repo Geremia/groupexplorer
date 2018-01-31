@@ -1,0 +1,488 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>MorphismEditDialog</class>
+<widget class="QDialog">
+    <property name="name">
+        <cstring>MorphismEditDialog</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>517</width>
+            <height>504</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>Edit homomorphism</string>
+    </property>
+    <vbox>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <widget class="QTabWidget">
+            <property name="name">
+                <cstring>tabWidget2</cstring>
+            </property>
+            <widget class="QWidget">
+                <property name="name">
+                    <cstring>tab</cstring>
+                </property>
+                <attribute name="title">
+                    <string>Mapping</string>
+                </attribute>
+                <vbox>
+                    <property name="name">
+                        <cstring>unnamed</cstring>
+                    </property>
+                    <widget class="QLabel">
+                        <property name="name">
+                            <cstring>InstructionsLabel</cstring>
+                        </property>
+                        <property name="text">
+                            <string>Here would be the instructions for this dialog box.  This label will be programmatically filled.</string>
+                        </property>
+                        <property name="alignment">
+                            <set>WordBreak|AlignVCenter</set>
+                        </property>
+                    </widget>
+                    <widget class="QLayoutWidget">
+                        <property name="name">
+                            <cstring>layout7</cstring>
+                        </property>
+                        <hbox>
+                            <property name="name">
+                                <cstring>unnamed</cstring>
+                            </property>
+                            <widget class="QLayoutWidget">
+                                <property name="name">
+                                    <cstring>layout6</cstring>
+                                </property>
+                                <vbox>
+                                    <property name="name">
+                                        <cstring>unnamed</cstring>
+                                    </property>
+                                    <widget class="QLabel">
+                                        <property name="name">
+                                            <cstring>DomainLabel</cstring>
+                                        </property>
+                                        <property name="text">
+                                            <string>Domain</string>
+                                        </property>
+                                        <property name="alignment">
+                                            <set>AlignCenter</set>
+                                        </property>
+                                    </widget>
+                                    <widget class="QListBox">
+                                        <property name="name">
+                                            <cstring>DomainListBox</cstring>
+                                        </property>
+                                    </widget>
+                                </vbox>
+                            </widget>
+                            <widget class="QLayoutWidget">
+                                <property name="name">
+                                    <cstring>layout1</cstring>
+                                </property>
+                                <vbox>
+                                    <property name="name">
+                                        <cstring>unnamed</cstring>
+                                    </property>
+                                    <spacer>
+                                        <property name="name">
+                                            <cstring>spacer1</cstring>
+                                        </property>
+                                        <property name="orientation">
+                                            <enum>Vertical</enum>
+                                        </property>
+                                        <property name="sizeType">
+                                            <enum>Expanding</enum>
+                                        </property>
+                                        <property name="sizeHint">
+                                            <size>
+                                                <width>31</width>
+                                                <height>51</height>
+                                            </size>
+                                        </property>
+                                    </spacer>
+                                    <widget class="QPushButton">
+                                        <property name="name">
+                                            <cstring>MapButton</cstring>
+                                        </property>
+                                        <property name="text">
+                                            <string>&gt;-Map-&gt;</string>
+                                        </property>
+                                    </widget>
+                                    <spacer>
+                                        <property name="name">
+                                            <cstring>spacer1_2</cstring>
+                                        </property>
+                                        <property name="orientation">
+                                            <enum>Vertical</enum>
+                                        </property>
+                                        <property name="sizeType">
+                                            <enum>Expanding</enum>
+                                        </property>
+                                        <property name="sizeHint">
+                                            <size>
+                                                <width>31</width>
+                                                <height>51</height>
+                                            </size>
+                                        </property>
+                                    </spacer>
+                                </vbox>
+                            </widget>
+                            <widget class="QLayoutWidget">
+                                <property name="name">
+                                    <cstring>layout4</cstring>
+                                </property>
+                                <vbox>
+                                    <property name="name">
+                                        <cstring>unnamed</cstring>
+                                    </property>
+                                    <widget class="QLabel">
+                                        <property name="name">
+                                            <cstring>CodomainLabel</cstring>
+                                        </property>
+                                        <property name="text">
+                                            <string>Codomain</string>
+                                        </property>
+                                        <property name="alignment">
+                                            <set>AlignCenter</set>
+                                        </property>
+                                    </widget>
+                                    <widget class="QListBox">
+                                        <property name="name">
+                                            <cstring>CodomainListBox</cstring>
+                                        </property>
+                                    </widget>
+                                </vbox>
+                            </widget>
+                        </hbox>
+                    </widget>
+                    <widget class="QFrame">
+                        <property name="name">
+                            <cstring>MapListFrame</cstring>
+                        </property>
+                        <property name="frameShape">
+                            <enum>GroupBoxPanel</enum>
+                        </property>
+                        <property name="frameShadow">
+                            <enum>Plain</enum>
+                        </property>
+                        <vbox>
+                            <property name="name">
+                                <cstring>unnamed</cstring>
+                            </property>
+                            <widget class="QLabel">
+                                <property name="name">
+                                    <cstring>RemovablesTitleLabel</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>This text will also be programmatically generated.</string>
+                                </property>
+                            </widget>
+                        </vbox>
+                    </widget>
+                    <widget class="QLayoutWidget">
+                        <property name="name">
+                            <cstring>layout7</cstring>
+                        </property>
+                        <hbox>
+                            <property name="name">
+                                <cstring>unnamed</cstring>
+                            </property>
+                            <spacer>
+                                <property name="name">
+                                    <cstring>spacer4</cstring>
+                                </property>
+                                <property name="orientation">
+                                    <enum>Horizontal</enum>
+                                </property>
+                                <property name="sizeType">
+                                    <enum>Expanding</enum>
+                                </property>
+                                <property name="sizeHint">
+                                    <size>
+                                        <width>91</width>
+                                        <height>21</height>
+                                    </size>
+                                </property>
+                            </spacer>
+                            <widget class="QPushButton">
+                                <property name="name">
+                                    <cstring>SeeFullMapButton</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>Show whole map</string>
+                                </property>
+                            </widget>
+                        </hbox>
+                    </widget>
+                </vbox>
+            </widget>
+            <widget class="QWidget">
+                <property name="name">
+                    <cstring>tab</cstring>
+                </property>
+                <attribute name="title">
+                    <string>Display</string>
+                </attribute>
+                <vbox>
+                    <property name="name">
+                        <cstring>unnamed</cstring>
+                    </property>
+                    <widget class="QCheckBox">
+                        <property name="name">
+                            <cstring>ShowNameCheckBox</cstring>
+                        </property>
+                        <property name="text">
+                            <string>Label morphism with name of morphism (f, g, etc.)</string>
+                        </property>
+                    </widget>
+                    <widget class="QLayoutWidget">
+                        <property name="name">
+                            <cstring>layout8</cstring>
+                        </property>
+                        <hbox>
+                            <property name="name">
+                                <cstring>unnamed</cstring>
+                            </property>
+                            <spacer>
+                                <property name="name">
+                                    <cstring>spacer6</cstring>
+                                </property>
+                                <property name="orientation">
+                                    <enum>Horizontal</enum>
+                                </property>
+                                <property name="sizeType">
+                                    <enum>Fixed</enum>
+                                </property>
+                                <property name="sizeHint">
+                                    <size>
+                                        <width>30</width>
+                                        <height>21</height>
+                                    </size>
+                                </property>
+                            </spacer>
+                            <widget class="QCheckBox">
+                                <property name="name">
+                                    <cstring>ShowDomCodCheckBox</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>Also include names of domain and codomain (f : H -&gt; G)</string>
+                                </property>
+                            </widget>
+                        </hbox>
+                    </widget>
+                    <widget class="QCheckBox">
+                        <property name="name">
+                            <cstring>ShowEpiMonCheckBox</cstring>
+                        </property>
+                        <property name="text">
+                            <string>Label morphism with "1-1" and/or "onto" when they apply</string>
+                        </property>
+                    </widget>
+                    <widget class="QCheckBox">
+                        <property name="name">
+                            <cstring>ShowGensCheckBox</cstring>
+                        </property>
+                        <property name="text">
+                            <string>Label morphism with its generating pairs (f(a) = b, ...)</string>
+                        </property>
+                    </widget>
+                    <widget class="QCheckBox">
+                        <property name="name">
+                            <cstring>ManyLinesCheckBox</cstring>
+                        </property>
+                        <property name="text">
+                            <string>Draw a separate arrow for each element of the domain</string>
+                        </property>
+                    </widget>
+                    <spacer>
+                        <property name="name">
+                            <cstring>spacer5</cstring>
+                        </property>
+                        <property name="orientation">
+                            <enum>Vertical</enum>
+                        </property>
+                        <property name="sizeType">
+                            <enum>Expanding</enum>
+                        </property>
+                        <property name="sizeHint">
+                            <size>
+                                <width>20</width>
+                                <height>150</height>
+                            </size>
+                        </property>
+                    </spacer>
+                </vbox>
+            </widget>
+        </widget>
+        <widget class="QLayoutWidget">
+            <property name="name">
+                <cstring>layout6</cstring>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>HelpButton</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Help</string>
+                    </property>
+                </widget>
+                <spacer>
+                    <property name="name">
+                        <cstring>spacer3</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>31</width>
+                            <height>21</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>OkButton</cstring>
+                    </property>
+                    <property name="text">
+                        <string>OK</string>
+                    </property>
+                    <property name="default">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>CancelButton</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Cancel</string>
+                    </property>
+                </widget>
+            </hbox>
+        </widget>
+    </vbox>
+</widget>
+<connections>
+    <connection>
+        <sender>CancelButton</sender>
+        <signal>clicked()</signal>
+        <receiver>MorphismEditDialog</receiver>
+        <slot>reject()</slot>
+    </connection>
+    <connection>
+        <sender>OkButton</sender>
+        <signal>clicked()</signal>
+        <receiver>MorphismEditDialog</receiver>
+        <slot>accept()</slot>
+    </connection>
+    <connection>
+        <sender>HelpButton</sender>
+        <signal>clicked()</signal>
+        <receiver>MorphismEditDialog</receiver>
+        <slot>HelpButton_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>SeeFullMapButton</sender>
+        <signal>clicked()</signal>
+        <receiver>MorphismEditDialog</receiver>
+        <slot>SeeFullMapButton_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>DomainListBox</sender>
+        <signal>selectionChanged()</signal>
+        <receiver>MorphismEditDialog</receiver>
+        <slot>updateCodomain()</slot>
+    </connection>
+    <connection>
+        <sender>MapButton</sender>
+        <signal>clicked()</signal>
+        <receiver>MorphismEditDialog</receiver>
+        <slot>MapButton_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>ShowNameCheckBox</sender>
+        <signal>clicked()</signal>
+        <receiver>MorphismEditDialog</receiver>
+        <slot>ShowNameCheckBox_clicked()</slot>
+    </connection>
+</connections>
+<tabstops>
+    <tabstop>tabWidget2</tabstop>
+    <tabstop>DomainListBox</tabstop>
+    <tabstop>MapButton</tabstop>
+    <tabstop>CodomainListBox</tabstop>
+    <tabstop>SeeFullMapButton</tabstop>
+    <tabstop>HelpButton</tabstop>
+    <tabstop>OkButton</tabstop>
+    <tabstop>CancelButton</tabstop>
+    <tabstop>ShowNameCheckBox</tabstop>
+    <tabstop>ShowDomCodCheckBox</tabstop>
+    <tabstop>ShowEpiMonCheckBox</tabstop>
+    <tabstop>ShowGensCheckBox</tabstop>
+    <tabstop>ManyLinesCheckBox</tabstop>
+</tabstops>
+<includes>
+    <include location="local" impldecl="in declaration">group.h</include>
+    <include location="local" impldecl="in declaration">qptrlist.h</include>
+    <include location="global" impldecl="in declaration">qsignalmapper.h</include>
+    <include location="local" impldecl="in implementation">gesheet.h</include>
+    <include location="local" impldecl="in implementation">gehelpwindow.h</include>
+    <include location="global" impldecl="in implementation">qhbox.h</include>
+    <include location="global" impldecl="in implementation">qmessagebox.h</include>
+    <include location="local" impldecl="in implementation">myutils.h</include>
+    <include location="local" impldecl="in implementation">morphismedit.ui.h</include>
+</includes>
+<forwards>
+    <forward>class GECanvasMorphism;</forward>
+</forwards>
+<variables>
+    <variable access="private">QSignalMapper* mapper;</variable>
+    <variable access="private">QPtrList&lt;QWidget&gt; pairWidgets;</variable>
+    <variable access="private">GECanvasMorphism* morphism;</variable>
+    <variable access="private">GEltList codgens;</variable>
+    <variable access="private">GEltList domgens;</variable>
+    <variable access="private">GEltList domgenscopy;</variable>
+    <variable access="private">GEltList codgenscopy;</variable>
+</variables>
+<slots>
+    <slot returnType="int">exec( GECanvasMorphism * m )</slot>
+    <slot>HelpButton_clicked()</slot>
+    <slot>removePair( int index )</slot>
+    <slot>SeeFullMapButton_clicked()</slot>
+    <slot access="private">updateCodomain()</slot>
+    <slot>MapButton_clicked()</slot>
+    <slot>ShowNameCheckBox_clicked()</slot>
+</slots>
+<functions>
+    <function>setMorphism( GECanvasMorphism * m )</function>
+    <function access="private">updateRemovablesLabel()</function>
+    <function access="private">updateDomainList()</function>
+    <function access="private">addPair( GElt a, GElt b )</function>
+    <function access="private" specifier="non virtual">init()</function>
+    <function access="private">clearPairs()</function>
+    <function access="private" returnType="bool">anyValidImage( uint index )</function>
+    <function access="private" returnType="GEltList">validImages( uint index )</function>
+    <function returnType="GEltList">getFullMap()</function>
+    <function returnType="GEltList">getDomGens()</function>
+    <function returnType="GEltList">getCodGens()</function>
+    <function returnType="bool">getShowName()</function>
+    <function returnType="bool">getShowDomCod()</function>
+    <function returnType="bool">getShowEpiMon()</function>
+    <function returnType="bool">getShowGens()</function>
+    <function returnType="bool">getManyLines()</function>
+</functions>
+<pixmapinproject/>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>

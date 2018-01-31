@@ -1,0 +1,34 @@
+
+
+There are three steps to building GE2 from source:
+
+
+1. Install Qt 4.5 on your machine.  Probably the easiest
+   way to do this is with the latest binary installer of
+   the Qt SDK from www.qtsoftware.com.
+   Or if you're on Linux, your distro may have a package
+   with Qt 4.5 in it.
+
+
+2. Get the Resources directory
+
+In order to save space, I do not include that directory with
+the sources, but you can get it from SourceForge.
+It is necessary; it contains all the group data and help files.
+It also comes in every install ation of GE on OS X or Windows.
+
+Put the Resources directory in the same directory that holds the
+src/ folder (i.e., they should be siblings in the directory tree
+on your machine).
+
+
+3. Compile
+
+Follow the standard procedure for building Qt-based applications,
+as follows.  From the directory containing GroupExplorer.pro
+(should be the parent directory of the src/ and Resources/
+directories), do these two steps:
+    $ qmake -o Makefile GroupExplorer.pro  # this makes a Makefile
+    $ make                                 # this does the build
+
+

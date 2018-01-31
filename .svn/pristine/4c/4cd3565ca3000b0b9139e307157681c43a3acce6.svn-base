@@ -1,0 +1,45 @@
+
+There are three steps to building GE2 from source:
+
+1. [OPTIONAL] Get the Qt Undo/Redo Framework
+
+Unfortunately, this framework is not open source until Qt4,
+but Group Explorer is built on Qt3.  That means QtUndo for Qt3
+is only for license holders.
+
+But Group Explorer does not actually NEED QtUndo to work,
+it just needs it to give you Undo/Redo capability.  So you can
+build GE without Undo/Redo buttons if that's okay with you.
+The way to do so is shown at the very end of Step 3, below.
+
+But if you are able to obtain a copy of the Qt Undo/Redo
+framework, then after you install it on your machine,
+you should edit the GroupExplorer.pro file, and change the line
+    include(qtundo.pri)
+to be
+    include(/path/to/qtundo-1.3-enterprise/src/qtundo.pri)
+based on wherever you installed the framework on your machine.
+
+2. Get the Resources directory
+
+In order to save space, I do not include that directory with
+the sources, but you can get it from SourceForge, the same
+place you got these sources.  (It also comes in every install-
+ation of GE on a Mac or Windows machine.)  Put the Resources
+directory in the same directory you put the src/ folder (i.e.,
+they should be siblings in the directory tree on your machine.)
+
+3. How to build this
+
+Once you have Qt 3.3, the Resources directory, and optionally the
+Qt Undo/Redo framework, you follow the standard procedure for
+building Qt3-based applications, as follows.  From the directory
+containing GroupExplorer.pro (should be the parent directory of
+the src/ and Resources/ directories), do these two steps:
+    $ qmake -o Makefile GroupExplorer.pro  # this makes a Makefile
+    $ make                                 # this does the build
+The one change you should make to the above two steps if you don't
+have the Qt Undo/Redo Framework is that the first line should
+instead read as follows.
+    $ qmake -o Makefile "DEFINES += NO_QT_UNDO" GroupExplorer.pro
+

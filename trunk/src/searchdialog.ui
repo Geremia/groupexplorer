@@ -1,0 +1,256 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>SearchDialog</class>
+<widget class="QDialog">
+    <property name="name">
+        <cstring>SearchDialog</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>600</width>
+            <height>480</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>Search Group Explorer</string>
+    </property>
+    <property name="icon">
+        <pixmap>searchfind.png</pixmap>
+    </property>
+    <vbox>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <widget class="QGroupBox">
+            <property name="name">
+                <cstring>WhatBox</cstring>
+            </property>
+            <property name="title">
+                <string>What to search for</string>
+            </property>
+            <vbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QLayoutWidget">
+                    <property name="name">
+                        <cstring>layout15</cstring>
+                    </property>
+                    <hbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QLabel">
+                            <property name="name">
+                                <cstring>SearchLabel</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Search for this text:</string>
+                            </property>
+                            <property name="buddy" stdset="0">
+                                <cstring>lineEdit4</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QLineEdit">
+                            <property name="name">
+                                <cstring>SearchEdit</cstring>
+                            </property>
+                        </widget>
+                    </hbox>
+                </widget>
+                <widget class="QLayoutWidget">
+                    <property name="name">
+                        <cstring>layout16</cstring>
+                    </property>
+                    <hbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QCheckBox">
+                            <property name="name">
+                                <cstring>CaseCheckBox</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Case sensitive search</string>
+                            </property>
+                        </widget>
+                        <widget class="QCheckBox">
+                            <property name="name">
+                                <cstring>WholeWordCheckBox</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Match whole words only</string>
+                            </property>
+                        </widget>
+                    </hbox>
+                </widget>
+            </vbox>
+        </widget>
+        <widget class="QGroupBox">
+            <property name="name">
+                <cstring>WhereBox</cstring>
+            </property>
+            <property name="title">
+                <string>Where to search for it</string>
+            </property>
+            <grid>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QCheckBox" row="0" column="0">
+                    <property name="name">
+                        <cstring>SearchHelpCheckBox</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Search help documents</string>
+                    </property>
+                    <property name="checked">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QCheckBox" row="1" column="0">
+                    <property name="name">
+                        <cstring>SearchSheetsCheckBox</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Search all sheets</string>
+                    </property>
+                </widget>
+                <widget class="QCheckBox" row="0" column="1">
+                    <property name="name">
+                        <cstring>SearchInfoCheckBox</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Search group information documents</string>
+                    </property>
+                </widget>
+                <widget class="QCheckBox" row="1" column="1">
+                    <property name="name">
+                        <cstring>SearchOpenCheckBox</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Search all open windows</string>
+                    </property>
+                </widget>
+            </grid>
+        </widget>
+        <widget class="QGroupBox">
+            <property name="name">
+                <cstring>ResultsBox</cstring>
+            </property>
+            <property name="sizePolicy">
+                <sizepolicy>
+                    <hsizetype>5</hsizetype>
+                    <vsizetype>7</vsizetype>
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                </sizepolicy>
+            </property>
+            <property name="title">
+                <string>Search results</string>
+            </property>
+        </widget>
+        <widget class="QLayoutWidget">
+            <property name="name">
+                <cstring>layout17</cstring>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <spacer>
+                    <property name="name">
+                        <cstring>spacer9</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>201</width>
+                            <height>31</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>SearchButton</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Search</string>
+                    </property>
+                </widget>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>CloseButton</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Close</string>
+                    </property>
+                </widget>
+            </hbox>
+        </widget>
+    </vbox>
+</widget>
+<connections>
+    <connection>
+        <sender>CloseButton</sender>
+        <signal>clicked()</signal>
+        <receiver>SearchDialog</receiver>
+        <slot>close()</slot>
+    </connection>
+    <connection>
+        <sender>SearchButton</sender>
+        <signal>clicked()</signal>
+        <receiver>SearchDialog</receiver>
+        <slot>search()</slot>
+    </connection>
+</connections>
+<includes>
+    <include location="global" impldecl="in implementation">qlayout.h</include>
+    <include location="global" impldecl="in implementation">myutils.h</include>
+    <include location="global" impldecl="in implementation">qregexp.h</include>
+    <include location="global" impldecl="in implementation">qstringlist.h</include>
+    <include location="global" impldecl="in implementation">qfile.h</include>
+    <include location="global" impldecl="in implementation">qfileinfo.h</include>
+    <include location="local" impldecl="in declaration">gehelpbrowser.h</include>
+    <include location="global" impldecl="in declaration">qprogressdialog.h</include>
+    <include location="local" impldecl="in declaration">groupfile.h</include>
+    <include location="local" impldecl="in implementation">searchdialog.ui.h</include>
+    <include location="local" impldecl="in implementation">gesheet.h</include>
+    <include location="global" impldecl="in implementation">qapplication.h</include>
+    <include location="global" impldecl="in implementation">qwidgetlist.h</include>
+    <include location="local" impldecl="in implementation">gehelpwindow.h</include>
+    <include location="local" impldecl="in implementation">gesheetwindow.h</include>
+</includes>
+<variables>
+    <variable access="private">GEHelpBrowser* browser;</variable>
+</variables>
+<signals>
+    <signal>actionRequested(QStringList,QWidget*)</signal>
+    <signal>requestNumGroups(uint&amp;)</signal>
+    <signal>requestGroupInfo(uint,QString&amp;,QString&amp;)</signal>
+    <signal>requestSheetPaths(QStringList&amp;)</signal>
+</signals>
+<slots>
+    <slot access="private">search()</slot>
+    <slot>getReady()</slot>
+    <slot>getReadyForHelp()</slot>
+    <slot access="private">resultsActionRequested( QStringList parameters )</slot>
+    <slot>searchHTML( QString html, QString link, QString defaultTitle, QStringList &amp; result )</slot>
+</slots>
+<functions>
+    <function access="private" specifier="non virtual">init()</function>
+    <function returnType="QString">resultToList( QStringList result )</function>
+    <function returnType="QString">searchHelpDocuments( QProgressDialog * progress )</function>
+    <function returnType="QString">searchGroupInformation( QProgressDialog * progress )</function>
+    <function returnType="QString">searchAllSheets( QProgressDialog * progress )</function>
+    <function returnType="QString">searchAllOpenWindows( QProgressDialog * progress )</function>
+</functions>
+<pixmapinproject/>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>

@@ -1,0 +1,610 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>PreferencesDialog</class>
+<widget class="QDialog">
+    <property name="name">
+        <cstring>PreferencesDialog</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>719</width>
+            <height>771</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>Preferences</string>
+    </property>
+    <vbox>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <widget class="QTabWidget">
+            <property name="name">
+                <cstring>Tabs</cstring>
+            </property>
+            <widget class="QWidget">
+                <property name="name">
+                    <cstring>FilesTab</cstring>
+                </property>
+                <attribute name="title">
+                    <string>Files</string>
+                </attribute>
+                <vbox>
+                    <property name="name">
+                        <cstring>unnamed</cstring>
+                    </property>
+                    <widget class="QGroupBox">
+                        <property name="name">
+                            <cstring>GroupFilesBox</cstring>
+                        </property>
+                        <property name="title">
+                            <string>Group search paths</string>
+                        </property>
+                        <vbox>
+                            <property name="name">
+                                <cstring>unnamed</cstring>
+                            </property>
+                            <widget class="QLabel">
+                                <property name="name">
+                                    <cstring>GroupFilesIntroLabel</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>When Group Explorer starts up, it looks for &lt;tt&gt;.group&lt;/tt&gt; files in the following paths:</string>
+                                </property>
+                            </widget>
+                            <widget class="QLayoutWidget">
+                                <property name="name">
+                                    <cstring>layout4</cstring>
+                                </property>
+                                <hbox>
+                                    <property name="name">
+                                        <cstring>unnamed</cstring>
+                                    </property>
+                                    <widget class="QListBox">
+                                        <item>
+                                            <property name="text">
+                                                <string>New Item</string>
+                                            </property>
+                                        </item>
+                                        <property name="name">
+                                            <cstring>GroupPathsList</cstring>
+                                        </property>
+                                    </widget>
+                                    <widget class="QLayoutWidget">
+                                        <property name="name">
+                                            <cstring>layout3</cstring>
+                                        </property>
+                                        <vbox>
+                                            <property name="name">
+                                                <cstring>unnamed</cstring>
+                                            </property>
+                                            <widget class="QPushButton">
+                                                <property name="name">
+                                                    <cstring>AddGroupPathButton</cstring>
+                                                </property>
+                                                <property name="text">
+                                                    <string>Add group path</string>
+                                                </property>
+                                            </widget>
+                                            <widget class="QPushButton">
+                                                <property name="name">
+                                                    <cstring>DelGroupPathButton</cstring>
+                                                </property>
+                                                <property name="enabled">
+                                                    <bool>false</bool>
+                                                </property>
+                                                <property name="text">
+                                                    <string>Remove group path</string>
+                                                </property>
+                                            </widget>
+                                            <spacer>
+                                                <property name="name">
+                                                    <cstring>spacer2</cstring>
+                                                </property>
+                                                <property name="orientation">
+                                                    <enum>Vertical</enum>
+                                                </property>
+                                                <property name="sizeType">
+                                                    <enum>Expanding</enum>
+                                                </property>
+                                                <property name="sizeHint">
+                                                    <size>
+                                                        <width>20</width>
+                                                        <height>51</height>
+                                                    </size>
+                                                </property>
+                                            </spacer>
+                                        </vbox>
+                                    </widget>
+                                </hbox>
+                            </widget>
+                        </vbox>
+                    </widget>
+                    <widget class="QGroupBox">
+                        <property name="name">
+                            <cstring>SheetFilesBox</cstring>
+                        </property>
+                        <property name="title">
+                            <string>Sheet search paths</string>
+                        </property>
+                        <vbox>
+                            <property name="name">
+                                <cstring>unnamed</cstring>
+                            </property>
+                            <widget class="QLabel">
+                                <property name="name">
+                                    <cstring>SheetFilesIntroLabel</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>When Group Explorer starts up, it looks for &lt;tt&gt;.sheet&lt;/tt&gt; files in the following paths:</string>
+                                </property>
+                            </widget>
+                            <widget class="QLayoutWidget">
+                                <property name="name">
+                                    <cstring>layout5</cstring>
+                                </property>
+                                <hbox>
+                                    <property name="name">
+                                        <cstring>unnamed</cstring>
+                                    </property>
+                                    <widget class="QListBox">
+                                        <item>
+                                            <property name="text">
+                                                <string>New Item</string>
+                                            </property>
+                                        </item>
+                                        <property name="name">
+                                            <cstring>SheetPathsList</cstring>
+                                        </property>
+                                    </widget>
+                                    <widget class="QLayoutWidget">
+                                        <property name="name">
+                                            <cstring>layout2</cstring>
+                                        </property>
+                                        <vbox>
+                                            <property name="name">
+                                                <cstring>unnamed</cstring>
+                                            </property>
+                                            <widget class="QPushButton">
+                                                <property name="name">
+                                                    <cstring>AddSheetPathButton</cstring>
+                                                </property>
+                                                <property name="text">
+                                                    <string>Add sheet path</string>
+                                                </property>
+                                            </widget>
+                                            <widget class="QPushButton">
+                                                <property name="name">
+                                                    <cstring>DelSheetPathButton</cstring>
+                                                </property>
+                                                <property name="enabled">
+                                                    <bool>false</bool>
+                                                </property>
+                                                <property name="text">
+                                                    <string>Remove sheet path</string>
+                                                </property>
+                                            </widget>
+                                            <spacer>
+                                                <property name="name">
+                                                    <cstring>spacer2_2</cstring>
+                                                </property>
+                                                <property name="orientation">
+                                                    <enum>Vertical</enum>
+                                                </property>
+                                                <property name="sizeType">
+                                                    <enum>Expanding</enum>
+                                                </property>
+                                                <property name="sizeHint">
+                                                    <size>
+                                                        <width>20</width>
+                                                        <height>51</height>
+                                                    </size>
+                                                </property>
+                                            </spacer>
+                                        </vbox>
+                                    </widget>
+                                </hbox>
+                            </widget>
+                        </vbox>
+                    </widget>
+                </vbox>
+            </widget>
+            <widget class="QWidget">
+                <property name="name">
+                    <cstring>TabPage</cstring>
+                </property>
+                <attribute name="title">
+                    <string>Other data</string>
+                </attribute>
+                <vbox>
+                    <property name="name">
+                        <cstring>unnamed</cstring>
+                    </property>
+                    <widget class="QGroupBox">
+                        <property name="name">
+                            <cstring>UserInfoBox</cstring>
+                        </property>
+                        <property name="title">
+                            <string>User information</string>
+                        </property>
+                        <grid>
+                            <property name="name">
+                                <cstring>unnamed</cstring>
+                            </property>
+                            <widget class="QLineEdit" row="0" column="1">
+                                <property name="name">
+                                    <cstring>UserNameEdit</cstring>
+                                </property>
+                            </widget>
+                            <widget class="QLabel" row="0" column="0">
+                                <property name="name">
+                                    <cstring>UserNameLabel</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>Name:</string>
+                                </property>
+                                <property name="alignment">
+                                    <set>AlignVCenter|AlignRight</set>
+                                </property>
+                            </widget>
+                            <widget class="QLabel" row="1" column="0">
+                                <property name="name">
+                                    <cstring>UserEmailLabel</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>Email address:</string>
+                                </property>
+                                <property name="alignment">
+                                    <set>AlignVCenter|AlignRight</set>
+                                </property>
+                            </widget>
+                            <widget class="QLineEdit" row="1" column="1">
+                                <property name="name">
+                                    <cstring>UserEmailEdit</cstring>
+                                </property>
+                            </widget>
+                        </grid>
+                    </widget>
+                    <widget class="QGroupBox">
+                        <property name="name">
+                            <cstring>OtherInfoBox</cstring>
+                        </property>
+                        <property name="title">
+                            <string>Startup limitations</string>
+                        </property>
+                        <hbox>
+                            <property name="name">
+                                <cstring>unnamed</cstring>
+                            </property>
+                            <widget class="QLayoutWidget">
+                                <property name="name">
+                                    <cstring>layout6</cstring>
+                                </property>
+                                <grid>
+                                    <property name="name">
+                                        <cstring>unnamed</cstring>
+                                    </property>
+                                    <widget class="QCheckBox" row="1" column="0">
+                                        <property name="name">
+                                            <cstring>OrderCheckBox</cstring>
+                                        </property>
+                                        <property name="text">
+                                            <string>Maximum group order:</string>
+                                        </property>
+                                    </widget>
+                                    <widget class="QSpinBox" row="0" column="1">
+                                        <property name="name">
+                                            <cstring>BytesSpinBox</cstring>
+                                        </property>
+                                        <property name="minimumSize">
+                                            <size>
+                                                <width>100</width>
+                                                <height>0</height>
+                                            </size>
+                                        </property>
+                                        <property name="suffix">
+                                            <string> kB</string>
+                                        </property>
+                                        <property name="maxValue">
+                                            <number>5000</number>
+                                        </property>
+                                        <property name="minValue">
+                                            <number>10</number>
+                                        </property>
+                                        <property name="lineStep">
+                                            <number>10</number>
+                                        </property>
+                                        <property name="value">
+                                            <number>100</number>
+                                        </property>
+                                    </widget>
+                                    <widget class="QLabel" row="0" column="0">
+                                        <property name="name">
+                                            <cstring>BytesLabel</cstring>
+                                        </property>
+                                        <property name="text">
+                                            <string>Maximum group file size:</string>
+                                        </property>
+                                        <property name="alignment">
+                                            <set>AlignVCenter|AlignRight</set>
+                                        </property>
+                                    </widget>
+                                    <widget class="QSpinBox" row="1" column="1">
+                                        <property name="name">
+                                            <cstring>OrderSpinBox</cstring>
+                                        </property>
+                                        <property name="minimumSize">
+                                            <size>
+                                                <width>100</width>
+                                                <height>0</height>
+                                            </size>
+                                        </property>
+                                        <property name="suffix">
+                                            <string> elts</string>
+                                        </property>
+                                        <property name="maxValue">
+                                            <number>200</number>
+                                        </property>
+                                        <property name="minValue">
+                                            <number>10</number>
+                                        </property>
+                                        <property name="lineStep">
+                                            <number>10</number>
+                                        </property>
+                                        <property name="value">
+                                            <number>20</number>
+                                        </property>
+                                    </widget>
+                                </grid>
+                            </widget>
+                            <spacer>
+                                <property name="name">
+                                    <cstring>spacer8</cstring>
+                                </property>
+                                <property name="orientation">
+                                    <enum>Horizontal</enum>
+                                </property>
+                                <property name="sizeType">
+                                    <enum>Expanding</enum>
+                                </property>
+                                <property name="sizeHint">
+                                    <size>
+                                        <width>300</width>
+                                        <height>21</height>
+                                    </size>
+                                </property>
+                            </spacer>
+                        </hbox>
+                    </widget>
+                    <spacer>
+                        <property name="name">
+                            <cstring>spacer7</cstring>
+                        </property>
+                        <property name="orientation">
+                            <enum>Vertical</enum>
+                        </property>
+                        <property name="sizeType">
+                            <enum>Expanding</enum>
+                        </property>
+                        <property name="sizeHint">
+                            <size>
+                                <width>31</width>
+                                <height>360</height>
+                            </size>
+                        </property>
+                    </spacer>
+                </vbox>
+            </widget>
+        </widget>
+        <widget class="QLayoutWidget">
+            <property name="name">
+                <cstring>layout1</cstring>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <spacer>
+                    <property name="name">
+                        <cstring>spacer1</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>415</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>OKButton</cstring>
+                    </property>
+                    <property name="text">
+                        <string>OK</string>
+                    </property>
+                    <property name="default">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>CancelButton</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Cancel</string>
+                    </property>
+                </widget>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>ApplyButton</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Apply</string>
+                    </property>
+                </widget>
+            </hbox>
+        </widget>
+    </vbox>
+</widget>
+<connections>
+    <connection>
+        <sender>OKButton</sender>
+        <signal>clicked()</signal>
+        <receiver>PreferencesDialog</receiver>
+        <slot>OKButton_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>CancelButton</sender>
+        <signal>clicked()</signal>
+        <receiver>PreferencesDialog</receiver>
+        <slot>CancelButton_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>ApplyButton</sender>
+        <signal>clicked()</signal>
+        <receiver>PreferencesDialog</receiver>
+        <slot>ApplyButton_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>AddGroupPathButton</sender>
+        <signal>clicked()</signal>
+        <receiver>PreferencesDialog</receiver>
+        <slot>AddGroupPathButton_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>AddSheetPathButton</sender>
+        <signal>clicked()</signal>
+        <receiver>PreferencesDialog</receiver>
+        <slot>AddSheetPathButton_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>DelGroupPathButton</sender>
+        <signal>clicked()</signal>
+        <receiver>PreferencesDialog</receiver>
+        <slot>DelGroupPathButton_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>DelSheetPathButton</sender>
+        <signal>clicked()</signal>
+        <receiver>PreferencesDialog</receiver>
+        <slot>DelSheetPathButton_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>SheetPathsList</sender>
+        <signal>highlighted(int)</signal>
+        <receiver>PreferencesDialog</receiver>
+        <slot>SheetPathsList_highlighted(int)</slot>
+    </connection>
+    <connection>
+        <sender>GroupPathsList</sender>
+        <signal>highlighted(int)</signal>
+        <receiver>PreferencesDialog</receiver>
+        <slot>GroupPathsList_highlighted(int)</slot>
+    </connection>
+    <connection>
+        <sender>UserEmailEdit</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>PreferencesDialog</receiver>
+        <slot>markOtherDataDirty()</slot>
+    </connection>
+    <connection>
+        <sender>UserNameEdit</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>PreferencesDialog</receiver>
+        <slot>markOtherDataDirty()</slot>
+    </connection>
+    <connection>
+        <sender>BytesSpinBox</sender>
+        <signal>valueChanged(int)</signal>
+        <receiver>PreferencesDialog</receiver>
+        <slot>markOtherDataDirty()</slot>
+    </connection>
+    <connection>
+        <sender>OrderCheckBox</sender>
+        <signal>toggled(bool)</signal>
+        <receiver>OrderSpinBox</receiver>
+        <slot>setEnabled(bool)</slot>
+    </connection>
+    <connection>
+        <sender>OrderCheckBox</sender>
+        <signal>toggled(bool)</signal>
+        <receiver>PreferencesDialog</receiver>
+        <slot>markOtherDataDirty()</slot>
+    </connection>
+    <connection>
+        <sender>OrderSpinBox</sender>
+        <signal>valueChanged(int)</signal>
+        <receiver>PreferencesDialog</receiver>
+        <slot>markOtherDataDirty()</slot>
+    </connection>
+</connections>
+<tabstops>
+    <tabstop>Tabs</tabstop>
+    <tabstop>GroupPathsList</tabstop>
+    <tabstop>AddGroupPathButton</tabstop>
+    <tabstop>DelGroupPathButton</tabstop>
+    <tabstop>SheetPathsList</tabstop>
+    <tabstop>AddSheetPathButton</tabstop>
+    <tabstop>DelSheetPathButton</tabstop>
+    <tabstop>OKButton</tabstop>
+    <tabstop>CancelButton</tabstop>
+    <tabstop>ApplyButton</tabstop>
+    <tabstop>UserNameEdit</tabstop>
+    <tabstop>UserEmailEdit</tabstop>
+    <tabstop>OrderCheckBox</tabstop>
+    <tabstop>BytesSpinBox</tabstop>
+    <tabstop>OrderSpinBox</tabstop>
+</tabstops>
+<includes>
+    <include location="global" impldecl="in declaration">gepreferences.h</include>
+    <include location="global" impldecl="in declaration">qvaluelist.h</include>
+    <include location="global" impldecl="in implementation">qfiledialog.h</include>
+    <include location="global" impldecl="in implementation">qfileinfo.h</include>
+    <include location="local" impldecl="in implementation">preferencesdialog.ui.h</include>
+    <include location="local" impldecl="in implementation">myutils.h</include>
+</includes>
+<variables>
+    <variable access="private">bool prefGroupEmittable[NumPGs];</variable>
+    <variable access="private">GEPreferences* lastPrefs;</variable>
+    <variable access="public">static uint const PGFiles = 0;</variable>
+    <variable access="public">static uint const NumPGs = 2;</variable>
+    <variable access="private">bool prefGroupDirty[NumPGs];</variable>
+    <variable access="private">GEPreferences* oldPrefs;</variable>
+    <variable access="public">static uint const PGOther = 1;</variable>
+</variables>
+<signals>
+    <signal>preferencesChanged(QValueList&lt;uint&gt;)</signal>
+</signals>
+<slots>
+    <slot>niceShow()</slot>
+    <slot>ApplyButton_clicked()</slot>
+    <slot>readPreferences( GEPreferences * p )</slot>
+    <slot>writePreferences( GEPreferences * p )</slot>
+    <slot>CancelButton_clicked()</slot>
+    <slot>OKButton_clicked()</slot>
+    <slot>AddGroupPathButton_clicked()</slot>
+    <slot>AddSheetPathButton_clicked()</slot>
+    <slot>DelGroupPathButton_clicked()</slot>
+    <slot>DelSheetPathButton_clicked()</slot>
+    <slot>SheetPathsList_highlighted( int i )</slot>
+    <slot>GroupPathsList_highlighted( int i )</slot>
+    <slot>markOtherDataDirty()</slot>
+</slots>
+<functions>
+    <function access="private" specifier="non virtual">init()</function>
+    <function access="private" specifier="non virtual">destroy()</function>
+    <function specifier="non virtual">rereadPreferences()</function>
+    <function specifier="non virtual">rewritePreferences()</function>
+    <function returnType="GEPreferences *">oldPreferences()</function>
+    <function>applyPreferences()</function>
+</functions>
+<pixmapinproject/>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>

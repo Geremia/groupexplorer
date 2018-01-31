@@ -1,0 +1,229 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>GEVLarge</class>
+<widget class="QMainWindow">
+    <property name="name">
+        <cstring>GEVLarge</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>719</width>
+            <height>771</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>Large Visualizer</string>
+    </property>
+</widget>
+<menubar>
+    <property name="name">
+        <cstring>MenuBar</cstring>
+    </property>
+    <item text="&amp;File" name="fileMenu">
+        <action name="fileSaveAction"/>
+        <action name="filePrintAction"/>
+        <action name="fileCloseAction"/>
+    </item>
+    <item text="&amp;Edit" name="editMenu">
+    </item>
+    <item text="&amp;Help" name="helpMenu">
+        <action name="helpManualAction"/>
+        <action name="helpTutorialsAction"/>
+    </item>
+</menubar>
+<actions>
+    <action>
+        <property name="name">
+            <cstring>fileSaveAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset>filesave.png</iconset>
+        </property>
+        <property name="text">
+            <string>Save</string>
+        </property>
+        <property name="menuText">
+            <string>&amp;Save</string>
+        </property>
+        <property name="accel">
+            <string>Ctrl+S</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>filePrintAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset>print.png</iconset>
+        </property>
+        <property name="text">
+            <string>Print</string>
+        </property>
+        <property name="menuText">
+            <string>&amp;Print...</string>
+        </property>
+        <property name="accel">
+            <string>Ctrl+P</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>fileCloseAction</cstring>
+        </property>
+        <property name="text">
+            <string>Close</string>
+        </property>
+        <property name="menuText">
+            <string>&amp;Close</string>
+        </property>
+        <property name="accel">
+            <string>Ctrl+W</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>helpManualAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset>helpdocs.png</iconset>
+        </property>
+        <property name="text">
+            <string>User Manual</string>
+        </property>
+        <property name="menuText">
+            <string>&amp;User Manual</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>helpTutorialsAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset>tutorials.png</iconset>
+        </property>
+        <property name="text">
+            <string>Tutorials</string>
+        </property>
+        <property name="menuText">
+            <string>&amp;Tutorials</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>ideasAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset>idea.png</iconset>
+        </property>
+        <property name="text">
+            <string>Ideas</string>
+        </property>
+        <property name="toolTip">
+            <string>Ideas about this visualizer</string>
+        </property>
+    </action>
+</actions>
+<connections>
+    <connection>
+        <sender>fileSaveAction</sender>
+        <signal>activated()</signal>
+        <receiver>GEVLarge</receiver>
+        <slot>fileSave()</slot>
+    </connection>
+    <connection>
+        <sender>filePrintAction</sender>
+        <signal>activated()</signal>
+        <receiver>GEVLarge</receiver>
+        <slot>filePrint()</slot>
+    </connection>
+    <connection>
+        <sender>ideasAction</sender>
+        <signal>activated()</signal>
+        <receiver>GEVLarge</receiver>
+        <slot>ideasPushed()</slot>
+    </connection>
+    <connection>
+        <sender>fileCloseAction</sender>
+        <signal>activated()</signal>
+        <receiver>GEVLarge</receiver>
+        <slot>fileExit()</slot>
+    </connection>
+    <connection>
+        <sender>helpManualAction</sender>
+        <signal>activated()</signal>
+        <receiver>GEVLarge</receiver>
+        <slot>helpManualAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>helpTutorialsAction</sender>
+        <signal>activated()</signal>
+        <receiver>GEVLarge</receiver>
+        <slot>helpTutorialsAction_activated()</slot>
+    </connection>
+</connections>
+<includes>
+    <include location="global" impldecl="in implementation">qstatusbar.h</include>
+    <include location="global" impldecl="in implementation">qptrlist.h</include>
+    <include location="global" impldecl="in implementation">QUndoStack</include>
+    <include location="local" impldecl="in declaration">gevisualizer.h</include>
+    <include location="global" impldecl="in declaration">qsplitter.h</include>
+    <include location="global" impldecl="in declaration">qptrlist.h</include>
+    <include location="local" impldecl="in declaration">groupfile.h</include>
+    <include location="local" impldecl="in implementation">saveimagesettings.h</include>
+    <include location="local" impldecl="in implementation">printimagesettings.h</include>
+    <include location="global" impldecl="in implementation">myutils.h</include>
+    <include location="local" impldecl="in implementation">gehelpwindow.h</include>
+    <include location="local" impldecl="in implementation">idealist.h</include>
+    <include location="local" impldecl="in implementation">linkcommandlist.h</include>
+    <include location="local" impldecl="in implementation">gewhatsthis.h</include>
+</includes>
+<forwards>
+    <forward>class GECanvasMorphism;</forward>
+</forwards>
+<variables>
+    <variable access="protected">QSplitter* splitter;</variable>
+    <variable access="private">QUndoStack* undoStack;</variable>
+    <variable access="private">bool isIndependent;</variable>
+    <variable access="private">GEVLargeWidget* view;</variable>
+    <variable access="private">GEVLargeWidget* control;</variable>
+    <variable access="private">QHBoxLayout* centralLayout;</variable>
+    <variable access="private">QString typeName;</variable>
+    <variable access="private">QPtrList&lt;GEVLargeWidget&gt; largeWidgets;</variable>
+    <variable access="private">Q_TOOLBAR* toolBar;</variable>
+    <variable access="public">GEVisualizer* visualizer;</variable>
+</variables>
+<signals>
+    <signal>changed(QString key,QString value,QString desc)</signal>
+    <signal>reset()</signal>
+    <signal>childChanged(QString key,QString value,QString desc)</signal>
+    <signal>groupFileChanged(GroupFile* gf)</signal>
+    <signal>getAllMorphismsToMe(QPtrList&lt;GECanvasMorphism&gt;&amp; list)</signal>
+    <signal>getAllMorphismsFromMe(QPtrList&lt;GECanvasMorphism&gt;&amp; list)</signal>
+    <signal>suggestComputedSubset(GEltList elts,QString computationDescription)</signal>
+</signals>
+<slots>
+    <slot>fileSave()</slot>
+    <slot>filePrint()</slot>
+    <slot>fileExit()</slot>
+    <slot>editCopy()</slot>
+    <slot>ideasPushed()</slot>
+    <slot>helpManualAction_activated()</slot>
+    <slot>helpTutorialsAction_activated()</slot>
+    <slot>processChange( QString key, QString value, QString desc )</slot>
+    <slot>vizGroupFileChanged( GroupFile * gf )</slot>
+</slots>
+<functions>
+    <function access="private" specifier="non virtual">init()</function>
+    <function returnType="QPixmap">currentPixmap()</function>
+    <function>setIndependent( bool i )</function>
+    <function access="protected">closeEvent( QCloseEvent * e )</function>
+    <function>addLargeWidget( GEVLargeWidget * w, bool expanding )</function>
+    <function>pushUndoCommand( QUndoCommand * cmd )</function>
+    <function>setTypeName( QString n )</function>
+    <function returnType="QStringList">keys()</function>
+    <function returnType="QPoint">elementLocationPercent( GElt )</function>
+</functions>
+<pixmapinproject/>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>

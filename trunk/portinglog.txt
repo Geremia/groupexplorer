@@ -1,0 +1,838 @@
+Log for qt3to4 on Wed Oct 1 20:52:02 2008. Number of log entries: 796
+In file /Users/nathan/Development/GE-toQt4/src/group.cpp at line 592 column 13: QMemArray -> Q3MemArray
+In file /Users/nathan/Development/GE-toQt4/src/group.cpp: Added the following include directives:
+	#include <Q3MemArray> 
+In file /Users/nathan/Development/GE-toQt4/src/groupfile.cpp at line 59 column 21: qstylesheet.h -> q3stylesheet.h
+In file /Users/nathan/Development/GE-toQt4/src/groupfile.cpp at line 547 column 20: QValueList -> Q3ValueList
+In file /Users/nathan/Development/GE-toQt4/src/groupfile.cpp at line 549 column 14: QValueList -> Q3ValueList
+In file /Users/nathan/Development/GE-toQt4/src/groupfile.cpp at line 550 column 20: QValueList -> Q3ValueList
+In file /Users/nathan/Development/GE-toQt4/src/groupfile.cpp at line 570 column 37: IO_ReadOnly -> QIODevice::ReadOnly
+In file /Users/nathan/Development/GE-toQt4/src/groupfile.cpp at line 607 column 38: IO_WriteOnly -> QIODevice::WriteOnly
+In file /Users/nathan/Development/GE-toQt4/src/groupfile.cpp at line 616 column 15: QTextStream -> Q3TextStream
+In file /Users/nathan/Development/GE-toQt4/src/groupfile.cpp at line 741 column 38: QStyleSheet -> Q3StyleSheet
+In file /Users/nathan/Development/GE-toQt4/src/groupfile.cpp at line 874 column 29: QStyleSheet -> Q3StyleSheet
+In file /Users/nathan/Development/GE-toQt4/src/groupfile.cpp at line 877 column 29: QStyleSheet -> Q3StyleSheet
+In file /Users/nathan/Development/GE-toQt4/src/groupfile.cpp at line 880 column 29: QStyleSheet -> Q3StyleSheet
+In file /Users/nathan/Development/GE-toQt4/src/groupfile.cpp at line 883 column 29: QStyleSheet -> Q3StyleSheet
+In file /Users/nathan/Development/GE-toQt4/src/groupfile.cpp: Added the following include directives:
+	#include <Q3TextStream> 	#include <Q3ValueList> 
+No changes made to file /Users/nathan/Development/GE-toQt4/src/main.cpp
+In file /Users/nathan/Development/GE-toQt4/src/geml.cpp at line 49 column 21: qtextstream.h -> q3textstream.h
+In file /Users/nathan/Development/GE-toQt4/src/geml.cpp at line 102 column 15: QTextStream -> Q3TextStream
+In file /Users/nathan/Development/GE-toQt4/src/geml.cpp at line 102 column 40: IO_WriteOnly -> QIODevice::WriteOnly
+In file /Users/nathan/Development/GE-toQt4/src/mathtableitem.cpp at line 47 column 29: qsimplerichtext.h -> q3simplerichtext.h
+In file /Users/nathan/Development/GE-toQt4/src/mathtableitem.cpp at line 47 column 188: QTable -> Q3Table
+In file /Users/nathan/Development/GE-toQt4/src/mathtableitem.cpp at line 47 column 242: QTableItem -> Q3TableItem
+In file /Users/nathan/Development/GE-toQt4/src/mathtableitem.cpp at line 47 column 410: QTable -> Q3Table
+In file /Users/nathan/Development/GE-toQt4/src/mathtableitem.cpp at line 47 column 478: QTableItem -> Q3TableItem
+In file /Users/nathan/Development/GE-toQt4/src/mathtableitem.cpp at line 47 column 659: QTable -> Q3Table
+In file /Users/nathan/Development/GE-toQt4/src/mathtableitem.cpp at line 47 column 728: QTableItem -> Q3TableItem
+In file /Users/nathan/Development/GE-toQt4/src/mathtableitem.cpp at line 47 column 942: QTable -> Q3Table
+In file /Users/nathan/Development/GE-toQt4/src/mathtableitem.cpp at line 47 column 1007: QTableItem -> Q3TableItem
+In file /Users/nathan/Development/GE-toQt4/src/mathtableitem.cpp at line 47 column 1412: QTable -> Q3Table
+In file /Users/nathan/Development/GE-toQt4/src/mathtableitem.cpp at line 47 column 1488: QTableItem -> Q3TableItem
+In file /Users/nathan/Development/GE-toQt4/src/mathtableitem.cpp at line 47 column 1672: QSimpleRichText -> Q3SimpleRichText
+In file /Users/nathan/Development/GE-toQt4/src/mathtableitem.cpp at line 47 column 2875: QTableItem -> Q3TableItem
+In file /Users/nathan/Development/GE-toQt4/src/mathtableitem.cpp at line 47 column 3118: QTableItem -> Q3TableItem
+In file /Users/nathan/Development/GE-toQt4/src/mathtableitem.cpp: Added the following include directives:
+	#include <QPixmap> 
+In file /Users/nathan/Development/GE-toQt4/src/mathtext.cpp at line 49 column 21: qstylesheet.h -> q3stylesheet.h
+In file /Users/nathan/Development/GE-toQt4/src/mathtext.cpp at line 110 column 26: QStyleSheet -> Q3StyleSheet
+In file /Users/nathan/Development/GE-toQt4/src/mathtext.cpp at line 114 column 49: QStyleSheet -> Q3StyleSheet
+In file /Users/nathan/Development/GE-toQt4/src/mathtext.cpp at line 120 column 52: QStyleSheet -> Q3StyleSheet
+In file /Users/nathan/Development/GE-toQt4/src/mathtext.cpp at line 139 column 26: QStyleSheet -> Q3StyleSheet
+In file /Users/nathan/Development/GE-toQt4/src/mathtext.cpp at line 140 column 44: QStyleSheet -> Q3StyleSheet
+In file /Users/nathan/Development/GE-toQt4/src/mathtext.cpp at line 141 column 29: QStyleSheet -> Q3StyleSheet
+In file /Users/nathan/Development/GE-toQt4/src/mathtext.cpp at line 183 column 59: QStyleSheet -> Q3StyleSheet
+In file /Users/nathan/Development/GE-toQt4/src/idealist.cpp at line 53 column 21: qstylesheet.h -> q3stylesheet.h
+In file /Users/nathan/Development/GE-toQt4/src/idealist.cpp at line 62 column 8: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/idealist.cpp at line 66 column 19: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/idealist.cpp at line 67 column 24: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/idealist.cpp at line 872 column 17: QMemArray -> Q3MemArray
+In file /Users/nathan/Development/GE-toQt4/src/idealist.cpp: Added the following include directives:
+	#include <Q3PtrList> 	#include <Q3MemArray> 
+In file /Users/nathan/Development/GE-toQt4/src/grouptable.cpp at line 56 column 25: qprogressdialog.h -> q3progressdialog.h
+In file /Users/nathan/Development/GE-toQt4/src/grouptable.cpp at line 57 column 20: qpopupmenu.h -> q3popupmenu.h
+In file /Users/nathan/Development/GE-toQt4/src/grouptable.cpp at line 74 column 12: QTable -> Q3Table
+In file /Users/nathan/Development/GE-toQt4/src/grouptable.cpp at line 130 column 18: QPopupMenu -> Q3PopupMenu
+In file /Users/nathan/Development/GE-toQt4/src/grouptable.cpp at line 163 column 17: QTable -> Q3Table
+In file /Users/nathan/Development/GE-toQt4/src/grouptable.cpp at line 313 column 37: IO_ReadOnly -> QIODevice::ReadOnly
+In file /Users/nathan/Development/GE-toQt4/src/grouptable.cpp at line 426 column 19: QProgressDialog -> Q3ProgressDialog
+In file /Users/nathan/Development/GE-toQt4/src/grouptable.cpp at line 428 column 38: QProgressDialog -> Q3ProgressDialog
+In file /Users/nathan/Development/GE-toQt4/src/grouptable.cpp at line 504 column 34: QTableItem -> Q3TableItem
+In file /Users/nathan/Development/GE-toQt4/src/grouptable.cpp at line 653 column 10: QTable -> Q3Table
+In file /Users/nathan/Development/GE-toQt4/src/grouptable.cpp at line 682 column 10: QTable -> Q3Table
+In file /Users/nathan/Development/GE-toQt4/src/grouptable.cpp at line 688 column 10: QTable -> Q3Table
+In file /Users/nathan/Development/GE-toQt4/src/grouptable.cpp at line 786 column 14: QTableItem -> Q3TableItem
+In file /Users/nathan/Development/GE-toQt4/src/grouptable.cpp at line 787 column 43: QTableItem -> Q3TableItem
+In file /Users/nathan/Development/GE-toQt4/src/grouptable.cpp at line 816 column 10: QTable -> Q3Table
+In file /Users/nathan/Development/GE-toQt4/src/grouptable.cpp at line 820 column 63: Ascending -> Qt::AscendingOrder
+In file /Users/nathan/Development/GE-toQt4/src/grouptable.cpp at line 820 column 76: Descending -> Qt::DescendingOrder
+In file /Users/nathan/Development/GE-toQt4/src/grouptable.cpp at line 934 column 18: QPopupMenu -> Q3PopupMenu
+In file /Users/nathan/Development/GE-toQt4/src/grouptable.cpp at line 972 column 10: QTable -> Q3Table
+In file /Users/nathan/Development/GE-toQt4/src/grouptable.cpp at line 994 column 19: QTableSelection -> Q3TableSelection
+In file /Users/nathan/Development/GE-toQt4/src/grouptable.cpp: Added the following include directives:
+	#include <QContextMenuEvent> 	#include <QPixmap> 
+No changes made to file /Users/nathan/Development/GE-toQt4/src/gepreferences.cpp
+In file /Users/nathan/Development/GE-toQt4/src/gehelpbrowser.cpp at line 53 column 18: QTextBrowser -> Q3TextBrowser
+In file /Users/nathan/Development/GE-toQt4/src/gehelpbrowser.cpp at line 55 column 25: QMimeSourceFactory -> Q3MimeSourceFactory
+In file /Users/nathan/Development/GE-toQt4/src/gehelpbrowser.cpp at line 56 column 20: QMimeSourceFactory -> Q3MimeSourceFactory
+In file /Users/nathan/Development/GE-toQt4/src/gehelpbrowser.cpp at line 68 column 20: QTextBrowser -> Q3TextBrowser
+No changes made to file /Users/nathan/Development/GE-toQt4/src/linkcommand.cpp
+In file /Users/nathan/Development/GE-toQt4/src/linkcommandlist.cpp at line 61 column 21: qstylesheet.h -> q3stylesheet.h
+In file /Users/nathan/Development/GE-toQt4/src/linkcommandlist.cpp at line 689 column 12: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/linkcommandlist.cpp: Added the following include directives:
+	#include <Q3PtrList> 
+In file /Users/nathan/Development/GE-toQt4/src/mainwindowcmds.cpp at line 57 column 18: QValueList -> Q3ValueList
+In file /Users/nathan/Development/GE-toQt4/src/mainwindowcmds.cpp: Added the following include directives:
+	#include <Q3ValueList> 
+In file /Users/nathan/Development/GE-toQt4/src/gewhatsthis.cpp at line 55 column 16: QWhatsThis -> Q3WhatsThis
+In file /Users/nathan/Development/GE-toQt4/src/gewhatsthis.cpp at line 100 column 49: QListBox -> Q3ListBox
+In file /Users/nathan/Development/GE-toQt4/src/gewhatsthis.cpp at line 109 column 16: QListBoxItem -> Q3ListBoxItem
+In file /Users/nathan/Development/GE-toQt4/src/gevisualizer.cpp at line 48 column 210: qurl.h -> q3url.h
+In file /Users/nathan/Development/GE-toQt4/src/gevisualizer.cpp at line 48 column 492: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/gevisualizer.cpp at line 48 column 560: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/gevisualizer.cpp at line 48 column 8371: QSimpleRichText -> Q3SimpleRichText
+In file /Users/nathan/Development/GE-toQt4/src/gevisualizer.cpp at line 48 column 8790: QSimpleRichText -> Q3SimpleRichText
+In file /Users/nathan/Development/GE-toQt4/src/gevisualizer.cpp at line 48 column 9483: QSimpleRichText -> Q3SimpleRichText
+In file /Users/nathan/Development/GE-toQt4/src/gevisualizer.cpp at line 48 column 10244: QCanvasRectangle -> Q3CanvasRectangle
+In file /Users/nathan/Development/GE-toQt4/src/gevisualizer.cpp at line 48 column 10805: QCanvas -> Q3Canvas
+In file /Users/nathan/Development/GE-toQt4/src/gevisualizer.cpp at line 48 column 10835: QCanvasRectangle -> Q3CanvasRectangle
+In file /Users/nathan/Development/GE-toQt4/src/gevisualizer.cpp at line 48 column 15952: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/gevisualizer.cpp at line 48 column 16002: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gevisualizer.cpp at line 48 column 16058: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gevisualizer.cpp at line 48 column 16400: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/gevisualizer.cpp at line 48 column 16450: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gevisualizer.cpp at line 48 column 16506: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gevisualizer.cpp at line 48 column 17983: QWMatrix -> QMatrix
+In file /Users/nathan/Development/GE-toQt4/src/gevisualizer.cpp at line 48 column 18661: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/gevisualizer.cpp at line 48 column 18723: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/gevisualizer.cpp at line 48 column 21459: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/gevisualizer.cpp at line 48 column 21545: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/gevisualizer.cpp at line 48 column 21636: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/gevisualizer.cpp at line 48 column 21724: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/gevisualizer.cpp at line 48 column 23400: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/gevisualizer.cpp at line 48 column 23487: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/gevisualizer.cpp at line 48 column 23575: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/gevisualizer.cpp at line 48 column 23660: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/gevisualizer.cpp at line 48 column 25538: QUrl -> Q3Url
+In file /Users/nathan/Development/GE-toQt4/src/gevisualizer.cpp at line 48 column 25980: QUrl -> Q3Url
+In file /Users/nathan/Development/GE-toQt4/src/gevisualizer.cpp: Added the following include directives:
+	#include <Q3PtrList> 	#include <QPixmap> 
+In file /Users/nathan/Development/GE-toQt4/src/gevisualizerlist.cpp at line 47 column 2794: QMimeSourceFactory -> Q3MimeSourceFactory
+In file /Users/nathan/Development/GE-toQt4/src/gevisualizerlist.cpp at line 47 column 4871: QMimeSourceFactory -> Q3MimeSourceFactory
+In file /Users/nathan/Development/GE-toQt4/src/gevisualizerlist.cpp at line 47 column 5152: QSimpleRichText -> Q3SimpleRichText
+In file /Users/nathan/Development/GE-toQt4/src/gevisualizerlist.cpp at line 47 column 5528: QMimeSourceFactory -> Q3MimeSourceFactory
+In file /Users/nathan/Development/GE-toQt4/src/gevisualizerlist.cpp: Added the following include directives:
+	#include <QPixmap> 
+In file /Users/nathan/Development/GE-toQt4/src/multiplicationtable.cpp at line 50 column 202: qscrollview.h -> q3scrollview.h
+In file /Users/nathan/Development/GE-toQt4/src/multiplicationtable.cpp at line 50 column 281: qsimplerichtext.h -> q3simplerichtext.h
+In file /Users/nathan/Development/GE-toQt4/src/multiplicationtable.cpp at line 50 column 326: qvbox.h -> q3vbox.h
+In file /Users/nathan/Development/GE-toQt4/src/multiplicationtable.cpp at line 50 column 425: qbuttongroup.h -> q3buttongroup.h
+In file /Users/nathan/Development/GE-toQt4/src/multiplicationtable.cpp at line 50 column 594: qdragobject.h -> q3dragobject.h
+In file /Users/nathan/Development/GE-toQt4/src/multiplicationtable.cpp at line 50 column 815: QHBoxLayout -> Q3HBoxLayout
+In file /Users/nathan/Development/GE-toQt4/src/multiplicationtable.cpp at line 50 column 841: QHBoxLayout -> Q3HBoxLayout
+In file /Users/nathan/Development/GE-toQt4/src/multiplicationtable.cpp at line 50 column 867: QScrollView -> Q3ScrollView
+In file /Users/nathan/Development/GE-toQt4/src/multiplicationtable.cpp at line 50 column 889: QScrollView -> Q3ScrollView
+In file /Users/nathan/Development/GE-toQt4/src/multiplicationtable.cpp at line 50 column 13274: QPointArray -> Q3PointArray
+In file /Users/nathan/Development/GE-toQt4/src/multiplicationtable.cpp at line 50 column 17977: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/multiplicationtable.cpp at line 50 column 18035: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/multiplicationtable.cpp at line 50 column 18091: QIconSet -> QIcon
+In file /Users/nathan/Development/GE-toQt4/src/multiplicationtable.cpp at line 50 column 18323: QIconSet -> QIcon
+In file /Users/nathan/Development/GE-toQt4/src/multiplicationtable.cpp at line 50 column 18564: QIconSet -> QIcon
+In file /Users/nathan/Development/GE-toQt4/src/multiplicationtable.cpp at line 50 column 18834: QIconSet -> QIcon
+In file /Users/nathan/Development/GE-toQt4/src/multiplicationtable.cpp at line 50 column 20407: QVBoxLayout -> Q3VBoxLayout
+In file /Users/nathan/Development/GE-toQt4/src/multiplicationtable.cpp at line 50 column 20437: QVBoxLayout -> Q3VBoxLayout
+In file /Users/nathan/Development/GE-toQt4/src/multiplicationtable.cpp at line 50 column 21097: QVBox -> Q3VBox
+In file /Users/nathan/Development/GE-toQt4/src/multiplicationtable.cpp at line 50 column 21124: QVBox -> Q3VBox
+In file /Users/nathan/Development/GE-toQt4/src/multiplicationtable.cpp at line 50 column 21804: QButtonGroup -> Q3ButtonGroup
+In file /Users/nathan/Development/GE-toQt4/src/multiplicationtable.cpp at line 50 column 21830: QButtonGroup -> Q3ButtonGroup
+In file /Users/nathan/Development/GE-toQt4/src/multiplicationtable.cpp at line 50 column 21856: QButtonGroup -> Q3ButtonGroup
+In file /Users/nathan/Development/GE-toQt4/src/multiplicationtable.cpp at line 50 column 22499: QHBoxLayout -> Q3HBoxLayout
+In file /Users/nathan/Development/GE-toQt4/src/multiplicationtable.cpp at line 50 column 22531: QHBoxLayout -> Q3HBoxLayout
+In file /Users/nathan/Development/GE-toQt4/src/multiplicationtable.cpp at line 50 column 27256: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/multiplicationtable.cpp at line 50 column 27310: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/multiplicationtable.cpp: Added the following include directives:
+	#include <Q3HBoxLayout> 	#include <Q3PointArray> 	#include <Q3PtrList> 	#include <Q3VBoxLayout> 
+In file /Users/nathan/Development/GE-toQt4/src/cyclegraph.cpp at line 59 column 21: qscrollview.h -> q3scrollview.h
+In file /Users/nathan/Development/GE-toQt4/src/cyclegraph.cpp at line 61 column 25: qsimplerichtext.h -> q3simplerichtext.h
+In file /Users/nathan/Development/GE-toQt4/src/cyclegraph.cpp at line 62 column 15: qvbox.h -> q3vbox.h
+In file /Users/nathan/Development/GE-toQt4/src/cyclegraph.cpp at line 65 column 21: qpointarray.h -> q3pointarray.h
+In file /Users/nathan/Development/GE-toQt4/src/cyclegraph.cpp at line 67 column 21: qdragobject.h -> q3dragobject.h
+In file /Users/nathan/Development/GE-toQt4/src/cyclegraph.cpp at line 75 column 15: QHBoxLayout -> Q3HBoxLayout
+In file /Users/nathan/Development/GE-toQt4/src/cyclegraph.cpp at line 75 column 41: QHBoxLayout -> Q3HBoxLayout
+In file /Users/nathan/Development/GE-toQt4/src/cyclegraph.cpp at line 76 column 15: QScrollView -> Q3ScrollView
+In file /Users/nathan/Development/GE-toQt4/src/cyclegraph.cpp at line 76 column 37: QScrollView -> Q3ScrollView
+In file /Users/nathan/Development/GE-toQt4/src/cyclegraph.cpp at line 114 column 15: QPointArray -> Q3PointArray
+In file /Users/nathan/Development/GE-toQt4/src/cyclegraph.cpp at line 115 column 15: QPointArray -> Q3PointArray
+In file /Users/nathan/Development/GE-toQt4/src/cyclegraph.cpp at line 281 column 15: QPointArray -> Q3PointArray
+In file /Users/nathan/Development/GE-toQt4/src/cyclegraph.cpp at line 281 column 42: QPointArray -> Q3PointArray
+In file /Users/nathan/Development/GE-toQt4/src/cyclegraph.cpp at line 302 column 13: QMemArray -> Q3MemArray
+In file /Users/nathan/Development/GE-toQt4/src/cyclegraph.cpp at line 303 column 13: QMemArray -> Q3MemArray
+In file /Users/nathan/Development/GE-toQt4/src/cyclegraph.cpp at line 304 column 13: QMemArray -> Q3MemArray
+In file /Users/nathan/Development/GE-toQt4/src/cyclegraph.cpp at line 305 column 13: QMemArray -> Q3MemArray
+In file /Users/nathan/Development/GE-toQt4/src/cyclegraph.cpp at line 306 column 13: QMemArray -> Q3MemArray
+In file /Users/nathan/Development/GE-toQt4/src/cyclegraph.cpp at line 307 column 13: QMemArray -> Q3MemArray
+In file /Users/nathan/Development/GE-toQt4/src/cyclegraph.cpp at line 308 column 13: QMemArray -> Q3MemArray
+In file /Users/nathan/Development/GE-toQt4/src/cyclegraph.cpp at line 309 column 13: QMemArray -> Q3MemArray
+In file /Users/nathan/Development/GE-toQt4/src/cyclegraph.cpp at line 469 column 13: QMemArray -> Q3MemArray
+In file /Users/nathan/Development/GE-toQt4/src/cyclegraph.cpp at line 674 column 15: QPointArray -> Q3PointArray
+In file /Users/nathan/Development/GE-toQt4/src/cyclegraph.cpp at line 675 column 15: QPointArray -> Q3PointArray
+In file /Users/nathan/Development/GE-toQt4/src/cyclegraph.cpp at line 708 column 8: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/cyclegraph.cpp at line 710 column 12: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/cyclegraph.cpp at line 712 column 31: QIconSet -> QIcon
+In file /Users/nathan/Development/GE-toQt4/src/cyclegraph.cpp at line 717 column 31: QIconSet -> QIcon
+In file /Users/nathan/Development/GE-toQt4/src/cyclegraph.cpp at line 722 column 40: QIconSet -> QIcon
+In file /Users/nathan/Development/GE-toQt4/src/cyclegraph.cpp at line 728 column 40: QIconSet -> QIcon
+In file /Users/nathan/Development/GE-toQt4/src/cyclegraph.cpp at line 769 column 15: QVBoxLayout -> Q3VBoxLayout
+In file /Users/nathan/Development/GE-toQt4/src/cyclegraph.cpp at line 769 column 45: QVBoxLayout -> Q3VBoxLayout
+In file /Users/nathan/Development/GE-toQt4/src/cyclegraph.cpp at line 781 column 15: QHBoxLayout -> Q3HBoxLayout
+In file /Users/nathan/Development/GE-toQt4/src/cyclegraph.cpp at line 781 column 47: QHBoxLayout -> Q3HBoxLayout
+In file /Users/nathan/Development/GE-toQt4/src/cyclegraph.cpp at line 860 column 8: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/cyclegraph.cpp at line 862 column 19: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/cyclegraph.cpp: Added the following include directives:
+	#include <Q3HBoxLayout> 	#include <Q3PtrList> 	#include <Q3VBoxLayout> 	#include <Q3MemArray> 
+In file /Users/nathan/Development/GE-toQt4/src/utilpieces.cpp at line 50 column 1292: QListBox -> Q3ListBox
+In file /Users/nathan/Development/GE-toQt4/src/utilpieces.cpp at line 50 column 1340: QListBoxItem -> Q3ListBoxItem
+In file /Users/nathan/Development/GE-toQt4/src/utilpieces.cpp at line 50 column 1441: QSimpleRichText -> Q3SimpleRichText
+In file /Users/nathan/Development/GE-toQt4/src/utilpieces.cpp at line 50 column 1580: QListBox -> Q3ListBox
+In file /Users/nathan/Development/GE-toQt4/src/utilpieces.cpp at line 50 column 1603: QListBoxItem -> Q3ListBoxItem
+In file /Users/nathan/Development/GE-toQt4/src/utilpieces.cpp at line 50 column 1649: QListBoxItem -> Q3ListBoxItem
+In file /Users/nathan/Development/GE-toQt4/src/utilpieces.cpp at line 50 column 1757: QSimpleRichText -> Q3SimpleRichText
+In file /Users/nathan/Development/GE-toQt4/src/utilpieces.cpp at line 50 column 2216: QListBox -> Q3ListBox
+In file /Users/nathan/Development/GE-toQt4/src/utilpieces.cpp at line 50 column 2305: QListBox -> Q3ListBox
+In file /Users/nathan/Development/GE-toQt4/src/utilpieces.cpp at line 50 column 3227: QSimpleRichText -> Q3SimpleRichText
+In file /Users/nathan/Development/GE-toQt4/src/utilpieces.cpp: Added the following include directives:
+	#include <QPixmap> 	#include <QMouseEvent> 	#include <QLabel> 	#include <QKeyEvent> 
+In file /Users/nathan/Development/GE-toQt4/src/sympanewidgets.cpp at line 59 column 14: qurl.h -> q3url.h
+In file /Users/nathan/Development/GE-toQt4/src/sympanewidgets.cpp at line 60 column 18: qptrlist.h -> q3ptrlist.h
+In file /Users/nathan/Development/GE-toQt4/src/sympanewidgets.cpp at line 273 column 66: QListBox -> Q3ListBox
+In file /Users/nathan/Development/GE-toQt4/src/sympanewidgets.cpp at line 279 column 66: QListBox -> Q3ListBox
+In file /Users/nathan/Development/GE-toQt4/src/sympanewidgets.cpp at line 280 column 51: QListBoxItem -> Q3ListBoxItem
+In file /Users/nathan/Development/GE-toQt4/src/sympanewidgets.cpp at line 412 column 15: QVBoxLayout -> Q3VBoxLayout
+In file /Users/nathan/Development/GE-toQt4/src/sympanewidgets.cpp at line 412 column 38: QVBoxLayout -> Q3VBoxLayout
+In file /Users/nathan/Development/GE-toQt4/src/sympanewidgets.cpp at line 413 column 21: QListBox -> Q3ListBox
+In file /Users/nathan/Development/GE-toQt4/src/sympanewidgets.cpp at line 415 column 50: QListBoxItem -> Q3ListBoxItem
+In file /Users/nathan/Development/GE-toQt4/src/sympanewidgets.cpp at line 416 column 54: QListBoxItem -> Q3ListBoxItem
+In file /Users/nathan/Development/GE-toQt4/src/sympanewidgets.cpp at line 481 column 53: QListBoxItem -> Q3ListBoxItem
+In file /Users/nathan/Development/GE-toQt4/src/sympanewidgets.cpp at line 508 column 52: QListBoxItem -> Q3ListBoxItem
+In file /Users/nathan/Development/GE-toQt4/src/sympanewidgets.cpp at line 518 column 22: QWhatsThis -> Q3WhatsThis
+In file /Users/nathan/Development/GE-toQt4/src/sympanewidgets.cpp at line 533 column 14: QPopupMenu -> Q3PopupMenu
+In file /Users/nathan/Development/GE-toQt4/src/sympanewidgets.cpp at line 546 column 14: QPopupMenu -> Q3PopupMenu
+In file /Users/nathan/Development/GE-toQt4/src/sympanewidgets.cpp at line 554 column 14: QPopupMenu -> Q3PopupMenu
+In file /Users/nathan/Development/GE-toQt4/src/sympanewidgets.cpp at line 568 column 14: QPopupMenu -> Q3PopupMenu
+In file /Users/nathan/Development/GE-toQt4/src/sympanewidgets.cpp at line 582 column 14: QPopupMenu -> Q3PopupMenu
+In file /Users/nathan/Development/GE-toQt4/src/sympanewidgets.cpp at line 598 column 14: QPopupMenu -> Q3PopupMenu
+In file /Users/nathan/Development/GE-toQt4/src/sympanewidgets.cpp at line 600 column 16: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/sympanewidgets.cpp at line 613 column 14: QPopupMenu -> Q3PopupMenu
+In file /Users/nathan/Development/GE-toQt4/src/sympanewidgets.cpp at line 614 column 14: QPopupMenu -> Q3PopupMenu
+In file /Users/nathan/Development/GE-toQt4/src/sympanewidgets.cpp at line 749 column 16: QListBoxItem -> Q3ListBoxItem
+In file /Users/nathan/Development/GE-toQt4/src/sympanewidgets.cpp at line 860 column 14: QValueList -> Q3ValueList
+In file /Users/nathan/Development/GE-toQt4/src/sympanewidgets.cpp at line 883 column 45: QValueList -> Q3ValueList
+In file /Users/nathan/Development/GE-toQt4/src/sympanewidgets.cpp at line 1019 column 12: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/sympanewidgets.cpp at line 1063 column 14: QValueList -> Q3ValueList
+In file /Users/nathan/Development/GE-toQt4/src/sympanewidgets.cpp at line 1077 column 14: QValueList -> Q3ValueList
+In file /Users/nathan/Development/GE-toQt4/src/sympanewidgets.cpp at line 1091 column 14: QValueList -> Q3ValueList
+In file /Users/nathan/Development/GE-toQt4/src/sympanewidgets.cpp at line 1115 column 46: QPopupMenu -> Q3PopupMenu
+In file /Users/nathan/Development/GE-toQt4/src/sympanewidgets.cpp: Added the following include directives:
+	#include <QContextMenuEvent> 	#include <Q3ValueList> 	#include <Q3PopupMenu> 	#include <Q3VBoxLayout> 
+In file /Users/nathan/Development/GE-toQt4/src/subseteditor.cpp at line 57 column 21: qdragobject.h -> q3dragobject.h
+In file /Users/nathan/Development/GE-toQt4/src/subseteditor.cpp at line 66 column 14: QListBox -> Q3ListBox
+In file /Users/nathan/Development/GE-toQt4/src/subseteditor.cpp at line 73 column 16: QListBoxItem -> Q3ListBoxItem
+In file /Users/nathan/Development/GE-toQt4/src/subseteditor.cpp at line 117 column 12: QListBox -> Q3ListBox
+In file /Users/nathan/Development/GE-toQt4/src/subseteditor.cpp at line 126 column 12: QListBox -> Q3ListBox
+In file /Users/nathan/Development/GE-toQt4/src/subseteditor.cpp at line 137 column 19: QTextDrag -> Q3TextDrag
+In file /Users/nathan/Development/GE-toQt4/src/subseteditor.cpp at line 157 column 17: QTextDrag -> Q3TextDrag
+In file /Users/nathan/Development/GE-toQt4/src/subseteditor.cpp at line 157 column 39: QTextDrag -> Q3TextDrag
+In file /Users/nathan/Development/GE-toQt4/src/subseteditor.cpp at line 166 column 61: WFlags -> Qt::WFlags
+In file /Users/nathan/Development/GE-toQt4/src/subseteditor.cpp at line 171 column 15: QGridLayout -> Q3GridLayout
+In file /Users/nathan/Development/GE-toQt4/src/subseteditor.cpp at line 171 column 53: QGridLayout -> Q3GridLayout
+In file /Users/nathan/Development/GE-toQt4/src/subseteditor.cpp: Added the following include directives:
+	#include <Q3GridLayout> 	#include <QDragEnterEvent> 	#include <QDropEvent> 	#include <QMouseEvent> 	#include <QLabel> 
+No changes made to file /Users/nathan/Development/GE-toQt4/src/subsetcomputations.cpp
+In file /Users/nathan/Development/GE-toQt4/src/symmetryobject.cpp at line 48 column 176: qvbox.h -> q3vbox.h
+In file /Users/nathan/Development/GE-toQt4/src/symmetryobject.cpp at line 48 column 335: qdragobject.h -> q3dragobject.h
+In file /Users/nathan/Development/GE-toQt4/src/symmetryobject.cpp at line 48 column 1260: QVBoxLayout -> Q3VBoxLayout
+In file /Users/nathan/Development/GE-toQt4/src/symmetryobject.cpp at line 48 column 1286: QVBoxLayout -> Q3VBoxLayout
+In file /Users/nathan/Development/GE-toQt4/src/symmetryobject.cpp at line 48 column 3440: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/symmetryobject.cpp at line 48 column 3498: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/symmetryobject.cpp at line 48 column 3559: QIconSet -> QIcon
+In file /Users/nathan/Development/GE-toQt4/src/symmetryobject.cpp at line 48 column 7737: QVBoxLayout -> Q3VBoxLayout
+In file /Users/nathan/Development/GE-toQt4/src/symmetryobject.cpp at line 48 column 7767: QVBoxLayout -> Q3VBoxLayout
+In file /Users/nathan/Development/GE-toQt4/src/symmetryobject.cpp at line 48 column 8160: QHBox -> Q3HBox
+In file /Users/nathan/Development/GE-toQt4/src/symmetryobject.cpp at line 48 column 8186: QHBox -> Q3HBox
+In file /Users/nathan/Development/GE-toQt4/src/symmetryobject.cpp at line 48 column 10533: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/symmetryobject.cpp at line 48 column 10594: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/symmetryobject.cpp: Added the following include directives:
+	#include <Q3PtrList> 	#include <Q3VBoxLayout> 
+In file /Users/nathan/Development/GE-toQt4/src/modelviewwidgets.cpp at line 67 column 15: QVBoxLayout -> Q3VBoxLayout
+In file /Users/nathan/Development/GE-toQt4/src/modelviewwidgets.cpp at line 67 column 45: QVBoxLayout -> Q3VBoxLayout
+In file /Users/nathan/Development/GE-toQt4/src/modelviewwidgets.cpp: Added the following include directives:
+	#include <Q3VBoxLayout> 
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 60 column 18: qwmatrix.h -> qmatrix.h
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 64 column 21: qdragobject.h -> q3dragobject.h
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 72 column 25: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 78 column 38: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 79 column 23: QPointArray -> Q3PointArray
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 84 column 23: QPointArray -> Q3PointArray
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 97 column 22: QCanvasRectangle -> Q3CanvasRectangle
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 122 column 61: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 195 column 46: QCanvas -> Q3Canvas
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 258 column 36: QCanvas -> Q3Canvas
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 259 column 17: QCanvasText -> Q3CanvasText
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 266 column 15: QCanvasText -> Q3CanvasText
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 307 column 36: QCanvas -> Q3Canvas
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 308 column 22: QCanvasRectangle -> Q3CanvasRectangle
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 317 column 20: QCanvasRectangle -> Q3CanvasRectangle
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 360 column 36: QCanvas -> Q3Canvas
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 361 column 17: QCanvasLine -> Q3CanvasLine
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 366 column 44: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 372 column 42: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 378 column 11: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 383 column 11: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 388 column 60: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 415 column 60: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 510 column 15: QCanvasLine -> Q3CanvasLine
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 514 column 11: QPointArray -> Q3PointArray
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 519 column 15: QPointArray -> Q3PointArray
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 528 column 44: QCanvas -> Q3Canvas
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 680 column 64: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 717 column 64: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 809 column 35: QSimpleRichText -> Q3SimpleRichText
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 872 column 11: QPointArray -> Q3PointArray
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 875 column 15: QPointArray -> Q3PointArray
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 923 column 58: QCanvas -> Q3Canvas
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 924 column 22: QCanvasRectangle -> Q3CanvasRectangle
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 928 column 56: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 946 column 15: QPointArray -> Q3PointArray
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 947 column 36: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 976 column 11: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 983 column 13: QCanvas -> Q3Canvas
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 985 column 31: QCanvasRectangle -> Q3CanvasRectangle
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 999 column 11: QCanvas -> Q3Canvas
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1003 column 15: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1005 column 19: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1006 column 19: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1007 column 19: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1021 column 19: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1022 column 19: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1026 column 44: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1028 column 19: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1029 column 19: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1034 column 11: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1036 column 19: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1037 column 25: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1042 column 31: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1056 column 15: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1063 column 37: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1065 column 36: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1066 column 30: QCanvasText -> Q3CanvasText
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1072 column 41: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1074 column 38: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1076 column 24: QCanvasRectangle -> Q3CanvasRectangle
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1076 column 48: QCanvasRectangle -> Q3CanvasRectangle
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1085 column 38: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1087 column 38: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1089 column 28: QCanvasRectangle -> Q3CanvasRectangle
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1094 column 38: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1096 column 40: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1100 column 51: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1100 column 74: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1102 column 36: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1104 column 43: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1106 column 43: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1116 column 46: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1118 column 19: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1123 column 11: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1123 column 61: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1149 column 11: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1151 column 19: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1155 column 15: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1162 column 65: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1163 column 19: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1166 column 19: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1172 column 51: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1178 column 25: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1191 column 33: IO_WriteOnly -> QIODevice::WriteOnly
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1193 column 15: QTextStream -> Q3TextStream
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1205 column 19: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1206 column 19: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1207 column 19: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1208 column 25: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1217 column 25: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1227 column 25: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1229 column 25: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1237 column 32: IO_ReadOnly -> QIODevice::ReadOnly
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1260 column 19: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1264 column 23: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1269 column 31: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1277 column 25: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1279 column 25: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1296 column 19: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1297 column 19: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1319 column 19: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1320 column 25: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1330 column 19: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1331 column 25: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1351 column 32: IO_ReadOnly -> QIODevice::ReadOnly
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1388 column 32: IO_ReadOnly -> QIODevice::ReadOnly
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1413 column 58: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1433 column 11: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1439 column 80: WFlags -> Qt::WFlags
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1440 column 17: QCanvasView -> Q3CanvasView
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1451 column 19: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1452 column 25: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1466 column 47: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1473 column 15: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1481 column 19: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1504 column 15: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1506 column 19: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1508 column 25: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1513 column 44: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1534 column 19: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1536 column 15: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1566 column 15: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1568 column 49: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1569 column 23: QCanvasText -> Q3CanvasText
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1569 column 49: QCanvasText -> Q3CanvasText
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1591 column 15: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1612 column 23: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1616 column 27: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1618 column 31: QTextDrag -> Q3TextDrag
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1623 column 31: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1647 column 23: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1648 column 23: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1656 column 23: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1658 column 19: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1739 column 15: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1740 column 12: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1764 column 12: QWMatrix -> QMatrix
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp at line 1772 column 12: QWMatrix -> QMatrix
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.cpp: Added the following include directives:
+	#include <QContextMenuEvent> 	#include <QPixmap> 	#include <QMouseEvent> 	#include <Q3TextStream> 	#include <QKeyEvent> 	#include <Q3PointArray> 	#include <Q3PtrList> 
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindowcmds.cpp at line 172 column 23: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindowcmds.cpp at line 173 column 23: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindowcmds.cpp at line 183 column 19: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindowcmds.cpp at line 184 column 19: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindowcmds.cpp at line 192 column 80: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindowcmds.cpp at line 210 column 50: QCanvasText -> Q3CanvasText
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindowcmds.cpp at line 230 column 50: QCanvasText -> Q3CanvasText
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindowcmds.cpp at line 259 column 19: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindowcmds.cpp at line 260 column 25: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindowcmds.cpp at line 261 column 29: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindowcmds.cpp at line 262 column 48: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindowcmds.cpp at line 280 column 25: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindowcmds.cpp at line 282 column 25: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindowcmds.cpp at line 285 column 43: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindowcmds.cpp at line 290 column 25: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindowcmds.cpp at line 292 column 25: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindowcmds.cpp at line 299 column 54: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindowcmds.cpp at line 308 column 25: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindowcmds.cpp at line 315 column 25: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindowcmds.cpp at line 321 column 52: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindowcmds.cpp at line 359 column 25: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindowcmds.cpp at line 366 column 25: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/insvisdialog.cpp at line 55 column 18: qlistbox.h -> q3listbox.h
+In file /Users/nathan/Development/GE-toQt4/src/insvisdialog.cpp at line 68 column 15: QVBoxLayout -> Q3VBoxLayout
+In file /Users/nathan/Development/GE-toQt4/src/insvisdialog.cpp at line 68 column 42: QVBoxLayout -> Q3VBoxLayout
+In file /Users/nathan/Development/GE-toQt4/src/insvisdialog.cpp at line 77 column 15: QHBoxLayout -> Q3HBoxLayout
+In file /Users/nathan/Development/GE-toQt4/src/insvisdialog.cpp at line 77 column 43: QHBoxLayout -> Q3HBoxLayout
+In file /Users/nathan/Development/GE-toQt4/src/insvisdialog.cpp at line 79 column 28: QListBox -> Q3ListBox
+In file /Users/nathan/Development/GE-toQt4/src/insvisdialog.cpp at line 85 column 58: QListBoxItem -> Q3ListBoxItem
+In file /Users/nathan/Development/GE-toQt4/src/insvisdialog.cpp at line 87 column 26: QListBox -> Q3ListBox
+In file /Users/nathan/Development/GE-toQt4/src/insvisdialog.cpp at line 89 column 56: QListBoxItem -> Q3ListBoxItem
+In file /Users/nathan/Development/GE-toQt4/src/insvisdialog.cpp at line 92 column 15: QHBoxLayout -> Q3HBoxLayout
+In file /Users/nathan/Development/GE-toQt4/src/insvisdialog.cpp at line 92 column 44: QHBoxLayout -> Q3HBoxLayout
+In file /Users/nathan/Development/GE-toQt4/src/insvisdialog.cpp: Added the following include directives:
+	#include <Q3HBoxLayout> 	#include <Q3VBoxLayout> 
+In file /Users/nathan/Development/GE-toQt4/src/cayleydiagram.cpp at line 51 column 248: qvbox.h -> q3vbox.h
+In file /Users/nathan/Development/GE-toQt4/src/cayleydiagram.cpp at line 51 column 383: qdragobject.h -> q3dragobject.h
+In file /Users/nathan/Development/GE-toQt4/src/cayleydiagram.cpp at line 51 column 829: QVBoxLayout -> Q3VBoxLayout
+In file /Users/nathan/Development/GE-toQt4/src/cayleydiagram.cpp at line 51 column 855: QVBoxLayout -> Q3VBoxLayout
+In file /Users/nathan/Development/GE-toQt4/src/cayleydiagram.cpp at line 51 column 3244: QValueList -> Q3ValueList
+In file /Users/nathan/Development/GE-toQt4/src/cayleydiagram.cpp at line 51 column 12702: QValueList -> Q3ValueList
+In file /Users/nathan/Development/GE-toQt4/src/cayleydiagram.cpp at line 51 column 16772: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/cayleydiagram.cpp at line 51 column 16830: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/cayleydiagram.cpp at line 51 column 16891: QIconSet -> QIcon
+In file /Users/nathan/Development/GE-toQt4/src/cayleydiagram.cpp at line 51 column 17161: QIconSet -> QIcon
+In file /Users/nathan/Development/GE-toQt4/src/cayleydiagram.cpp at line 51 column 25771: QMemArray -> Q3MemArray
+In file /Users/nathan/Development/GE-toQt4/src/cayleydiagram.cpp at line 51 column 36180: QMemArray -> Q3MemArray
+In file /Users/nathan/Development/GE-toQt4/src/cayleydiagram.cpp at line 51 column 36258: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/cayleydiagram.cpp at line 51 column 40247: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/cayleydiagram.cpp at line 51 column 44151: QVBoxLayout -> Q3VBoxLayout
+In file /Users/nathan/Development/GE-toQt4/src/cayleydiagram.cpp at line 51 column 44181: QVBoxLayout -> Q3VBoxLayout
+In file /Users/nathan/Development/GE-toQt4/src/cayleydiagram.cpp at line 51 column 46144: QHBoxLayout -> Q3HBoxLayout
+In file /Users/nathan/Development/GE-toQt4/src/cayleydiagram.cpp at line 51 column 46176: QHBoxLayout -> Q3HBoxLayout
+In file /Users/nathan/Development/GE-toQt4/src/cayleydiagram.cpp at line 51 column 50062: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/cayleydiagram.cpp at line 51 column 50123: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/cayleydiagram.cpp: Added the following include directives:
+	#include <Q3HBoxLayout> 	#include <Q3ValueList> 	#include <Q3PtrList> 	#include <Q3VBoxLayout> 	#include <Q3MemArray> 
+No changes made to file /Users/nathan/Development/GE-toQt4/src/geltgrid.cpp
+In file /Users/nathan/Development/GE-toQt4/src/cdwidgets.cpp at line 52 column 295: qlistbox.h -> q3listbox.h
+In file /Users/nathan/Development/GE-toQt4/src/cdwidgets.cpp at line 52 column 365: qhbox.h -> q3hbox.h
+In file /Users/nathan/Development/GE-toQt4/src/cdwidgets.cpp at line 52 column 385: qvbox.h -> q3vbox.h
+In file /Users/nathan/Development/GE-toQt4/src/cdwidgets.cpp at line 52 column 513: QMemArray -> Q3MemArray
+In file /Users/nathan/Development/GE-toQt4/src/cdwidgets.cpp at line 52 column 812: QMemArray -> Q3MemArray
+In file /Users/nathan/Development/GE-toQt4/src/cdwidgets.cpp at line 52 column 1205: QTable -> Q3Table
+In file /Users/nathan/Development/GE-toQt4/src/cdwidgets.cpp at line 52 column 1985: QVBoxLayout -> Q3VBoxLayout
+In file /Users/nathan/Development/GE-toQt4/src/cdwidgets.cpp at line 52 column 2008: QVBoxLayout -> Q3VBoxLayout
+In file /Users/nathan/Development/GE-toQt4/src/cdwidgets.cpp at line 52 column 2572: QTable -> Q3Table
+In file /Users/nathan/Development/GE-toQt4/src/cdwidgets.cpp at line 52 column 3226: QHBox -> Q3HBox
+In file /Users/nathan/Development/GE-toQt4/src/cdwidgets.cpp at line 52 column 3248: QHBox -> Q3HBox
+In file /Users/nathan/Development/GE-toQt4/src/cdwidgets.cpp at line 52 column 3284: QListBox -> Q3ListBox
+In file /Users/nathan/Development/GE-toQt4/src/cdwidgets.cpp at line 52 column 3419: QVBox -> Q3VBox
+In file /Users/nathan/Development/GE-toQt4/src/cdwidgets.cpp at line 52 column 3440: QVBox -> Q3VBox
+In file /Users/nathan/Development/GE-toQt4/src/cdwidgets.cpp at line 52 column 4280: QHBox -> Q3HBox
+In file /Users/nathan/Development/GE-toQt4/src/cdwidgets.cpp at line 52 column 4301: QHBox -> Q3HBox
+In file /Users/nathan/Development/GE-toQt4/src/cdwidgets.cpp at line 52 column 21333: QMemArray -> Q3MemArray
+In file /Users/nathan/Development/GE-toQt4/src/cdwidgets.cpp at line 52 column 23667: QPopupMenu -> Q3PopupMenu
+In file /Users/nathan/Development/GE-toQt4/src/cdwidgets.cpp at line 52 column 23691: QPopupMenu -> Q3PopupMenu
+In file /Users/nathan/Development/GE-toQt4/src/cdwidgets.cpp at line 52 column 23712: QPopupMenu -> Q3PopupMenu
+In file /Users/nathan/Development/GE-toQt4/src/cdwidgets.cpp at line 52 column 24199: QPopupMenu -> Q3PopupMenu
+In file /Users/nathan/Development/GE-toQt4/src/cdwidgets.cpp at line 52 column 27344: QMemArray -> Q3MemArray
+In file /Users/nathan/Development/GE-toQt4/src/cdwidgets.cpp at line 52 column 28822: QPopupMenu -> Q3PopupMenu
+In file /Users/nathan/Development/GE-toQt4/src/cdwidgets.cpp at line 52 column 54496: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/cdwidgets.cpp at line 52 column 55794: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/cdwidgets.cpp at line 52 column 55908: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/cdwidgets.cpp at line 52 column 57600: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/cdwidgets.cpp at line 52 column 60461: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/cdwidgets.cpp: Added the following include directives:
+	#include <QLabel> 	#include <Q3PtrList> 	#include <QPixmap> 	#include <Q3PopupMenu> 	#include <Q3VBoxLayout> 	#include <Q3MemArray> 
+In file /Users/nathan/Development/GE-toQt4/src/group.h at line 52 column 19: qmemarray.h -> q3memarray.h
+In file /Users/nathan/Development/GE-toQt4/src/group.h at line 53 column 20: qvaluelist.h -> q3valuelist.h
+In file /Users/nathan/Development/GE-toQt4/src/group.h at line 58 column 17: QMemArray -> Q3MemArray
+In file /Users/nathan/Development/GE-toQt4/src/group.h at line 59 column 18: QValueList -> Q3ValueList
+In file /Users/nathan/Development/GE-toQt4/src/group.h at line 127 column 13: QMemArray -> Q3MemArray
+In file /Users/nathan/Development/GE-toQt4/src/groupfile.h at line 60 column 20: qvaluelist.h -> q3valuelist.h
+In file /Users/nathan/Development/GE-toQt4/src/groupfile.h at line 87 column 12: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/groupfile.h at line 93 column 13: QMemArray -> Q3MemArray
+In file /Users/nathan/Development/GE-toQt4/src/groupfile.h at line 94 column 13: QMemArray -> Q3MemArray
+In file /Users/nathan/Development/GE-toQt4/src/groupfile.h at line 95 column 13: QMemArray -> Q3MemArray
+In file /Users/nathan/Development/GE-toQt4/src/groupfile.h at line 96 column 13: QMemArray -> Q3MemArray
+In file /Users/nathan/Development/GE-toQt4/src/groupfile.h at line 117 column 13: QMemArray -> Q3MemArray
+In file /Users/nathan/Development/GE-toQt4/src/groupfile.h at line 118 column 13: QMemArray -> Q3MemArray
+In file /Users/nathan/Development/GE-toQt4/src/groupfile.h at line 119 column 13: QMemArray -> Q3MemArray
+In file /Users/nathan/Development/GE-toQt4/src/groupfile.h at line 131 column 14: QValueList -> Q3ValueList
+In file /Users/nathan/Development/GE-toQt4/src/groupfile.h at line 132 column 14: QValueList -> Q3ValueList
+In file /Users/nathan/Development/GE-toQt4/src/groupfile.h at line 133 column 14: QValueList -> Q3ValueList
+In file /Users/nathan/Development/GE-toQt4/src/groupfile.h at line 137 column 14: QValueList -> Q3ValueList
+In file /Users/nathan/Development/GE-toQt4/src/groupfile.h at line 138 column 14: QValueList -> Q3ValueList
+In file /Users/nathan/Development/GE-toQt4/src/groupfile.h at line 139 column 14: QValueList -> Q3ValueList
+In file /Users/nathan/Development/GE-toQt4/src/groupfile.h: Added the following include directives:
+	#include <Q3MemArray> 	#include <Q3PtrList> 
+No changes made to file /Users/nathan/Development/GE-toQt4/src/ge.h
+No changes made to file /Users/nathan/Development/GE-toQt4/src/geml.h
+In file /Users/nathan/Development/GE-toQt4/src/mathtableitem.h at line 53 column 16: qtable.h -> q3table.h
+In file /Users/nathan/Development/GE-toQt4/src/mathtableitem.h at line 59 column 21: QSimpleRichText -> Q3SimpleRichText
+In file /Users/nathan/Development/GE-toQt4/src/mathtableitem.h at line 62 column 37: QTableItem -> Q3TableItem
+In file /Users/nathan/Development/GE-toQt4/src/mathtableitem.h at line 65 column 24: QTable -> Q3Table
+In file /Users/nathan/Development/GE-toQt4/src/mathtableitem.h at line 66 column 24: QTable -> Q3Table
+In file /Users/nathan/Development/GE-toQt4/src/mathtableitem.h at line 67 column 24: QTable -> Q3Table
+In file /Users/nathan/Development/GE-toQt4/src/mathtableitem.h at line 68 column 24: QTable -> Q3Table
+In file /Users/nathan/Development/GE-toQt4/src/mathtableitem.h at line 69 column 24: QTable -> Q3Table
+In file /Users/nathan/Development/GE-toQt4/src/mathtableitem.h at line 85 column 20: QTableItem -> Q3TableItem
+In file /Users/nathan/Development/GE-toQt4/src/mathtableitem.h at line 96 column 19: QSimpleRichText -> Q3SimpleRichText
+In file /Users/nathan/Development/GE-toQt4/src/mathtableitem.h: Added the following include directives:
+	#include <QPixmap> 
+No changes made to file /Users/nathan/Development/GE-toQt4/src/idea.h
+In file /Users/nathan/Development/GE-toQt4/src/mathtext.h at line 51 column 20: qvaluelist.h -> q3valuelist.h
+In file /Users/nathan/Development/GE-toQt4/src/mathtext.h at line 73 column 38: QValueList -> Q3ValueList
+In file /Users/nathan/Development/GE-toQt4/src/idealist.h at line 54 column 18: qptrlist.h -> q3ptrlist.h
+In file /Users/nathan/Development/GE-toQt4/src/idealist.h at line 63 column 19: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/grouptable.h at line 56 column 16: qtable.h -> q3table.h
+In file /Users/nathan/Development/GE-toQt4/src/grouptable.h at line 58 column 20: qvaluelist.h -> q3valuelist.h
+In file /Users/nathan/Development/GE-toQt4/src/grouptable.h at line 65 column 32: QTable -> Q3Table
+In file /Users/nathan/Development/GE-toQt4/src/grouptable.h at line 139 column 14: QValueList -> Q3ValueList
+In file /Users/nathan/Development/GE-toQt4/src/grouptable.h: Added the following include directives:
+	#include <QEvent> 
+No changes made to file /Users/nathan/Development/GE-toQt4/src/gepreferences.h
+In file /Users/nathan/Development/GE-toQt4/src/gehelpbrowser.h at line 51 column 22: qtextbrowser.h -> q3textbrowser.h
+In file /Users/nathan/Development/GE-toQt4/src/gehelpbrowser.h at line 54 column 41: QTextBrowser -> Q3TextBrowser
+No changes made to file /Users/nathan/Development/GE-toQt4/src/linkcommand.h
+No changes made to file /Users/nathan/Development/GE-toQt4/src/linkcommandlist.h
+In file /Users/nathan/Development/GE-toQt4/src/mainwindowcmds.h at line 49 column 20: qvaluelist.h -> q3valuelist.h
+In file /Users/nathan/Development/GE-toQt4/src/mainwindowcmds.h at line 63 column 41: QValueList -> Q3ValueList
+In file /Users/nathan/Development/GE-toQt4/src/mainwindowcmds.h at line 71 column 14: QValueList -> Q3ValueList
+In file /Users/nathan/Development/GE-toQt4/src/gewhatsthis.h at line 48 column 20: qwhatsthis.h -> q3whatsthis.h
+In file /Users/nathan/Development/GE-toQt4/src/gewhatsthis.h at line 49 column 18: qlistbox.h -> q3listbox.h
+In file /Users/nathan/Development/GE-toQt4/src/gewhatsthis.h at line 52 column 37: QWhatsThis -> Q3WhatsThis
+In file /Users/nathan/Development/GE-toQt4/src/gewhatsthis.h at line 74 column 33: QListBox -> Q3ListBox
+In file /Users/nathan/Development/GE-toQt4/src/gewhatsthis.h at line 79 column 12: QListBox -> Q3ListBox
+In file /Users/nathan/Development/GE-toQt4/src/gevisualizer.h at line 269 column 18: qptrlist.h -> q3ptrlist.h
+In file /Users/nathan/Development/GE-toQt4/src/gevisualizer.h at line 272 column 17: qcanvas.h -> q3canvas.h
+In file /Users/nathan/Development/GE-toQt4/src/gevisualizer.h at line 273 column 25: qsimplerichtext.h -> q3simplerichtext.h
+In file /Users/nathan/Development/GE-toQt4/src/gevisualizer.h at line 296 column 20: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/gevisualizer.h at line 321 column 13: QMemArray -> Q3MemArray
+In file /Users/nathan/Development/GE-toQt4/src/gevisualizer.h at line 322 column 13: QMemArray -> Q3MemArray
+In file /Users/nathan/Development/GE-toQt4/src/gevisualizer.h at line 325 column 19: QSimpleRichText -> Q3SimpleRichText
+In file /Users/nathan/Development/GE-toQt4/src/gevisualizer.h at line 337 column 12: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/gevisualizer.h at line 337 column 28: QSimpleRichText -> Q3SimpleRichText
+In file /Users/nathan/Development/GE-toQt4/src/gevisualizer.h at line 350 column 56: QCanvasRectangle -> Q3CanvasRectangle
+In file /Users/nathan/Development/GE-toQt4/src/gevisualizer.h at line 358 column 28: QCanvas -> Q3Canvas
+In file /Users/nathan/Development/GE-toQt4/src/gevisualizer.h at line 376 column 20: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/gevisualizer.h at line 393 column 47: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/gevisualizer.h at line 394 column 49: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/gevisualizer.h at line 448 column 39: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/gevisualizer.h at line 449 column 41: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/gevisualizer.h: Added the following include directives:
+	#include <QPixmap> 	#include <Q3MemArray> 
+In file /Users/nathan/Development/GE-toQt4/src/gevisualizerlist.h at line 85 column 54: QMimeSourceFactory -> Q3MimeSourceFactory
+In file /Users/nathan/Development/GE-toQt4/src/multiplicationtable.h at line 75 column 20: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/multiplicationtable.h at line 134 column 12: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/multiplicationtable.h at line 178 column 20: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/multiplicationtable.h: Added the following include directives:
+	#include <QPixmap> 	#include <Q3PtrList> 
+In file /Users/nathan/Development/GE-toQt4/src/cyclegraph.h at line 68 column 20: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/cyclegraph.h at line 91 column 15: QPointArray -> Q3PointArray
+In file /Users/nathan/Development/GE-toQt4/src/cyclegraph.h at line 93 column 15: QPointArray -> Q3PointArray
+In file /Users/nathan/Development/GE-toQt4/src/cyclegraph.h at line 100 column 19: QPointArray -> Q3PointArray
+In file /Users/nathan/Development/GE-toQt4/src/cyclegraph.h at line 100 column 46: QPointArray -> Q3PointArray
+In file /Users/nathan/Development/GE-toQt4/src/cyclegraph.h at line 160 column 20: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/cyclegraph.h: Added the following include directives:
+	#include <QPixmap> 	#include <Q3PointArray> 	#include <Q3PtrList> 
+In file /Users/nathan/Development/GE-toQt4/src/utilpieces.h at line 55 column 18: qlistbox.h -> q3listbox.h
+In file /Users/nathan/Development/GE-toQt4/src/utilpieces.h at line 56 column 20: qpopupmenu.h -> q3popupmenu.h
+In file /Users/nathan/Development/GE-toQt4/src/utilpieces.h at line 57 column 25: qsimplerichtext.h -> q3simplerichtext.h
+In file /Users/nathan/Development/GE-toQt4/src/utilpieces.h at line 86 column 43: QListBoxItem -> Q3ListBoxItem
+In file /Users/nathan/Development/GE-toQt4/src/utilpieces.h at line 90 column 44: QListBox -> Q3ListBox
+In file /Users/nathan/Development/GE-toQt4/src/utilpieces.h at line 92 column 44: QListBox -> Q3ListBox
+In file /Users/nathan/Development/GE-toQt4/src/utilpieces.h at line 92 column 67: QListBoxItem -> Q3ListBoxItem
+In file /Users/nathan/Development/GE-toQt4/src/utilpieces.h at line 102 column 39: QListBox -> Q3ListBox
+In file /Users/nathan/Development/GE-toQt4/src/utilpieces.h at line 103 column 38: QListBox -> Q3ListBox
+In file /Users/nathan/Development/GE-toQt4/src/utilpieces.h at line 114 column 19: QSimpleRichText -> Q3SimpleRichText
+In file /Users/nathan/Development/GE-toQt4/src/utilpieces.h at line 138 column 19: QSimpleRichText -> Q3SimpleRichText
+In file /Users/nathan/Development/GE-toQt4/src/utilpieces.h: Added the following include directives:
+	#include <QMouseEvent> 	#include <QKeyEvent> 
+In file /Users/nathan/Development/GE-toQt4/src/sympanewidgets.h at line 62 column 18: qptrlist.h -> q3ptrlist.h
+In file /Users/nathan/Development/GE-toQt4/src/sympanewidgets.h at line 167 column 51: QListBox -> Q3ListBox
+In file /Users/nathan/Development/GE-toQt4/src/sympanewidgets.h at line 168 column 51: QListBox -> Q3ListBox
+In file /Users/nathan/Development/GE-toQt4/src/sympanewidgets.h at line 168 column 74: QListBoxItem -> Q3ListBoxItem
+In file /Users/nathan/Development/GE-toQt4/src/sympanewidgets.h at line 198 column 34: QValueList -> Q3ValueList
+In file /Users/nathan/Development/GE-toQt4/src/sympanewidgets.h at line 232 column 39: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/sympanewidgets.h at line 233 column 41: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/sympanewidgets.h at line 237 column 41: QListBoxItem -> Q3ListBoxItem
+In file /Users/nathan/Development/GE-toQt4/src/sympanewidgets.h at line 242 column 44: QValueList -> Q3ValueList
+In file /Users/nathan/Development/GE-toQt4/src/sympanewidgets.h at line 243 column 13: QMemArray -> Q3MemArray
+In file /Users/nathan/Development/GE-toQt4/src/sympanewidgets.h at line 248 column 12: QListBox -> Q3ListBox
+In file /Users/nathan/Development/GE-toQt4/src/sympanewidgets.h at line 255 column 57: QListBoxItem -> Q3ListBoxItem
+In file /Users/nathan/Development/GE-toQt4/src/sympanewidgets.h at line 258 column 38: QValueList -> Q3ValueList
+In file /Users/nathan/Development/GE-toQt4/src/sympanewidgets.h at line 272 column 39: QPopupMenu -> Q3PopupMenu
+In file /Users/nathan/Development/GE-toQt4/src/sympanewidgets.h: Added the following include directives:
+	#include <QContextMenuEvent> 	#include <Q3ValueList> 	#include <Q3PopupMenu> 	#include <Q3MemArray> 
+In file /Users/nathan/Development/GE-toQt4/src/subseteditor.h at line 60 column 18: qlistbox.h -> q3listbox.h
+In file /Users/nathan/Development/GE-toQt4/src/subseteditor.h at line 65 column 17: QGridLayout -> Q3GridLayout
+In file /Users/nathan/Development/GE-toQt4/src/subseteditor.h at line 66 column 17: QVBoxLayout -> Q3VBoxLayout
+In file /Users/nathan/Development/GE-toQt4/src/subseteditor.h at line 75 column 35: QListBox -> Q3ListBox
+In file /Users/nathan/Development/GE-toQt4/src/subseteditor.h at line 108 column 34: WFlags -> Qt::WFlags
+In file /Users/nathan/Development/GE-toQt4/src/subseteditor.h: Added the following include directives:
+	#include <QMouseEvent> 	#include <Q3VBoxLayout> 	#include <Q3GridLayout> 	#include <QDropEvent> 	#include <QDragEnterEvent> 	#include <QLabel> 
+No changes made to file /Users/nathan/Development/GE-toQt4/src/subsetcomputations.h
+In file /Users/nathan/Development/GE-toQt4/src/symmetryobject.h at line 69 column 12: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/symmetryobject.h at line 82 column 20: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/symmetryobject.h at line 162 column 20: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/symmetryobject.h: Added the following include directives:
+	#include <QPixmap> 	#include <Q3PtrList> 
+No changes made to file /Users/nathan/Development/GE-toQt4/src/modelviewwidgets.h
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 59 column 17: qcanvas.h -> q3canvas.h
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 65 column 48: QCanvasRectangle -> Q3CanvasRectangle
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 71 column 47: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 76 column 32: QCanvas -> Q3Canvas
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 80 column 13: QMemArray -> Q3MemArray
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 80 column 25: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 90 column 39: QCanvasText -> Q3CanvasText
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 93 column 26: QCanvas -> Q3Canvas
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 101 column 44: QCanvasRectangle -> Q3CanvasRectangle
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 104 column 26: QCanvas -> Q3Canvas
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 112 column 39: QCanvasLine -> Q3CanvasLine
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 115 column 26: QCanvas -> Q3Canvas
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 117 column 34: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 118 column 32: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 119 column 15: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 120 column 15: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 122 column 50: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 123 column 50: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 125 column 23: QPointArray -> Q3PointArray
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 133 column 15: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 134 column 15: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 141 column 30: QCanvas -> Q3Canvas
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 154 column 50: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 155 column 50: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 160 column 23: QPointArray -> Q3PointArray
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 179 column 19: QSimpleRichText -> Q3SimpleRichText
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 187 column 55: QCanvasRectangle -> Q3CanvasRectangle
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 190 column 37: QCanvas -> Q3Canvas
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 191 column 35: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 192 column 15: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 196 column 15: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 200 column 30: QCanvas -> Q3Canvas
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 207 column 39: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 208 column 43: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 209 column 40: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 210 column 40: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 212 column 22: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 213 column 51: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 213 column 75: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 214 column 53: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 215 column 45: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 215 column 69: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 216 column 22: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 217 column 48: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 218 column 26: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 220 column 53: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 228 column 19: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 229 column 39: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 231 column 15: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 250 column 20: QCanvasRectangle -> Q3CanvasRectangle
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 264 column 40: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 265 column 15: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 268 column 19: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 274 column 38: QCanvasView -> Q3CanvasView
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 279 column 79: WFlags -> Qt::WFlags
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 286 column 38: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 287 column 19: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 289 column 19: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 290 column 35: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 296 column 38: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 297 column 37: QCanvasText -> Q3CanvasText
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 299 column 43: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 300 column 49: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 301 column 34: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 302 column 37: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h at line 330 column 19: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheet.h: Added the following include directives:
+	#include <QContextMenuEvent> 	#include <Q3PointArray> 	#include <QPixmap> 	#include <QMouseEvent> 	#include <Q3PtrList> 	#include <QKeyEvent> 	#include <Q3MemArray> 
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindowcmds.h at line 160 column 64: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindowcmds.h at line 166 column 19: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindowcmds.h at line 167 column 19: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindowcmds.h at line 177 column 35: QCanvasText -> Q3CanvasText
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindowcmds.h at line 182 column 15: QCanvasText -> Q3CanvasText
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindowcmds.h at line 194 column 35: QCanvasText -> Q3CanvasText
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindowcmds.h at line 199 column 15: QCanvasText -> Q3CanvasText
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindowcmds.h at line 216 column 19: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindowcmds.h at line 217 column 19: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindowcmds.h at line 228 column 39: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindowcmds.h at line 233 column 19: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindowcmds.h at line 243 column 36: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindowcmds.h at line 249 column 15: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindowcmds.h at line 266 column 19: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/insvisdialog.h at line 56 column 14: QListBox -> Q3ListBox
+In file /Users/nathan/Development/GE-toQt4/src/insvisdialog.h at line 76 column 12: QListBox -> Q3ListBox
+In file /Users/nathan/Development/GE-toQt4/src/insvisdialog.h at line 77 column 12: QListBox -> Q3ListBox
+In file /Users/nathan/Development/GE-toQt4/src/cayleydiagram.h at line 79 column 20: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/cayleydiagram.h at line 107 column 12: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/cayleydiagram.h at line 108 column 12: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/cayleydiagram.h at line 131 column 58: QMemArray -> Q3MemArray
+In file /Users/nathan/Development/GE-toQt4/src/cayleydiagram.h at line 132 column 62: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/cayleydiagram.h at line 207 column 20: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/cayleydiagram.h: Added the following include directives:
+	#include <QPixmap> 	#include <Q3PtrList> 	#include <Q3MemArray> 
+No changes made to file /Users/nathan/Development/GE-toQt4/src/geltgrid.h
+In file /Users/nathan/Development/GE-toQt4/src/cdwidgets.h at line 58 column 16: qtable.h -> q3table.h
+In file /Users/nathan/Development/GE-toQt4/src/cdwidgets.h at line 62 column 14: QListBox -> Q3ListBox
+In file /Users/nathan/Development/GE-toQt4/src/cdwidgets.h at line 70 column 32: QTable -> Q3Table
+In file /Users/nathan/Development/GE-toQt4/src/cdwidgets.h at line 92 column 28: QMemArray -> Q3MemArray
+In file /Users/nathan/Development/GE-toQt4/src/cdwidgets.h at line 116 column 12: QListBox -> Q3ListBox
+In file /Users/nathan/Development/GE-toQt4/src/cdwidgets.h at line 131 column 13: QMemArray -> Q3MemArray
+In file /Users/nathan/Development/GE-toQt4/src/cdwidgets.h at line 219 column 33: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/cdwidgets.h at line 220 column 33: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/cdwidgets.h at line 221 column 38: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/cdwidgets.h at line 222 column 38: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/cdwidgets.h at line 223 column 32: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/cdwidgets.h: Added the following include directives:
+	#include <QLabel> 	#include <Q3PtrList> 	#include <Q3MemArray> 
+In file /Users/nathan/Development/GE-toQt4/src/mainwindow.ui.h at line 79 column 26: QFileDialog -> Q3FileDialog
+In file /Users/nathan/Development/GE-toQt4/src/mainwindow.ui.h at line 171 column 55: WindowMaximized -> Qt::WindowMaximized
+In file /Users/nathan/Development/GE-toQt4/src/mainwindow.ui.h at line 180 column 47: WindowMaximized -> Qt::WindowMaximized
+In file /Users/nathan/Development/GE-toQt4/src/mainwindow.ui.h at line 287 column 22: QMimeSourceFactory -> Q3MimeSourceFactory
+In file /Users/nathan/Development/GE-toQt4/src/mainwindow.ui.h at line 301 column 63: QValueList -> Q3ValueList
+In file /Users/nathan/Development/GE-toQt4/src/mainwindow.ui.h at line 302 column 53: QValueList -> Q3ValueList
+In file /Users/nathan/Development/GE-toQt4/src/mainwindow.ui.h at line 341 column 14: QWhatsThis -> Q3WhatsThis
+In file /Users/nathan/Development/GE-toQt4/src/mainwindow.ui.h at line 400 column 15: QMainWindow -> Q3MainWindow
+In file /Users/nathan/Development/GE-toQt4/src/mainwindow.ui.h at line 413 column 15: QMainWindow -> Q3MainWindow
+In file /Users/nathan/Development/GE-toQt4/src/mainwindow.ui.h at line 446 column 47: QValueList -> Q3ValueList
+In file /Users/nathan/Development/GE-toQt4/src/mainwindow.ui.h at line 587 column 13: QTextDrag -> Q3TextDrag
+In file /Users/nathan/Development/GE-toQt4/src/mainwindow.ui.h at line 587 column 35: QTextDrag -> Q3TextDrag
+In file /Users/nathan/Development/GE-toQt4/src/mainwindow.ui.h: Added the following include directives:
+	#include <Q3ValueList> 	#include <QResizeEvent> 	#include <QMoveEvent> 	#include <QCloseEvent> 
+In file /Users/nathan/Development/GE-toQt4/src/preferencesdialog.ui.h at line 174 column 14: QValueList -> Q3ValueList
+In file /Users/nathan/Development/GE-toQt4/src/preferencesdialog.ui.h at line 187 column 29: QFileDialog -> Q3FileDialog
+In file /Users/nathan/Development/GE-toQt4/src/preferencesdialog.ui.h at line 197 column 29: QFileDialog -> Q3FileDialog
+In file /Users/nathan/Development/GE-toQt4/src/preferencesdialog.ui.h: Added the following include directives:
+	#include <Q3ValueList> 
+No changes made to file /Users/nathan/Development/GE-toQt4/src/textinputdialog.ui.h
+No changes made to file /Users/nathan/Development/GE-toQt4/src/nameschemedialog.ui.h
+In file /Users/nathan/Development/GE-toQt4/src/gehelpwindow.ui.h at line 75 column 12: QToolBar -> Q3ToolBar
+In file /Users/nathan/Development/GE-toQt4/src/gehelpwindow.ui.h at line 75 column 41: DockTop -> Qt::DockTop
+In file /Users/nathan/Development/GE-toQt4/src/gehelpwindow.ui.h at line 102 column 14: QWhatsThis -> Q3WhatsThis
+In file /Users/nathan/Development/GE-toQt4/src/gehelpwindow.ui.h at line 216 column 15: QMainWindow -> Q3MainWindow
+In file /Users/nathan/Development/GE-toQt4/src/gehelpwindow.ui.h at line 223 column 15: QMainWindow -> Q3MainWindow
+In file /Users/nathan/Development/GE-toQt4/src/gehelpwindow.ui.h at line 230 column 34: QFileDialog -> Q3FileDialog
+In file /Users/nathan/Development/GE-toQt4/src/gehelpwindow.ui.h at line 234 column 36: IO_WriteOnly -> QIODevice::WriteOnly
+In file /Users/nathan/Development/GE-toQt4/src/gehelpwindow.ui.h at line 235 column 23: QTextStream -> Q3TextStream
+In file /Users/nathan/Development/GE-toQt4/src/gehelpwindow.ui.h at line 245 column 48: QMessageBox -> Qt
+In file /Users/nathan/Development/GE-toQt4/src/gehelpwindow.ui.h: Added the following include directives:
+	#include <Q3TextStream> 	#include <QMoveEvent> 	#include <QResizeEvent> 
+In file /Users/nathan/Development/GE-toQt4/src/searchdialog.ui.h at line 62 column 19: QProgressDialog -> Q3ProgressDialog
+In file /Users/nathan/Development/GE-toQt4/src/searchdialog.ui.h at line 62 column 51: QProgressDialog -> Q3ProgressDialog
+In file /Users/nathan/Development/GE-toQt4/src/searchdialog.ui.h at line 134 column 58: QProgressDialog -> Q3ProgressDialog
+In file /Users/nathan/Development/GE-toQt4/src/searchdialog.ui.h at line 142 column 36: IO_ReadOnly -> QIODevice::ReadOnly
+In file /Users/nathan/Development/GE-toQt4/src/searchdialog.ui.h at line 157 column 61: QProgressDialog -> Q3ProgressDialog
+In file /Users/nathan/Development/GE-toQt4/src/searchdialog.ui.h at line 180 column 54: QProgressDialog -> Q3ProgressDialog
+In file /Users/nathan/Development/GE-toQt4/src/searchdialog.ui.h at line 204 column 59: QProgressDialog -> Q3ProgressDialog
+In file /Users/nathan/Development/GE-toQt4/src/gevlarge.ui.h at line 68 column 14: QWhatsThis -> Q3WhatsThis
+In file /Users/nathan/Development/GE-toQt4/src/gevlarge.ui.h at line 168 column 55: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/gevlarge.ui.h at line 169 column 58: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/gevlarge.ui.h at line 170 column 57: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/gevlarge.ui.h at line 171 column 60: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/gevlarge.ui.h at line 179 column 12: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/gevlarge.ui.h at line 222 column 15: QMainWindow -> Q3MainWindow
+In file /Users/nathan/Development/GE-toQt4/src/gevlarge.ui.h: Added the following include directives:
+	#include <QCloseEvent> 	#include <QPixmap> 	#include <Q3PtrList> 
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindow.ui.h at line 79 column 54: QMessageBox -> Qt
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindow.ui.h at line 116 column 34: QFileDialog -> Q3FileDialog
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindow.ui.h at line 199 column 8: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindow.ui.h at line 252 column 19: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindow.ui.h at line 294 column 58: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindow.ui.h at line 295 column 51: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindow.ui.h at line 296 column 57: QCanvasText -> Q3CanvasText
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindow.ui.h at line 297 column 50: QCanvasText -> Q3CanvasText
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindow.ui.h at line 300 column 63: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindow.ui.h at line 301 column 56: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindow.ui.h at line 302 column 54: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindow.ui.h at line 303 column 47: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindow.ui.h at line 304 column 57: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindow.ui.h at line 305 column 50: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindow.ui.h at line 313 column 63: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindow.ui.h at line 314 column 56: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindow.ui.h at line 316 column 12: QToolBar -> Q3ToolBar
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindow.ui.h at line 316 column 41: DockTop -> Qt::DockTop
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindow.ui.h at line 393 column 46: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindow.ui.h at line 439 column 58: QMessageBox -> Qt
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindow.ui.h at line 448 column 62: QMessageBox -> Qt
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindow.ui.h at line 531 column 54: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindow.ui.h at line 534 column 56: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindow.ui.h at line 545 column 49: QCanvasItemList -> Q3CanvasItemList
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindow.ui.h at line 552 column 48: QCanvasText -> Q3CanvasText
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindow.ui.h at line 574 column 21: QCanvasText -> Q3CanvasText
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindow.ui.h at line 583 column 21: QCanvasText -> Q3CanvasText
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindow.ui.h at line 588 column 60: QPtrList -> Q3PtrList
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindow.ui.h at line 590 column 14: QPopupMenu -> Q3PopupMenu
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindow.ui.h at line 619 column 45: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindow.ui.h at line 649 column 48: QCanvasItem -> Q3CanvasItem
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindow.ui.h at line 684 column 54: QMessageBox -> Qt
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindow.ui.h at line 733 column 67: WType_TopLevel -> Qt::WType_TopLevel
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindow.ui.h at line 733 column 87: WDestructiveClose -> Qt::WDestructiveClose
+In file /Users/nathan/Development/GE-toQt4/src/gesheetwindow.ui.h: Added the following include directives:
+	#include <Q3PtrList> 	#include <QPixmap> 	#include <Q3PopupMenu> 	#include <QCloseEvent> 
+No changes made to file /Users/nathan/Development/GE-toQt4/src/sheetsizedialog.ui.h
+In file /Users/nathan/Development/GE-toQt4/src/morphismedit.ui.h at line 138 column 9: QHBox -> Q3HBox
+In file /Users/nathan/Development/GE-toQt4/src/morphismedit.ui.h at line 138 column 32: QHBox -> Q3HBox
+In file /Users/nathan/Development/GE-toQt4/src/morphismedit.ui.h at line 361 column 62: QMessageBox -> Qt
+In file /Users/nathan/Development/GE-toQt4/src/morphismedit.ui.h at line 389 column 66: QMessageBox -> Qt
+In file /Users/nathan/Development/GE-toQt4/src/morphismedit.ui.h: Added the following include directives:
+	#include <QLabel> 
+In file GroupExplorer.pro: Added entry QT += xml  opengl qt3support 
+In file GroupExplorer.pro: Added entry CONFIG += uic3
+
+In file GroupExplorer.pro: Renamed FORMS to FORMS3
+
