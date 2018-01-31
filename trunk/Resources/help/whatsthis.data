@@ -1,0 +1,560 @@
+<!DOCTYPE textreference>
+<data>
+	<entry key="mainTable">
+        <h3>The Group Library</h3>
+        <p>This shows all currently-loaded groups.  You can choose the order, the
+        columns and rows in view, and more.  <a href="rf-um-mainwindow.html">Read
+        more here.</a></p>
+	</entry>
+	<entry key="mainWindow-newSheet">
+        <h3>New sheet</h3>
+        <p>Creates a new, blank <a href="rf-geterms.html#sheet">sheet</a>.</p>
+        <p>Read more about main window controls <a href="rf-um-mainwindow.html">here</a>,
+        or more about sheets <a href="rf-um-sheetwindow.html">here</a>.</p>
+	</entry>
+	<entry key="mainWindow-fileOpen">
+        <h3>Opens sheet</h3>
+        <p>Opens a previously saved <a href="rf-geterms.html#sheet">sheet</a> from a
+        file on disk.</p>
+        <p>Read more about main window controls <a href="rf-um-mainwindow.html">here</a>,
+        or more about sheets <a href="rf-um-sheetwindow.html">here</a>.</p>
+	</entry>
+	<entry key="mainWindow-saveSettings">
+        <h3>Save settings</h3>
+        <p>Saves all your current preferences, notes, and other data.</p>
+        <p>Read more about main window controls <a href="rf-um-mainwindow.html">here</a>,
+        or more about preferences <a href="rf-um-options-dialog.html">here</a>.</p>
+	</entry>
+	<entry key="mainWindow-editCopy">
+        <h3>Copy</h3>
+        <p>Copies the current selection of cells from the group library table to the
+        clipboard as HTML.  Images are excluded.</p>
+        <p>Read more about main window controls
+        <a href="rf-um-mainwindow.html">here</a>.</p>
+	</entry>
+	<entry key="mainWindow-editSearch">
+        <h3>Search/find...</h3>
+        <p>Opens a window for searching all of Group Explorer.</p>
+        <p>Read more about main window controls <a href="rf-um-mainwindow.html">here</a>,
+        or more about searching <a href="rf-um-searchwindow.html">here</a>.</p>
+	</entry>
+	<entry key="mainWindow-helpManual">
+        <h3>User manual</h3>
+        <p>Opens Group Explorer help to
+        <a href="rf-um-index.html">the table of contents for the User Manual</a>.</p>
+        <p>Read more about main window controls <a href="rf-um-mainwindow.html">here</a>,
+        or more about help <a href="rf-um-helpwindow.html">here</a>.</p>
+	</entry>
+	<entry key="mainWindow-helpTutorials">
+        <h3>Tutorials</h3>
+        <p>Opens Group Explorer help to
+        <a href="tu-index.html">the table of contents for the Tutorials</a>.</p>
+        <p>Read more about main window controls <a href="rf-um-mainwindow.html">here</a>,
+        or more about help <a href="rf-um-helpwindow.html">here</a>.</p>
+	</entry>
+	<entry key="mainWindow-helpSearch">
+        <h3>Search help...</h3>
+        <p>Opens a window for searching Group Explorer's help documents.</p>
+        <p>Read more about main window controls <a href="rf-um-mainwindow.html">here</a>,
+        more about searching <a href="rf-um-searchwindow.html">here</a>, or more about
+        help <a href="rf-um-helpwindow.html">here</a>.</p>
+	</entry>
+	<entry key="mainWindow-options">
+        <h3>Options</h3>
+        <p>Opens a preferences (options) window for you to customize Group Explorer.</p>
+        <p>Read more about main window controls <a href="rf-um-mainwindow.html">here</a>,
+        or more about preferences <a href="rf-um-options-dialog.html">here</a>.</p>
+	</entry>
+    <entry key="mainWindow-statusBar">
+        <h3>The status bar</h3>
+        <p>The status bar shows messages about the control your mouse is hovering
+        over, or about recent actions you've taken.</p>
+	</entry>
+	<entry key="mainWindow-undoAction">
+        <h3>Undo</h3>
+        <p>Undoes the last change you made to the group library (e.g. reordering rows or
+        columns, editing a cell in a custom column, etc.).</p>
+        <p>Read more about main window controls
+        <a href="rf-um-mainwindow.html">here</a>.</p>
+	</entry>
+    <entry key="mainWindow-redoAction">
+        <h3>Redo</h3>
+        <p>Redoes the last change you undid to the group library (e.g. reordering rows or
+        columns, editing a cell in a custom column, etc.).</p>
+        <p>Read more about main window controls
+        <a href="rf-um-mainwindow.html">here</a>.</p>
+	</entry>
+
+    <entry key="helpWindow-HomeAction">
+        <h3>Home</h3>
+        <p>Returns the help window to the page on which it was opened.  This is usually
+        either the <a href="index.html">Help Contents page</a> or a
+        <a href="rf-um-helpwindow.html">group info page</a>.</p>
+        <p>Read more about help window controls
+        <a href="rf-um-helpwindow.html">here</a>.</p>
+    </entry>
+    <entry key="helpWindow-BackAction">
+        <h3>Back</h3>
+        <p>Navigates the help window one page earlier in its history of browsed pages,
+        just like in a web browser.</p>
+        <p>Read more about help window controls
+        <a href="rf-um-helpwindow.html">here</a>.</p>
+    </entry>
+    <entry key="helpWindow-ForwardAction">
+        <h3>Forward</h3>
+        <p>Navigates the help window one page later in its history of browsed pages,
+        just like in a web browser.</p>
+        <p>Read more about help window controls
+        <a href="rf-um-helpwindow.html">here</a>.</p>
+    </entry>
+    <entry key="helpWindow-FontIncreaseAction">
+        <h3>Increase font</h3>
+        <p>Increases the base font in the document, effectively "zooming in."</p>
+        <p>Read more about help window controls
+        <a href="rf-um-helpwindow.html">here</a>.</p>
+    </entry>
+    <entry key="helpWindow-FontDecreaseAction">
+        <h3>Decrease font</h3>
+        <p>Decreases the base font in the document, effectively "zooming out."</p>
+        <p>Read more about help window controls
+        <a href="rf-um-helpwindow.html">here</a>.</p>
+    </entry>
+    <entry key="helpWindow-CopyAction">
+        <h3>Copy</h3>
+        <p>Copies all selected text from the help window to the clipboard as plain
+        (non-HTML) text.</p>
+        <p>Read more about help window controls
+        <a href="rf-um-helpwindow.html">here</a>.</p>
+    </entry>
+    <entry key="helpWindow-SaveAsHTMLAction">
+        <h3>Save as HTML</h3>
+        <p>Opens a window for you to choose a filename under which to save the current
+        contents of the window as HTML.  Links will be removed.</p>
+        <p>Read more about help window controls
+        <a href="rf-um-helpwindow.html">here</a>.</p>
+    </entry>
+    <entry key="helpWindow-PrintAction">
+        <h3>Print</h3>
+        <p>Brings up the print window to print the current contents of the help
+        window.</p>
+        <p>Read more about help window controls
+        <a href="rf-um-helpwindow.html">here</a>.</p>
+    </entry>
+    <entry key="helpWindow-FindEdit">
+        <h3>Find</h3>
+        <p>Type any word in the edit box to the left of the Find button, and click the
+        Find button.  A quick search is performed within the text of the currently
+        visible document.</p>
+        <p>Read more about help window controls
+        <a href="rf-um-helpwindow.html">here</a>.</p>
+    </entry>
+    <entry key="helpWindow-helpSearchAction">
+        <h3>Search help...</h3>
+        <p>Opens a window for searching Group Explorer's help documents.</p>
+        <p>Read more about help window controls <a href="rf-um-helpwindow.html">here</a>,
+        more about searching <a href="rf-um-searchwindow.html">here</a>, or more about
+        help <a href="rf-um-helpwindow.html">here</a>.</p>
+    </entry>
+    <entry key="helpWindow-browser">
+        <h3>The help document browser</h3>
+        <p>In this portion of the help window appears the help document (or
+        <a href="rf-um-helpwindow.html">group info</a> page) you are currently
+        viewing.</p>
+    </entry>
+    <entry key="helpWindow-statusBar">
+        <h3>The status bar</h3>
+        <p>The status bar shows messages about the control your mouse is hovering
+        over, or about recent actions you've taken.</p>
+    </entry>
+
+    <entry key="sheetWindow-fileSaveAction">
+        <h3>Save</h3>
+        <p>Opens a window for you to choose a filename under which to save the current
+        sheet.</p>
+        <p>Read more about sheets (and sheet window controls)
+        <a href="rf-um-sheetwindow.html">here</a>.</p>
+    </entry>
+    <entry key="sheetWindow-filePrintAction">
+        <h3>Print</h3>
+        <p>Brings up the print window to print the full sheet (even the portions not
+        currently visible in your window).</p>
+        <p>Read more about sheets (and sheet window controls)
+        <a href="rf-um-sheetwindow.html">here</a>.  Also see
+        <a href="tu-saveprint.html">the tutorial on Saving and Printing Images</a>.</p>
+    </entry>
+    <entry key="sheetWindow-fileSaveImageAction">
+        <h3>Save as image</h3>
+        <p>Opens a window for you to choose a filename under which to save the current
+        sheet as a PNG image.</p>
+        <p>Read more about sheets (and sheet window controls)
+        <a href="rf-um-sheetwindow.html">here</a>.  Also see
+        <a href="tu-saveprint.html">the tutorial on Saving and Printing Images</a>.</p>
+    </entry>
+    <entry key="sheetWindow-DeleteAction">
+        <h3>Delete</h3>
+        <p>Delete all currently selected sheet items.</p>
+        <p>Read more about sheets (and sheet window controls)
+        <a href="rf-um-sheetwindow.html">here</a>.</p>
+    </entry>
+
+    <entry key="sheetWindow-editCutAction">
+        <h3>Cut</h3>
+        <p>Delete all currently selected sheet items, keeping a copy of them on the
+        clipboard for later pasting into (this or) another sheet.</p>
+        <p>Read more about sheets (and sheet window controls)
+        <a href="rf-um-sheetwindow.html">here</a>.</p>
+    </entry>
+    <entry key="sheetWindow-editCopyAction">
+        <h3>Copy</h3>
+        <p>Copies all currently selected sheet items to the
+        clipboard for later pasting into (this or) another sheet.</p>
+        <p>Read more about sheets (and sheet window controls)
+        <a href="rf-um-sheetwindow.html">here</a>.</p>
+    </entry>
+    <entry key="sheetWindow-editPasteAction">
+        <h3>Paste</h3>
+        <p>Pastes the contents of the clipboard onto this sheet, if the clipboard contains
+        sheet item data.  The coordinates of the objects as they are inserted are the same
+        as they were when cut/copied to the clipboard.  Thus copy + paste puts the new
+        copy right on top of the old one.</p>
+        <p>Read more about sheets (and sheet window controls)
+        <a href="rf-um-sheetwindow.html">here</a>.</p>
+    </entry>
+    <entry key="sheetWindow-zoomInAction">
+        <h3>Zoom in</h3>
+        <p>Increases the magnification level with which you are viewing the sheet.</p>
+        <p>Read more about sheets (and sheet window controls)
+        <a href="rf-um-sheetwindow.html">here</a>.</p>
+    </entry>
+    <entry key="sheetWindow-zoomOutAction">
+        <h3>Zoom out</h3>
+        <p>Decreases the magnification level with which you are viewing the sheet.</p>
+        <p>Read more about sheets (and sheet window controls)
+        <a href="rf-um-sheetwindow.html">here</a>.</p>
+    </entry>
+    <entry key="sheetWindow-helpManualAction">
+        <h3>User manual</h3>
+        <p>Opens Group Explorer help to
+        <a href="rf-um-index.html">the table of contents for the User Manual</a>.</p>
+        <p>Read more about sheets (and sheet window controls)
+        <a href="rf-um-sheetwindow.html">here</a>,
+        or more about help <a href="rf-um-helpwindow.html">here</a>.</p>
+    </entry>
+    <entry key="sheetWindow-helpTutorialsAction">
+        <h3>Tutorials</h3>
+        <p>Opens Group Explorer help to
+        <a href="tu-index.html">the table of contents for the Tutorials</a>.</p>
+        <p>Read more about sheets (and sheet window controls)
+        <a href="rf-um-sheetwindow.html">here</a>,
+        or more about help <a href="rf-um-helpwindow.html">here</a>.</p>
+    </entry>
+    <entry key="sheetWindow-helpSheetsAction">
+        <h3>Help on sheets</h3>
+        <p>Opens Group Explorer help to
+        <a href="rf-um-sheetwindow.html">the help page for sheet windows</a>.</p>
+        <p>Read more about sheets via that link,
+        or more about help <a href="rf-um-helpwindow.html">here</a>.</p>
+    </entry>
+    <entry key="sheetWindow-statusBar">
+        <h3>The status bar</h3>
+        <p>The status bar shows messages about the control your mouse is hovering
+        over, or about recent actions you've taken.</p>
+    </entry>
+    <entry key="sheetWindow-sheetview">
+        <h3>The sheet view</h3>
+        <p>The central area of the sheet window is the area used for depicting the sheet
+        and the items on it.</p>
+        <p>Read more about sheets (and sheet window controls)
+        <a href="rf-um-sheetwindow.html">here</a>.</p>
+    </entry>
+
+    <entry key="largeWindow-fileSaveAction">
+        <h3>Save</h3>
+        <p>Opens a window for you to choose a filename under which to save the current
+        <a href="rf-geterms.html#visualizers">visualizer</a> as a PNG image.</p>
+        <p>Read more about large visualizer controls
+        <a href="rf-um-largewindow.html">here</a>.  Also see
+        <a href="tu-saveprint.html">the tutorial on Saving and Printing Images</a>.</p>
+    </entry>
+    <entry key="largeWindow-filePrintAction">
+        <h3>Print</h3>
+        <p>Brings up the print window to print the current
+        <a href="rf-geterms.html#visualizers">visualizer</a>.</p>
+        <p>Read more about large visualizer controls
+        <a href="rf-um-largewindow.html">here</a>.  Also see
+        <a href="tu-saveprint.html">the tutorial on Saving and Printing Images</a>.</p>
+    </entry>
+    <entry key="largeWindow-undoAction">
+        <h3>Undo</h3>
+        <p>Undoes the last change you made to the
+        <a href="rf-geterms.html#visualizers">visualizer</a>
+        (e.g. changing highlighting, etc.).</p>
+        <p>Read more about large visualizer controls
+        <a href="rf-um-largewindow.html">here</a>.</p>
+    </entry>
+    <entry key="largeWindow-redoAction">
+        <h3>Redo</h3>
+        <p>Redoes the last change you undid to the
+        <a href="rf-geterms.html#visualizers">visualizer</a>
+        (e.g. changing highlighting, etc.)</p>
+        <p>Read more about large visualizer controls
+        <a href="rf-um-largewindow.html">here</a>.</p>
+    </entry>
+    <entry key="largeWindow-statusBar">
+        <h3>The status bar</h3>
+        <p>The status bar shows messages about the control your mouse is hovering
+        over, or about recent actions you've taken.</p>
+    </entry>
+    <entry key="largeWindow-helpButton">
+        <h3>Visualizer help</h3>
+        <p>Brings up a help document for the type of
+        <a href="rf-geterms.html#visualizers">visualizer</a> you're currently viewing.
+        That is, one of the following help pages.</p>
+        <ul>
+            <li><a href="rf-um-cd-options.html">Cayley diagram help</a></li>
+            <li><a href="rf-um-mt-options.html">Multiplication table help</a></li>
+            <li><a href="rf-um-cg-options.html">Cycle graph help</a></li>
+            <li><a href="rf-um-os-options.html">Symmetry object help</a></li>
+        </ul>
+        <p>Read more about large visualizer controls
+        <a href="rf-um-largewindow.html">here</a>.</p>
+    </entry>
+    <entry key="largeWindow-resetButton">
+        <h3>Visualizer help</h3>
+        <p>Returns the <a href="rf-geterms.html#visualizers">visualizer</a> you're
+        currently viewing to its original, plain, vanilla state (e.g. clear all
+        highlighting, etc.).</p>
+        <p>Read more about large visualizer controls
+        <a href="rf-um-largewindow.html">here</a>.</p>
+    </entry>
+
+    <entry key="cd-view">
+        <h3>Cayley diagram view</h3>
+        <p>Here you can see a large view of the
+        <a href="rf-groupterms.html#cayleydiagram">Cayley diagram</a>.</p>
+        <p>Read more about large visualizers
+        <a href="rf-um-largewindow.html">here</a>, or more about the Cayley diagram
+        interface <a href="rf-um-cd-options.html">here</a>.</p>
+    </entry>
+    <entry key="cd-diagramChooser">
+        <h3>Cayley diagram chooser</h3>
+        <p>The drop-down list at the top of the Diagram tab allows you to choose
+        whether you want Group Explorer to compute the shape of the diagram based on
+        the parameters you specify throughout the rest of the Diagram tab, or whether
+        you want to see a diagram that was laid out by the group's author.
+        Not all groups have this latter type of diagram; it depends on the author.</p>
+        <p>The table below the drop-down list and the chunking controls are both
+        grayed out when a non-autogenerated diagram is chosen.</p>
+        <p>Read more about large visualizers
+        <a href="rf-um-largewindow.html">here</a>, or more about the Cayley diagram
+        interface <a href="rf-um-cd-options.html">here</a>.</p>
+    </entry>
+    <entry key="cd-priorityTable">
+        <h3>Generators table</h3>
+        <p>This table allows you to choose group generators, their priorities, and their
+        assignments to axes in three-dimensional space.  To change any item in the table,
+        simply right-click on it and choose a new value from the popup menu.  To reorder
+        the rows in the table Ctrl-click the row header (or Command-click on the Mac)
+        and drag the row to a new position (up or down).</p>
+        <p>This table is grayed out unless you choose "Generate diagram" from the
+        drop-down list above it.</p>
+        <p>Read more about large visualizers
+        <a href="rf-um-largewindow.html">here</a>, or more about the Cayley diagram
+        interface <a href="rf-um-cd-options.html">here</a>.</p>
+    </entry>
+    <entry key="cd-arrowsControls">
+        <h3>Arrows</h3>
+        <p>You can control which arrows are drawn in the diagram by adding or removing
+        elements from this list.  A different colored set of arrows is drawn for each
+        element on the list.  Use the Add and Remove buttons to change the content of
+        the arrows list.  The Add button pops up a menu when you click it.</p>
+        <p>Read more about large visualizers
+        <a href="rf-um-largewindow.html">here</a>, or more about the Cayley diagram
+        interface <a href="rf-um-cd-options.html">here</a>.</p>
+    </entry>
+    <entry key="cd-multBox">
+        <h3>Arrows and multiplication</h3>
+        <p>By default, arrows in a Cayley diagram indicate the action of
+        right multiplication by the generator which they stand for.
+        You can change this to left multiplication using this pick list.</p>
+        <p>Read more about large visualizers
+        <a href="rf-um-largewindow.html">here</a>, or more about the Cayley diagram
+        interface <a href="rf-um-cd-options.html">here</a>.</p>
+    </entry>
+    <entry key="cd-headPosSlider">
+        <h3>Arrowhead position</h3>
+        <p>You can control the positioning of the arrowheads along the arcs in the
+        diagram by moving this slider.  The right end of the slider is the terminal
+        point of the arrow; the left end is the initial point.</p>
+        <p>Read more about large visualizers
+        <a href="rf-um-largewindow.html">here</a>, or more about the Cayley diagram
+        interface <a href="rf-um-cd-options.html">here</a>.</p>
+    </entry>
+    <entry key="cd-labelSizeControls">
+        <h3>Label size</h3>
+        <p>Choose whether labels should be included in the diagram view using the
+        checkbox.  Control the size of the labels using the slider beneath the
+        checkbox.</p>
+        <p>Read more about large visualizers
+        <a href="rf-um-largewindow.html">here</a>, or more about the Cayley diagram
+        interface <a href="rf-um-cd-options.html">here</a>.</p>
+    </entry>
+    <entry key="cd-chunkControls">
+        <h3>Chunking</h3>
+        <p>Choose whether to group (chunk) sections of the diagram together, and if so,
+        which sections.  This is useful for showing
+        <a href="rf-groupterms.html#cosets">cosets</a> of a
+        <a href="rf-groupterms.html#subgroup">subgroup</a>, and for illustrating the
+        <a href="rf-groupterms.html#quotient">quotient</a> operation.</p>
+        <p>These controls are grayed out unless you choose "Generate diagram" from the
+        drop-down list at the top of the tab.</p>
+        <p>Read more about large visualizers
+        <a href="rf-um-largewindow.html">here</a>, or more about the Cayley diagram
+        interface <a href="rf-um-cd-options.html">here</a>.</p>
+    </entry>
+
+    <entry key="mt-view">
+        <h3>Multiplication table view</h3>
+        <p>Here you can see a large view of the
+        <a href="rf-groupterms.html#multtable">multiplication table</a>.</p>
+        <p>Read more about large visualizers
+        <a href="rf-um-largewindow.html">here</a>, or more about the multiplication table
+        interface <a href="rf-um-mt-options.html">here</a>.</p>
+    </entry>
+    <entry key="mt-organizeBySubgroups">
+        <h3>Organize by subgroup</h3>
+        <p>This control reorders the rows and columns of the table so that the subgroup
+        you choose (and its cosets) form sections.  The subgroup will be at the left of
+        the top row and the top of the left column; its cosets proceed across (and down)
+        thereafter.</p>
+        <p>Read more about large visualizers
+        <a href="rf-um-largewindow.html">here</a>, or more about the multiplication table
+        interface <a href="rf-um-mt-options.html">here</a>.</p>
+    </entry>
+    <entry key="mt-separateCosets">
+        <h3>Separate cosets</h3>
+        <p>If you have already organized by subgroups (the drop-down list control above
+        the "separate cosets" slider) then this control becomes active and allows you to
+        put a space between cosets, helping the viewer mentally separate them as well.
+        The position of the slider governs how much space will be between cosets; when
+        the slider is full left, no space, and more space as it moves to the right.</p>
+        <p>Read more about large visualizers
+        <a href="rf-um-largewindow.html">here</a>, or more about the multiplication table
+        interface <a href="rf-um-mt-options.html">here</a>.</p>
+    </entry>
+    <entry key="mt-defaultColorization">
+        <h3>Default colorization</h3>
+        <p>The default colorization for a multiplication table applies when no
+        highlighting is in effect.  By default, this makes multiplication tables
+        rainbow-colored.  If you prefer grayscale or simply a plain white background,
+        choose that option here.</p>
+        <p>Read more about large visualizers
+        <a href="rf-um-largewindow.html">here</a>, or more about the multiplication table
+        interface <a href="rf-um-mt-options.html">here</a>.</p>
+    </entry>
+
+    <entry key="os-view">
+        <h3>Symmetry object view</h3>
+        <p>Here you can see a large view of the
+        <a href="rf-groupterms.html#symmetryobject">symmetry object</a>.</p>
+        <p>Read more about large visualizers
+        <a href="rf-um-largewindow.html">here</a>, or more about the symmetry object
+        interface <a href="rf-um-os-options.html">here</a>.</p>
+    </entry>
+    <entry key="os-chooseObject">
+        <h3>Choose object</h3>
+        <p>Some groups come with more than one object whose symmetries they describe.
+        You can choose which of those you would like to view from this list box.</p>
+        <p>Read more about large visualizers
+        <a href="rf-um-largewindow.html">here</a>, or more about the symmetry object
+        interface <a href="rf-um-os-options.html">here</a>.</p>
+    </entry>
+
+    <entry key="cg-view">
+        <h3>Cycle graph view</h3>
+        <p>Here you can see a large view of the
+        <a href="rf-groupterms.html#cyclegraph">cycle graph</a>.</p>
+        <p>Read more about large visualizers
+        <a href="rf-um-largewindow.html">here</a>, or more about the cycle graph
+        interface <a href="rf-um-cg-options.html">here</a>.</p>
+    </entry>
+
+	<entry key="modelView-zoomControls">
+        <h3>Zoom controls</h3>
+        <p>These controls govern the zoom level of the three-dimensional image viewed
+        to the left.  They act like the zoom on a camera, the "telephoto" vs. "wide-angle"
+        controls.  They do not change the object, but only your view of it.</p>
+        <p>Read more about large visualizers
+        <a href="rf-um-largewindow.html">here</a>, or more about three-dimensional
+        controls <a href="rf-um-modelview.html">here</a>.</p>
+	</entry>
+	<entry key="modelView-lineControls">
+        <h3>Line thickness</h3>
+        <p>This slider affects how thick each line in the three-dimensional scene
+        is drawn.  Moving the slider left gives thinner lines, right gives thicker.</p>
+        <p>Read more about large visualizers
+        <a href="rf-um-largewindow.html">here</a>, or more about three-dimensional
+        controls <a href="rf-um-modelview.html">here</a>.</p>
+	</entry>
+	<entry key="modelView-nodeControls">
+        <h3>Node radius</h3>
+        <p>This slider affects the base radius for each node in the three-dimensional
+        scene.  Moving the slider left gives smaller nodes, right gives larger.  Note
+        that nodes may be scaled for other reasons (e.g. if the diagram is too large to
+        cram in all the nodes it must contain) but this slider determines the base size
+        from which such alterations are performed.</p>
+        <p>Read more about large visualizers
+        <a href="rf-um-largewindow.html">here</a>, or more about three-dimensional
+        controls <a href="rf-um-modelview.html">here</a>.</p>
+	</entry>
+	<entry key="modelView-fogControls">
+        <h3>Fog (depth cueing)</h3>
+        <p>Adding a slight haze/fog to a scene helps the viewer judge which of two
+        objects is deeper into the scene.  For this reason, it is sometimes called
+        "depth cueing."  The checkbox for fog turns it on and off, and the slider
+        determines its intensity--left is less fog, right is more.</p>
+        <p>Read more about large visualizers
+        <a href="rf-um-largewindow.html">here</a>, or more about three-dimensional
+        controls <a href="rf-um-modelview.html">here</a>.</p>
+	</entry>
+
+	<entry key="SubsetListBox">
+        <h3>Subsets of the group</h3>
+        <p>This control allows you to create and edit subsets of the group, and use them
+        to highlight the <a href="rf-geterms.html#visualizers">visualizer</a> depicted to
+        the left.</p>
+        <p>Read more about large visualizers
+        <a href="rf-um-largewindow.html">here</a>, or more about this subset control
+        <a href="rf-um-subsetlistbox.html">here</a>.</p>
+	</entry>
+	<entry key="SubsetListBox-header-subgroup">
+        <h3>Subgroups</h3>
+        <p>This section of the subset list is pre-computed by Group Explorer, and contains
+        every subgroup of the group you are viewing.</p>
+        <p>Read more about large visualizers
+        <a href="rf-um-largewindow.html">here</a>, or more about this subset control
+        <a href="rf-um-subsetlistbox.html">here</a>.</p>
+	</entry>
+	<entry key="SubsetListBox-header-user-defined">
+        <h3>User-defined subsets</h3>
+        <p>This section of the subset list allows you to add and edit your own subsets,
+        either by choosing elements or by using the computations offered on the context
+        menu (right-click the list and choose "Compute").</p>
+        <p>Read more about large visualizers
+        <a href="rf-um-largewindow.html">here</a>, or more about this subset control
+        <a href="rf-um-subsetlistbox.html">here</a>.</p>
+	</entry>
+	<entry key="SubsetListBox-header-partition">
+        <h3>Partitions</h3>
+        <p>There are several useful ways to partition a group, including into
+        <a href="rf-groupterms.html#cosets">cosets</a> of a
+        <a href="rf-groupterms.html#subgroup">subgroup</a>, into
+        <a href="rf-groupterms.html#conjclasses">conjugacy classes</a>, and into
+        <a href="rf-groupterms.html#orderclasses">order classes</a>.  Try right-clicking
+        a subset or subgroup and choosing "Compute" from the menu.</p>
+        <p>Read more about large visualizers
+        <a href="rf-um-largewindow.html">here</a>, or more about this subset control
+        <a href="rf-um-subsetlistbox.html">here</a>.</p>
+	</entry>
+</data>
+
